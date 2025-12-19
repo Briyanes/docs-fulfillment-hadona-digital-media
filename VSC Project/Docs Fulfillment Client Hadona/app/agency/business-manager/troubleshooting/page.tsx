@@ -12,7 +12,7 @@ export default function Page() {
       prevTitle="Two-Factor Authentication"
     >
       <div className="mb-8">
-        <p className="text-xl text-gray-700 dark:text-gray-300">
+        <p className="text-xl text-gray-700">
           Panduan ini akan membantu Anda menyelesaikan masalah umum yang mungkin terjadi saat
           menggunakan Business Manager. Jika masalah Anda tidak tercantum di sini, hubungi tim
           support Hadona atau Meta untuk bantuan lebih lanjut.
@@ -22,12 +22,12 @@ export default function Page() {
       <h2>Masalah Umum dan Solusinya</h2>
 
       <div className="my-8 space-y-6">
-        <div className="rounded-lg border border-gray-200 bg-white p-6 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-6">
           <div className="mb-4 flex items-start gap-3">
             <XCircle className="mt-1 h-6 w-6 flex-shrink-0 text-red-600" />
             <div className="flex-1">
               <h3 className="mb-2 text-xl font-semibold">Tidak Bisa Login ke Business Manager</h3>
-              <div className="space-y-3 text-sm text-gray-600 dark:text-gray-400">
+              <div className="space-y-3 text-sm text-gray-600">
                 <p>
                   <strong>Kemungkinan Penyebab:</strong>
                 </p>
@@ -66,14 +66,14 @@ export default function Page() {
           </div>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-white p-6 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-6">
           <div className="mb-4 flex items-start gap-3">
             <AlertTriangle className="mt-1 h-6 w-6 flex-shrink-0 text-yellow-600" />
             <div className="flex-1">
               <h3 className="mb-2 text-xl font-semibold">
                 Tidak Bisa Menautkan Page/Instagram/Ad Account
               </h3>
-              <div className="space-y-3 text-sm text-gray-600 dark:text-gray-400">
+              <div className="space-y-3 text-sm text-gray-600">
                 <p>
                   <strong>Kemungkinan Penyebab:</strong>
                 </p>
@@ -112,12 +112,12 @@ export default function Page() {
           </div>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-white p-6 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-6">
           <div className="mb-4 flex items-start gap-3">
             <AlertTriangle className="mt-1 h-6 w-6 flex-shrink-0 text-yellow-600" />
             <div className="flex-1">
               <h3 className="mb-2 text-xl font-semibold">Anggota Tim Tidak Bisa Mengakses Aset</h3>
-              <div className="space-y-3 text-sm text-gray-600 dark:text-gray-400">
+              <div className="space-y-3 text-sm text-gray-600">
                 <p>
                   <strong>Kemungkinan Penyebab:</strong>
                 </p>
@@ -157,12 +157,12 @@ export default function Page() {
           </div>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-white p-6 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-6">
           <div className="mb-4 flex items-start gap-3">
             <XCircle className="mt-1 h-6 w-6 flex-shrink-0 text-red-600" />
             <div className="flex-1">
               <h3 className="mb-2 text-xl font-semibold">Verifikasi Business Manager Ditolak</h3>
-              <div className="space-y-3 text-sm text-gray-600 dark:text-gray-400">
+              <div className="space-y-3 text-sm text-gray-600">
                 <p>
                   <strong>Kemungkinan Penyebab:</strong>
                 </p>
@@ -201,12 +201,12 @@ export default function Page() {
           </div>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-white p-6 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-6">
           <div className="mb-4 flex items-start gap-3">
             <AlertTriangle className="mt-1 h-6 w-6 flex-shrink-0 text-yellow-600" />
             <div className="flex-1">
               <h3 className="mb-2 text-xl font-semibold">Tidak Bisa Membuat atau Edit Kampanye</h3>
-              <div className="space-y-3 text-sm text-gray-600 dark:text-gray-400">
+              <div className="space-y-3 text-sm text-gray-600">
                 <p>
                   <strong>Kemungkinan Penyebab:</strong>
                 </p>
@@ -245,12 +245,12 @@ export default function Page() {
           </div>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-white p-6 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-6">
           <div className="mb-4 flex items-start gap-3">
             <Info className="mt-1 h-6 w-6 flex-shrink-0 text-blue-600" />
             <div className="flex-1">
               <h3 className="mb-2 text-xl font-semibold">Business Manager Lambat atau Error</h3>
-              <div className="space-y-3 text-sm text-gray-600 dark:text-gray-400">
+              <div className="space-y-3 text-sm text-gray-600">
                 <p>
                   <strong>Kemungkinan Penyebab:</strong>
                 </p>
@@ -289,12 +289,12 @@ export default function Page() {
           </div>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-white p-6 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-6">
           <div className="mb-4 flex items-start gap-3">
             <AlertTriangle className="mt-1 h-6 w-6 flex-shrink-0 text-yellow-600" />
             <div className="flex-1">
               <h3 className="mb-2 text-xl font-semibold">Tidak Bisa Mengatur 2FA</h3>
-              <div className="space-y-3 text-sm text-gray-600 dark:text-gray-400">
+              <div className="space-y-3 text-sm text-gray-600">
                 <p>
                   <strong>Kemungkinan Penyebab:</strong>
                 </p>
@@ -396,33 +396,33 @@ export default function Page() {
 
       <h2>Tips Mencegah Masalah</h2>
       <div className="my-6 space-y-4">
-        <div className="rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-4">
           <h4 className="mb-2 font-semibold">1. Backup Admin</h4>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-gray-600">
             Pastikan selalu ada minimal 2 admin untuk setiap Business Manager dan aset penting
             untuk menghindari kehilangan akses.
           </p>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-4">
           <h4 className="mb-2 font-semibold">2. Dokumentasi</h4>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-gray-600">
             Simpan dokumentasi tentang struktur Business Manager, siapa yang memiliki akses apa,
             dan informasi penting lainnya.
           </p>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-4">
           <h4 className="mb-2 font-semibold">3. Review Berkala</h4>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-gray-600">
             Lakukan review permission dan struktur Business Manager secara berkala untuk memastikan
             semuanya masih relevan dan aman.
           </p>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-4">
           <h4 className="mb-2 font-semibold">4. Keamanan</h4>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-gray-600">
             Aktifkan 2FA untuk semua akun, gunakan password yang kuat, dan jangan membagikan
             kredensial login kepada siapa pun.
           </p>

@@ -15,7 +15,7 @@ export default function Page() {
       nextTitle="Setup Audience"
     >
       <div className="mb-8">
-        <p className="text-xl text-gray-700 dark:text-gray-300">
+        <p className="text-xl text-gray-700">
           Pengaturan budget yang tepat adalah kunci sukses kampanye iklan. Panduan ini akan membantu
           Anda memahami berbagai jenis budget di Meta Ads dan cara mengaturnya dengan efektif.
         </p>
@@ -27,36 +27,36 @@ export default function Page() {
       </p>
 
       <div className="my-8 grid gap-6 md:grid-cols-2">
-        <div className="rounded-lg border border-gray-200 bg-white p-6 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-6">
           <div className="mb-4 flex items-center gap-3">
             <div className="rounded-lg bg-hadona-primary/10 p-2">
               <Calendar className="h-6 w-6 text-hadona-primary" />
             </div>
             <h3 className="text-lg font-semibold">Daily Budget</h3>
           </div>
-          <p className="mb-2 text-sm text-gray-600 dark:text-gray-400">
+          <p className="mb-2 text-sm text-gray-600">
             Budget yang dihabiskan per hari. Meta akan mencoba menghabiskan budget ini setiap hari
             selama campaign berjalan.
           </p>
-          <ul className="text-sm text-gray-600 dark:text-gray-400">
+          <ul className="text-sm text-gray-600">
             <li>• Lebih fleksibel untuk campaign jangka panjang</li>
             <li>• Cocok untuk testing dan optimasi</li>
             <li>• Meta dapat overspend hingga 25% per hari</li>
           </ul>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-white p-6 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-6">
           <div className="mb-4 flex items-center gap-3">
             <div className="rounded-lg bg-hadona-primary/10 p-2">
               <DollarSign className="h-6 w-6 text-hadona-primary" />
             </div>
             <h3 className="text-lg font-semibold">Lifetime Budget</h3>
           </div>
-          <p className="mb-2 text-sm text-gray-600 dark:text-gray-400">
+          <p className="mb-2 text-sm text-gray-600">
             Total budget yang dihabiskan selama seluruh durasi campaign. Meta akan mendistribusikan
             budget ini secara otomatis.
           </p>
-          <ul className="text-sm text-gray-600 dark:text-gray-400">
+          <ul className="text-sm text-gray-600">
             <li>• Cocok untuk campaign dengan durasi terbatas</li>
             <li>• Kontrol total spending yang lebih ketat</li>
             <li>• Perlu set schedule (start & end date)</li>
@@ -234,25 +234,25 @@ export default function Page() {
 
       <h2>Strategi Budget untuk Berbagai Tujuan</h2>
       <div className="my-6 space-y-4">
-        <div className="rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-4">
           <h3 className="mb-2 font-semibold">Testing Phase</h3>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-gray-600">
             Mulai dengan $10-20/hari per Ad Set. Test selama 3-7 hari untuk mengumpulkan data
             yang cukup. Setelah ada winner, scale up budget 20-50% per hari.
           </p>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-4">
           <h3 className="mb-2 font-semibold">Scaling Phase</h3>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-gray-600">
             Jika performa bagus, scale up secara bertahap (20-50% per hari) untuk menghindari
             learning phase reset. Jangan double budget sekaligus.
           </p>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-4">
           <h3 className="mb-2 font-semibold">Maintenance Phase</h3>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-gray-600">
             Setelah mencapai target, maintain budget yang stabil. Lakukan optimasi creative dan
             audience secara berkala tanpa mengubah budget terlalu drastis.
           </p>
@@ -293,24 +293,24 @@ export default function Page() {
 
       <h2>Masalah Umum</h2>
       <div className="my-6 space-y-4">
-        <div className="rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-4">
           <h3 className="mb-2 font-semibold">Budget Tidak Terpakai</h3>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-gray-600">
             Jika budget tidak terpakai penuh, kemungkinan audience terlalu sempit, bid terlalu
             rendah, atau creative tidak engaging. Coba perlebar audience atau tingkatkan creative
             quality.
           </p>
         </div>
-        <div className="rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-4">
           <h3 className="mb-2 font-semibold">Budget Habis Terlalu Cepat</h3>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-gray-600">
             Jika budget habis terlalu cepat, mungkin bid terlalu tinggi atau audience terlalu luas.
             Coba turunkan bid atau sempitkan audience targeting.
           </p>
         </div>
-        <div className="rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-4">
           <h3 className="mb-2 font-semibold">CBO Tidak Optimal</h3>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-gray-600">
             Jika CBO tidak memberikan hasil optimal, pastikan semua Ad Sets memiliki objective yang
             sama dan sudah ada cukup data (minimal 3-7 hari). Jika masih tidak optimal, coba
             nonaktifkan CBO dan atur manual.

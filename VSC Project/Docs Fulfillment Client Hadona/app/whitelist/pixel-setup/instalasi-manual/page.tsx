@@ -16,7 +16,7 @@ export default function Page() {
       nextTitle="Instalasi via Partner"
     >
       <div className="mb-8">
-        <p className="text-xl text-gray-700 dark:text-gray-300">
+        <p className="text-xl text-gray-700">
           Panduan ini menjelaskan cara menginstal Meta Pixel secara manual dengan menambahkan code
           langsung ke website Anda. Metode ini cocok untuk website custom atau jika Anda memiliki
           akses ke source code website.
@@ -33,7 +33,7 @@ export default function Page() {
 
       <h2>Lokasi Instalasi Pixel Code</h2>
       <p>
-        Meta Pixel code harus dipasang di bagian <code className="rounded bg-gray-100 px-1.5 py-0.5 text-sm dark:bg-gray-800">&lt;head&gt;</code> dari
+        Meta Pixel code harus dipasang di bagian <code className="rounded bg-gray-100 px-1.5 py-0.5 text-sm">&lt;head&gt;</code> dari
         setiap halaman website yang ingin Anda track. Idealnya, code dipasang di template header yang
         digunakan oleh semua halaman.
       </p>
@@ -76,7 +76,7 @@ fbq('track', 'PageView');
                 />
                 <Callout type="warning" title="Penting">
                   <p>
-                    Ganti <code className="rounded bg-gray-100 px-1.5 py-0.5 text-sm dark:bg-gray-800">YOUR_PIXEL_ID</code> dengan Pixel ID
+                    Ganti <code className="rounded bg-gray-100 px-1.5 py-0.5 text-sm">YOUR_PIXEL_ID</code> dengan Pixel ID
                     Anda yang sebenarnya (angka 15-16 digit).
                   </p>
                 </Callout>
@@ -92,19 +92,19 @@ fbq('track', 'PageView');
                 </p>
                 <ul className="ml-4 list-disc space-y-2 text-sm">
                   <li>
-                    <strong>HTML Static:</strong> File <code className="rounded bg-gray-100 px-1.5 py-0.5 text-sm dark:bg-gray-800">index.html</code> atau
+                    <strong>HTML Static:</strong> File <code className="rounded bg-gray-100 px-1.5 py-0.5 text-sm">index.html</code> atau
                     template header
                   </li>
                   <li>
-                    <strong>WordPress:</strong> File <code className="rounded bg-gray-100 px-1.5 py-0.5 text-sm dark:bg-gray-800">header.php</code> di theme atau
+                    <strong>WordPress:</strong> File <code className="rounded bg-gray-100 px-1.5 py-0.5 text-sm">header.php</code> di theme atau
                     menggunakan plugin
                   </li>
                   <li>
-                    <strong>React/Next.js:</strong> File <code className="rounded bg-gray-100 px-1.5 py-0.5 text-sm dark:bg-gray-800">_document.tsx</code> atau{' '}
-                    <code className="rounded bg-gray-100 px-1.5 py-0.5 text-sm dark:bg-gray-800">_app.tsx</code>
+                    <strong>React/Next.js:</strong> File <code className="rounded bg-gray-100 px-1.5 py-0.5 text-sm">_document.tsx</code> atau{' '}
+                    <code className="rounded bg-gray-100 px-1.5 py-0.5 text-sm">_app.tsx</code>
                   </li>
                   <li>
-                    <strong>Vue.js:</strong> File <code className="rounded bg-gray-100 px-1.5 py-0.5 text-sm dark:bg-gray-800">index.html</code> atau component
+                    <strong>Vue.js:</strong> File <code className="rounded bg-gray-100 px-1.5 py-0.5 text-sm">index.html</code> atau component
                     layout
                   </li>
                   <li>
@@ -120,8 +120,8 @@ fbq('track', 'PageView');
               <div>
                 <p className="mb-3">
                   Buka file header dan paste pixel code tepat sebelum tag penutup{' '}
-                  <code className="rounded bg-gray-100 px-1.5 py-0.5 text-sm dark:bg-gray-800">&lt;/head&gt;</code>. Pastikan code berada di dalam tag{' '}
-                  <code className="rounded bg-gray-100 px-1.5 py-0.5 text-sm dark:bg-gray-800">&lt;head&gt;</code>.
+                  <code className="rounded bg-gray-100 px-1.5 py-0.5 text-sm">&lt;/head&gt;</code>. Pastikan code berada di dalam tag{' '}
+                  <code className="rounded bg-gray-100 px-1.5 py-0.5 text-sm">&lt;head&gt;</code>.
                 </p>
                 <p className="mb-3">Contoh struktur file:</p>
                 <CodeBlock
@@ -169,7 +169,7 @@ fbq('track', 'PageView');
                   Setelah menambahkan code, simpan file dan deploy perubahan ke production (jika
                   menggunakan version control atau staging environment).
                 </p>
-                <p className="text-sm text-gray-600 dark:text-gray-400">
+                <p className="text-sm text-gray-600">
                   Pastikan untuk test di staging environment terlebih dahulu sebelum deploy ke
                   production.
                 </p>
@@ -189,8 +189,8 @@ fbq('track', 'PageView');
                     requests
                   </li>
                   <li>
-                    Cari request ke <code className="rounded bg-gray-100 px-1.5 py-0.5 text-sm dark:bg-gray-800">connect.facebook.net</code> atau{' '}
-                    <code className="rounded bg-gray-100 px-1.5 py-0.5 text-sm dark:bg-gray-800">facebook.com/tr</code>
+                    Cari request ke <code className="rounded bg-gray-100 px-1.5 py-0.5 text-sm">connect.facebook.net</code> atau{' '}
+                    <code className="rounded bg-gray-100 px-1.5 py-0.5 text-sm">facebook.com/tr</code>
                   </li>
                   <li>
                     Gunakan Meta Pixel Helper browser extension untuk verifikasi visual
@@ -199,7 +199,7 @@ fbq('track', 'PageView');
                     Cek Events Manager untuk melihat apakah PageView event muncul
                   </li>
                 </ul>
-                <p className="mt-3 text-sm text-gray-600 dark:text-gray-400">
+                <p className="mt-3 text-sm text-gray-600">
                   Detail verifikasi akan dibahas lebih lanjut di artikel Verifikasi Instalasi.
                 </p>
               </div>
@@ -212,7 +212,7 @@ fbq('track', 'PageView');
 
       <h3>Next.js (App Router)</h3>
       <p className="mb-3">
-        Untuk Next.js dengan App Router, tambahkan pixel code di file <code className="rounded bg-gray-100 px-1.5 py-0.5 text-sm dark:bg-gray-800">app/layout.tsx</code>:
+        Untuk Next.js dengan App Router, tambahkan pixel code di file <code className="rounded bg-gray-100 px-1.5 py-0.5 text-sm">app/layout.tsx</code>:
       </p>
       <CodeBlock
         code={`import Script from 'next/script'
@@ -258,7 +258,7 @@ export default function RootLayout({
 
       <h3>React (Create React App)</h3>
       <p className="mb-3">
-        Untuk React, tambahkan di file <code className="rounded bg-gray-100 px-1.5 py-0.5 text-sm dark:bg-gray-800">public/index.html</code>:
+        Untuk React, tambahkan di file <code className="rounded bg-gray-100 px-1.5 py-0.5 text-sm">public/index.html</code>:
       </p>
       <CodeBlock
         code={`<!DOCTYPE html>
@@ -297,7 +297,7 @@ export default function RootLayout({
 
       <h3>Vue.js</h3>
       <p className="mb-3">
-        Untuk Vue.js, tambahkan di file <code className="rounded bg-gray-100 px-1.5 py-0.5 text-sm dark:bg-gray-800">public/index.html</code> atau gunakan plugin:
+        Untuk Vue.js, tambahkan di file <code className="rounded bg-gray-100 px-1.5 py-0.5 text-sm">public/index.html</code> atau gunakan plugin:
       </p>
       <CodeBlock
         code={`<!DOCTYPE html>
@@ -342,7 +342,7 @@ export default function RootLayout({
           <CheckCircle2 className="mt-1 h-5 w-5 flex-shrink-0 text-green-600" />
           <div>
             <h3 className="mb-1 font-semibold">Load Pixel Asynchronously</h3>
-            <p className="text-sm text-gray-600 dark:text-gray-400">
+            <p className="text-sm text-gray-600">
               Pixel code yang diberikan Meta sudah asynchronous, jadi tidak akan memblokir loading
               halaman. Jangan ubah struktur code ini.
             </p>
@@ -353,8 +353,8 @@ export default function RootLayout({
           <CheckCircle2 className="mt-1 h-5 w-5 flex-shrink-0 text-green-600" />
           <div>
             <h3 className="mb-1 font-semibold">Include Noscript Tag</h3>
-            <p className="text-sm text-gray-600 dark:text-gray-400">
-              Selalu sertakan tag <code className="rounded bg-gray-100 px-1.5 py-0.5 text-sm dark:bg-gray-800">&lt;noscript&gt;</code> untuk tracking pengunjung yang
+            <p className="text-sm text-gray-600">
+              Selalu sertakan tag <code className="rounded bg-gray-100 px-1.5 py-0.5 text-sm">&lt;noscript&gt;</code> untuk tracking pengunjung yang
               menonaktifkan JavaScript.
             </p>
           </div>
@@ -364,7 +364,7 @@ export default function RootLayout({
           <CheckCircle2 className="mt-1 h-5 w-5 flex-shrink-0 text-green-600" />
           <div>
             <h3 className="mb-1 font-semibold">Single Installation</h3>
-            <p className="text-sm text-gray-600 dark:text-gray-400">
+            <p className="text-sm text-gray-600">
               Jangan install pixel code lebih dari sekali di halaman yang sama. Ini dapat menyebabkan
               duplicate events.
             </p>
@@ -375,7 +375,7 @@ export default function RootLayout({
           <CheckCircle2 className="mt-1 h-5 w-5 flex-shrink-0 text-green-600" />
           <div>
             <h3 className="mb-1 font-semibold">Test di Staging First</h3>
-            <p className="text-sm text-gray-600 dark:text-gray-400">
+            <p className="text-sm text-gray-600">
               Selalu test instalasi di staging environment sebelum deploy ke production untuk
               memastikan tidak ada masalah.
             </p>
@@ -395,15 +395,15 @@ export default function RootLayout({
       <div className="my-6 space-y-4">
         <div>
           <h3 className="mb-2 font-semibold">Pixel tidak terdeteksi</h3>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
-            Pastikan code dipasang di tag <code className="rounded bg-gray-100 px-1.5 py-0.5 text-sm dark:bg-gray-800">&lt;head&gt;</code> dan Pixel ID sudah benar. Cek
+          <p className="text-sm text-gray-600">
+            Pastikan code dipasang di tag <code className="rounded bg-gray-100 px-1.5 py-0.5 text-sm">&lt;head&gt;</code> dan Pixel ID sudah benar. Cek
             browser console untuk error JavaScript.
           </p>
         </div>
 
         <div>
           <h3 className="mb-2 font-semibold">Duplicate events</h3>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-gray-600">
             Jika melihat duplicate events, kemungkinan pixel code terpasang lebih dari sekali. Cari
             semua instance pixel code di website dan hapus duplikatnya.
           </p>
@@ -411,7 +411,7 @@ export default function RootLayout({
 
         <div>
           <h3 className="mb-2 font-semibold">Pixel tidak load di mobile</h3>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-gray-600">
             Pastikan code tidak di-block oleh Content Security Policy (CSP) atau ad blocker. Test di
             berbagai browser dan device.
           </p>

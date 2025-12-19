@@ -15,7 +15,7 @@ export default function Page() {
       nextTitle="Budget Management"
     >
       <div className="mb-8">
-        <p className="text-xl text-gray-700 dark:text-gray-300">
+        <p className="text-xl text-gray-700">
           Optimasi performance kampanye iklan adalah proses berkelanjutan untuk meningkatkan ROI dan
           mencapai hasil terbaik dari budget iklan Anda. Panduan ini akan membantu Anda
           mengoptimalkan kampanye Meta Ads secara efektif.
@@ -50,14 +50,14 @@ export default function Page() {
       </p>
 
       <div className="my-8 grid gap-6 md:grid-cols-2">
-        <div className="rounded-lg border border-gray-200 bg-white p-6 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-6">
           <div className="mb-4 flex items-center gap-3">
             <div className="rounded-lg bg-hadona-primary/10 p-2">
               <Target className="h-6 w-6 text-hadona-primary" />
             </div>
             <h3 className="text-lg font-semibold">Conversion Metrics</h3>
           </div>
-          <ul className="text-sm text-gray-600 dark:text-gray-400">
+          <ul className="text-sm text-gray-600">
             <li>• Conversion Rate (CVR)</li>
             <li>• Cost per Conversion (CPA)</li>
             <li>• Return on Ad Spend (ROAS)</li>
@@ -65,14 +65,14 @@ export default function Page() {
           </ul>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-white p-6 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-6">
           <div className="mb-4 flex items-center gap-3">
             <div className="rounded-lg bg-hadona-primary/10 p-2">
               <BarChart3 className="h-6 w-6 text-hadona-primary" />
             </div>
             <h3 className="text-lg font-semibold">Engagement Metrics</h3>
           </div>
-          <ul className="text-sm text-gray-600 dark:text-gray-400">
+          <ul className="text-sm text-gray-600">
             <li>• Click-Through Rate (CTR)</li>
             <li>• Cost per Click (CPC)</li>
             <li>• Engagement Rate</li>
@@ -80,14 +80,14 @@ export default function Page() {
           </ul>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-white p-6 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-6">
           <div className="mb-4 flex items-center gap-3">
             <div className="rounded-lg bg-hadona-primary/10 p-2">
               <TrendingUp className="h-6 w-6 text-hadona-primary" />
             </div>
             <h3 className="text-lg font-semibold">Reach & Frequency</h3>
           </div>
-          <ul className="text-sm text-gray-600 dark:text-gray-400">
+          <ul className="text-sm text-gray-600">
             <li>• Reach</li>
             <li>• Frequency</li>
             <li>• Impressions</li>
@@ -95,14 +95,14 @@ export default function Page() {
           </ul>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-white p-6 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-6">
           <div className="mb-4 flex items-center gap-3">
             <div className="rounded-lg bg-hadona-primary/10 p-2">
               <Zap className="h-6 w-6 text-hadona-primary" />
             </div>
             <h3 className="text-lg font-semibold">Quality Metrics</h3>
           </div>
-          <ul className="text-sm text-gray-600 dark:text-gray-400">
+          <ul className="text-sm text-gray-600">
             <li>• Relevance Score</li>
             <li>• Quality Ranking</li>
             <li>• Engagement Rate Ranking</li>
@@ -213,9 +213,9 @@ export default function Page() {
       <p>Kreatif yang efektif adalah kunci sukses kampanye. Berikut tips optimasi kreatif:</p>
 
       <div className="my-6 space-y-4">
-        <div className="rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-4">
           <h4 className="mb-2 font-semibold">Video Ads</h4>
-          <ul className="text-sm text-gray-600 dark:text-gray-400">
+          <ul className="text-sm text-gray-600">
             <li>• Hook yang menarik dalam 3 detik pertama</li>
             <li>• Durasi optimal: 15-30 detik untuk feed, 6-15 detik untuk stories</li>
             <li>• Caption untuk video tanpa suara</li>
@@ -224,9 +224,9 @@ export default function Page() {
           </ul>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-4">
           <h4 className="mb-2 font-semibold">Image Ads</h4>
-          <ul className="text-sm text-gray-600 dark:text-gray-400">
+          <ul className="text-sm text-gray-600">
             <li>• High-quality images dengan resolusi tinggi</li>
             <li>• Minimal text overlay (kurang dari 20% dari gambar)</li>
             <li>• Bright colors dan kontras yang baik</li>
@@ -235,9 +235,9 @@ export default function Page() {
           </ul>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-4">
           <h4 className="mb-2 font-semibold">Copywriting</h4>
-          <ul className="text-sm text-gray-600 dark:text-gray-400">
+          <ul className="text-sm text-gray-600">
             <li>• Headline yang menarik perhatian</li>
             <li>• Benefit-focused, bukan feature-focused</li>
             <li>• CTA yang jelas dan actionable</li>
@@ -324,7 +324,7 @@ export default function Page() {
           <CheckCircle2 className="mt-1 h-5 w-5 flex-shrink-0 text-green-600" />
           <div>
             <strong>One Change at a Time</strong>
-            <p className="text-sm text-gray-600 dark:text-gray-400">
+            <p className="text-sm text-gray-600">
               Lakukan satu perubahan per waktu agar Anda tahu apa yang menyebabkan peningkatan atau
               penurunan performa.
             </p>
@@ -334,7 +334,7 @@ export default function Page() {
           <CheckCircle2 className="mt-1 h-5 w-5 flex-shrink-0 text-green-600" />
           <div>
             <strong>Document Everything</strong>
-            <p className="text-sm text-gray-600 dark:text-gray-400">
+            <p className="text-sm text-gray-600">
               Catat semua perubahan yang Anda buat, kapan, dan hasilnya. Ini membantu Anda belajar
               dari setiap optimasi.
             </p>
@@ -344,7 +344,7 @@ export default function Page() {
           <CheckCircle2 className="mt-1 h-5 w-5 flex-shrink-0 text-green-600" />
           <div>
             <strong>Test Systematically</strong>
-            <p className="text-sm text-gray-600 dark:text-gray-400">
+            <p className="text-sm text-gray-600">
               Buat hypothesis, test, analisis hasil, dan iterasi. Jangan test secara random tanpa
               tujuan.
             </p>
@@ -354,7 +354,7 @@ export default function Page() {
           <CheckCircle2 className="mt-1 h-5 w-5 flex-shrink-0 text-green-600" />
           <div>
             <strong>Focus on What Matters</strong>
-            <p className="text-sm text-gray-600 dark:text-gray-400">
+            <p className="text-sm text-gray-600">
               Fokus pada metrik yang benar-benar penting untuk bisnis Anda, bukan vanity metrics.
             </p>
           </div>

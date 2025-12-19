@@ -14,7 +14,7 @@ export default function Page() {
       nextTitle="Troubleshooting Umum"
     >
       <div className="mb-8">
-        <p className="text-xl text-gray-700 dark:text-gray-300">
+        <p className="text-xl text-gray-700">
           Strategi konten yang efektif adalah fondasi kampanye iklan yang sukses. Panduan ini akan
           membantu Anda membuat konten yang menarik, relevan, dan menghasilkan konversi.
         </p>
@@ -46,19 +46,19 @@ export default function Page() {
       <h2>Format Konten yang Efektif</h2>
 
       <div className="my-8 grid gap-6 md:grid-cols-2">
-        <div className="rounded-lg border border-gray-200 bg-white p-6 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-6">
           <div className="mb-4 flex items-center gap-3">
             <div className="rounded-lg bg-hadona-primary/10 p-2">
               <Video className="h-6 w-6 text-hadona-primary" />
             </div>
             <h3 className="text-lg font-semibold">Video Ads</h3>
           </div>
-          <p className="mb-3 text-sm text-gray-600 dark:text-gray-400">
+          <p className="mb-3 text-sm text-gray-600">
             Format paling efektif untuk engagement dan konversi. Ideal untuk storytelling dan
             demonstrasi produk.
           </p>
-          <p className="text-xs font-semibold text-gray-700 dark:text-gray-300">Best Practices:</p>
-          <ul className="text-xs text-gray-600 dark:text-gray-400">
+          <p className="text-xs font-semibold text-gray-700">Best Practices:</p>
+          <ul className="text-xs text-gray-600">
             <li>• Hook dalam 3 detik pertama</li>
             <li>• Durasi 15-30 detik untuk feed</li>
             <li>• Caption untuk video tanpa suara</li>
@@ -66,19 +66,19 @@ export default function Page() {
           </ul>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-white p-6 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-6">
           <div className="mb-4 flex items-center gap-3">
             <div className="rounded-lg bg-hadona-primary/10 p-2">
               <Image className="h-6 w-6 text-hadona-primary" />
             </div>
             <h3 className="text-lg font-semibold">Image Ads</h3>
           </div>
-          <p className="mb-3 text-sm text-gray-600 dark:text-gray-400">
+          <p className="mb-3 text-sm text-gray-600">
             Efektif untuk quick messaging dan brand awareness. Lebih mudah diproduksi dan cost
             effective.
           </p>
-          <p className="text-xs font-semibold text-gray-700 dark:text-gray-300">Best Practices:</p>
-          <ul className="text-xs text-gray-600 dark:text-gray-400">
+          <p className="text-xs font-semibold text-gray-700">Best Practices:</p>
+          <ul className="text-xs text-gray-600">
             <li>• High-quality images</li>
             <li>• Minimal text overlay (&lt;20%)</li>
             <li>• Bright colors & contrast</li>
@@ -86,19 +86,19 @@ export default function Page() {
           </ul>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-white p-6 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-6">
           <div className="mb-4 flex items-center gap-3">
             <div className="rounded-lg bg-hadona-primary/10 p-2">
               <PenTool className="h-6 w-6 text-hadona-primary" />
             </div>
             <h3 className="text-lg font-semibold">Carousel Ads</h3>
           </div>
-          <p className="mb-3 text-sm text-gray-600 dark:text-gray-400">
+          <p className="mb-3 text-sm text-gray-600">
             Ideal untuk showcase multiple products atau features. Meningkatkan engagement dengan
             swipe interaction.
           </p>
-          <p className="text-xs font-semibold text-gray-700 dark:text-gray-300">Best Practices:</p>
-          <ul className="text-xs text-gray-600 dark:text-gray-400">
+          <p className="text-xs font-semibold text-gray-700">Best Practices:</p>
+          <ul className="text-xs text-gray-600">
             <li>• 3-5 cards optimal</li>
             <li>• Consistent design</li>
             <li>• Clear progression</li>
@@ -106,19 +106,19 @@ export default function Page() {
           </ul>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-white p-6 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-6">
           <div className="mb-4 flex items-center gap-3">
             <div className="rounded-lg bg-hadona-primary/10 p-2">
               <Target className="h-6 w-6 text-hadona-primary" />
             </div>
             <h3 className="text-lg font-semibold">Collection Ads</h3>
           </div>
-          <p className="mb-3 text-sm text-gray-600 dark:text-gray-400">
+          <p className="mb-3 text-sm text-gray-600">
             Perfect untuk e-commerce. Menampilkan katalog produk dalam format yang menarik dan
             mudah di-browse.
           </p>
-          <p className="text-xs font-semibold text-gray-700 dark:text-gray-300">Best Practices:</p>
-          <ul className="text-xs text-gray-600 dark:text-gray-400">
+          <p className="text-xs font-semibold text-gray-700">Best Practices:</p>
+          <ul className="text-xs text-gray-600">
             <li>• Curated product selection</li>
             <li>• High-quality product images</li>
             <li>• Clear pricing</li>
@@ -274,9 +274,9 @@ export default function Page() {
       <p>Perencanaan konten yang baik memastikan konsistensi dan kualitas:</p>
 
       <div className="my-6 space-y-4">
-        <div className="rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-4">
           <h4 className="mb-2 font-semibold">Weekly Planning</h4>
-          <ul className="text-sm text-gray-600 dark:text-gray-400">
+          <ul className="text-sm text-gray-600">
             <li>• Plan content untuk 1-2 minggu ke depan</li>
             <li>• Assign content types ke specific days</li>
             <li>• Prepare assets dan copy sebelumnya</li>
@@ -284,9 +284,9 @@ export default function Page() {
           </ul>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-4">
           <h4 className="mb-2 font-semibold">Content Mix</h4>
-          <ul className="text-sm text-gray-600 dark:text-gray-400">
+          <ul className="text-sm text-gray-600">
             <li>• 40% Educational/Value-driven content</li>
             <li>• 30% Promotional/Sales content</li>
             <li>• 20% Social proof/Testimonials</li>
@@ -328,7 +328,7 @@ export default function Page() {
           <CheckCircle2 className="mt-1 h-5 w-5 flex-shrink-0 text-green-600" />
           <div>
             <strong>Track Key Metrics</strong>
-            <p className="text-sm text-gray-600 dark:text-gray-400">
+            <p className="text-sm text-gray-600">
               Monitor CTR, engagement rate, cost per result, dan conversion rate untuk setiap
               creative.
             </p>
@@ -338,7 +338,7 @@ export default function Page() {
           <CheckCircle2 className="mt-1 h-5 w-5 flex-shrink-0 text-green-600" />
           <div>
             <strong>Identify Patterns</strong>
-            <p className="text-sm text-gray-600 dark:text-gray-400">
+            <p className="text-sm text-gray-600">
               Cari pola dari konten yang perform - apa yang membuat mereka sukses?
             </p>
           </div>
@@ -347,7 +347,7 @@ export default function Page() {
           <CheckCircle2 className="mt-1 h-5 w-5 flex-shrink-0 text-green-600" />
           <div>
             <strong>Iterate on Winners</strong>
-            <p className="text-sm text-gray-600 dark:text-gray-400">
+            <p className="text-sm text-gray-600">
               Buat variasi dari konten yang perform dengan angle atau elemen baru.
             </p>
           </div>
@@ -356,7 +356,7 @@ export default function Page() {
           <CheckCircle2 className="mt-1 h-5 w-5 flex-shrink-0 text-green-600" />
           <div>
             <strong>Document Learnings</strong>
-            <p className="text-sm text-gray-600 dark:text-gray-400">
+            <p className="text-sm text-gray-600">
               Catat insights dan learnings untuk referensi masa depan.
             </p>
           </div>

@@ -15,7 +15,7 @@ export default function Page() {
       nextTitle="Testing Pixel"
     >
       <div className="mb-8">
-        <p className="text-xl text-gray-700 dark:text-gray-300">
+        <p className="text-xl text-gray-700">
           Setelah menginstal Meta Pixel, penting untuk memverifikasi bahwa pixel terpasang dengan
           benar dan mengirim data ke Meta. Panduan ini menjelaskan berbagai metode verifikasi yang
           dapat Anda gunakan.
@@ -37,35 +37,35 @@ export default function Page() {
       </p>
 
       <div className="my-8 grid gap-6 md:grid-cols-2">
-        <div className="rounded-lg border border-gray-200 bg-white p-6 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-6">
           <Search className="mb-3 h-8 w-8 text-hadona-primary" />
           <h3 className="mb-2 text-lg font-semibold">Meta Pixel Helper</h3>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-gray-600">
             Browser extension resmi dari Meta untuk verifikasi visual pixel di halaman website.
           </p>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-white p-6 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-6">
           <Activity className="mb-3 h-8 w-8 text-hadona-primary" />
           <h3 className="mb-2 text-lg font-semibold">Events Manager</h3>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-gray-600">
             Cek activity pixel secara real-time di Meta Events Manager untuk melihat events yang
             terkirim.
           </p>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-white p-6 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-6">
           <Eye className="mb-3 h-8 w-8 text-hadona-primary" />
           <h3 className="mb-2 text-lg font-semibold">Browser DevTools</h3>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-gray-600">
             Gunakan Network tab di browser DevTools untuk melihat request ke Meta servers.
           </p>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-white p-6 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-6">
           <CheckCircle2 className="mb-3 h-8 w-8 text-hadona-primary" />
           <h3 className="mb-2 text-lg font-semibold">Test Events Tool</h3>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-gray-600">
             Tool di Events Manager untuk test dan debug events secara real-time.
           </p>
         </div>
@@ -109,7 +109,7 @@ export default function Page() {
                     </a>
                   </li>
                 </ul>
-                <p className="mt-3 text-sm text-gray-600 dark:text-gray-400">
+                <p className="mt-3 text-sm text-gray-600">
                   Extension ini gratis dan resmi dari Meta.
                 </p>
               </div>
@@ -123,7 +123,7 @@ export default function Page() {
                   Buka website Anda di browser yang sudah terinstall Meta Pixel Helper. Extension akan
                   otomatis mendeteksi pixel di halaman.
                 </p>
-                <p className="text-sm text-gray-600 dark:text-gray-400">
+                <p className="text-sm text-gray-600">
                   Pastikan extension aktif (icon akan muncul di toolbar browser).
                 </p>
               </div>
@@ -168,7 +168,7 @@ export default function Page() {
                 <p className="mb-3">
                   <strong>Status Merah:</strong> Ada error serius yang perlu diperbaiki.
                 </p>
-                <p className="text-sm text-gray-600 dark:text-gray-400">
+                <p className="text-sm text-gray-600">
                   Extension akan memberikan detail tentang masalah yang ditemukan.
                 </p>
               </div>
@@ -201,7 +201,7 @@ export default function Page() {
                   </a>{' '}
                   dan pilih pixel yang ingin Anda verifikasi.
                 </p>
-                <p className="text-sm text-gray-600 dark:text-gray-400">
+                <p className="text-sm text-gray-600">
                   Pastikan Anda menggunakan akun yang memiliki akses ke pixel tersebut.
                 </p>
               </div>
@@ -220,7 +220,7 @@ export default function Page() {
                   <li>Chart activity over time</li>
                   <li>Top events yang terkirim</li>
                 </ul>
-                <p className="mt-3 text-sm text-gray-600 dark:text-gray-400">
+                <p className="mt-3 text-sm text-gray-600">
                   Jika pixel aktif, Anda akan melihat activity dalam beberapa menit setelah
                   mengunjungi website.
                 </p>
@@ -261,7 +261,7 @@ export default function Page() {
                   <li>Browser dan device info</li>
                   <li>URL halaman</li>
                 </ul>
-                <p className="mt-3 text-sm text-gray-600 dark:text-gray-400">
+                <p className="mt-3 text-sm text-gray-600">
                   Pastikan event parameters sesuai dengan yang Anda harapkan.
                 </p>
               </div>
@@ -286,7 +286,7 @@ export default function Page() {
                   Buka website Anda dan tekan <strong>F12</strong> atau <strong>Right-click → Inspect</strong> untuk
                   membuka DevTools.
                 </p>
-                <p className="text-sm text-gray-600 dark:text-gray-400">
+                <p className="text-sm text-gray-600">
                   Pastikan tab <strong>"Network"</strong> terbuka.
                 </p>
               </div>
@@ -297,13 +297,13 @@ export default function Page() {
             content: (
               <div>
                 <p className="mb-3">
-                  Di filter box Network tab, ketik <code className="rounded bg-gray-100 px-1.5 py-0.5 text-sm dark:bg-gray-800">facebook</code> atau{' '}
-                  <code className="rounded bg-gray-100 px-1.5 py-0.5 text-sm dark:bg-gray-800">fbevents</code> untuk
+                  Di filter box Network tab, ketik <code className="rounded bg-gray-100 px-1.5 py-0.5 text-sm">facebook</code> atau{' '}
+                  <code className="rounded bg-gray-100 px-1.5 py-0.5 text-sm">fbevents</code> untuk
                   melihat hanya request ke Meta.
                 </p>
-                <p className="text-sm text-gray-600 dark:text-gray-400">
-                  Anda akan melihat request ke <code className="rounded bg-gray-100 px-1.5 py-0.5 text-sm dark:bg-gray-800">connect.facebook.net</code> atau{' '}
-                  <code className="rounded bg-gray-100 px-1.5 py-0.5 text-sm dark:bg-gray-800">facebook.com/tr</code>.
+                <p className="text-sm text-gray-600">
+                  Anda akan melihat request ke <code className="rounded bg-gray-100 px-1.5 py-0.5 text-sm">connect.facebook.net</code> atau{' '}
+                  <code className="rounded bg-gray-100 px-1.5 py-0.5 text-sm">facebook.com/tr</code>.
                 </p>
               </div>
             ),
@@ -326,7 +326,7 @@ export default function Page() {
                     <strong>Payload:</strong> Data event yang dikirim
                   </li>
                 </ul>
-                <p className="mt-3 text-sm text-gray-600 dark:text-gray-400">
+                <p className="mt-3 text-sm text-gray-600">
                   Request yang sukses menunjukkan pixel mengirim data dengan benar.
                 </p>
               </div>
@@ -340,7 +340,7 @@ export default function Page() {
                   Buka tab <strong>"Console"</strong> di DevTools dan cek apakah ada error terkait
                   pixel.
                 </p>
-                <p className="text-sm text-gray-600 dark:text-gray-400">
+                <p className="text-sm text-gray-600">
                   Error umum termasuk CORS issues, blocked requests, atau JavaScript errors.
                 </p>
               </div>
@@ -354,13 +354,13 @@ export default function Page() {
         Gunakan checklist berikut untuk memastikan verifikasi komprehensif:
       </p>
 
-      <div className="my-8 rounded-lg border border-gray-200 bg-gray-50 p-6 dark:border-gray-800 dark:bg-gray-900">
+      <div className="my-8 rounded-lg border border-gray-200 bg-gray-50 p-6">
         <div className="space-y-4">
           <div className="flex items-start gap-3">
             <CheckCircle2 className="mt-0.5 h-5 w-5 flex-shrink-0 text-green-600" />
             <div>
               <h3 className="font-semibold">Pixel Code Terpasang</h3>
-              <p className="text-sm text-gray-600 dark:text-gray-400">
+              <p className="text-sm text-gray-600">
                 Pixel code terdeteksi di halaman website (cek dengan Meta Pixel Helper atau view
                 page source)
               </p>
@@ -371,7 +371,7 @@ export default function Page() {
             <CheckCircle2 className="mt-0.5 h-5 w-5 flex-shrink-0 text-green-600" />
             <div>
               <h3 className="font-semibold">Pixel ID Benar</h3>
-              <p className="text-sm text-gray-600 dark:text-gray-400">
+              <p className="text-sm text-gray-600">
                 Pixel ID yang terdeteksi sesuai dengan Pixel ID di Events Manager
               </p>
             </div>
@@ -381,7 +381,7 @@ export default function Page() {
             <CheckCircle2 className="mt-0.5 h-5 w-5 flex-shrink-0 text-green-600" />
             <div>
               <h3 className="font-semibold">PageView Event Terkirim</h3>
-              <p className="text-sm text-gray-600 dark:text-gray-400">
+              <p className="text-sm text-gray-600">
                 PageView event muncul di Events Manager atau Test Events tool saat mengunjungi
                 halaman
               </p>
@@ -392,7 +392,7 @@ export default function Page() {
             <CheckCircle2 className="mt-0.5 h-5 w-5 flex-shrink-0 text-green-600" />
             <div>
               <h3 className="font-semibold">Tidak Ada Duplicate Pixel</h3>
-              <p className="text-sm text-gray-600 dark:text-gray-400">
+              <p className="text-sm text-gray-600">
                 Hanya satu instance pixel yang terdeteksi (cek dengan Meta Pixel Helper)
               </p>
             </div>
@@ -402,7 +402,7 @@ export default function Page() {
             <CheckCircle2 className="mt-0.5 h-5 w-5 flex-shrink-0 text-green-600" />
             <div>
               <h3 className="font-semibold">No Errors atau Warnings</h3>
-              <p className="text-sm text-gray-600 dark:text-gray-400">
+              <p className="text-sm text-gray-600">
                 Meta Pixel Helper tidak menampilkan error atau warning yang perlu diperbaiki
               </p>
             </div>
@@ -412,7 +412,7 @@ export default function Page() {
             <CheckCircle2 className="mt-0.5 h-5 w-5 flex-shrink-0 text-green-600" />
             <div>
               <h3 className="font-semibold">Activity di Events Manager</h3>
-              <p className="text-sm text-gray-600 dark:text-gray-400">
+              <p className="text-sm text-gray-600">
                 Activity muncul di Events Manager dalam beberapa menit setelah mengunjungi website
               </p>
             </div>
@@ -423,12 +423,12 @@ export default function Page() {
       <h2>Masalah Umum dan Solusi</h2>
 
       <div className="my-6 space-y-4">
-        <div className="rounded-lg border border-yellow-200 bg-yellow-50 p-4 dark:border-yellow-800 dark:bg-yellow-900/20">
+        <div className="rounded-lg border border-yellow-200 bg-yellow-50 p-4">
           <div className="flex gap-3">
-            <AlertCircle className="mt-0.5 h-5 w-5 flex-shrink-0 text-yellow-600 dark:text-yellow-400" />
+            <AlertCircle className="mt-0.5 h-5 w-5 flex-shrink-0 text-yellow-600" />
             <div>
               <h3 className="mb-1 font-semibold">Pixel Tidak Terdeteksi</h3>
-              <p className="text-sm text-gray-600 dark:text-gray-400">
+              <p className="text-sm text-gray-600">
                 <strong>Solusi:</strong> Pastikan pixel code terpasang di tag &lt;head&gt; dan Pixel
                 ID sudah benar. Cek browser console untuk JavaScript errors.
               </p>
@@ -436,12 +436,12 @@ export default function Page() {
           </div>
         </div>
 
-        <div className="rounded-lg border border-yellow-200 bg-yellow-50 p-4 dark:border-yellow-800 dark:bg-yellow-900/20">
+        <div className="rounded-lg border border-yellow-200 bg-yellow-50 p-4">
           <div className="flex gap-3">
-            <AlertCircle className="mt-0.5 h-5 w-5 flex-shrink-0 text-yellow-600 dark:text-yellow-400" />
+            <AlertCircle className="mt-0.5 h-5 w-5 flex-shrink-0 text-yellow-600" />
             <div>
               <h3 className="mb-1 font-semibold">Events Tidak Muncul di Events Manager</h3>
-              <p className="text-sm text-gray-600 dark:text-gray-400">
+              <p className="text-sm text-gray-600">
                 <strong>Solusi:</strong> Tunggu beberapa menit (data bisa delay 5-15 menit). Pastikan
                 tidak ada ad blocker yang memblokir pixel. Cek Test Events tool untuk real-time
                 verification.
@@ -450,12 +450,12 @@ export default function Page() {
           </div>
         </div>
 
-        <div className="rounded-lg border border-yellow-200 bg-yellow-50 p-4 dark:border-yellow-800 dark:bg-yellow-900/20">
+        <div className="rounded-lg border border-yellow-200 bg-yellow-50 p-4">
           <div className="flex gap-3">
-            <AlertCircle className="mt-0.5 h-5 w-5 flex-shrink-0 text-yellow-600 dark:text-yellow-400" />
+            <AlertCircle className="mt-0.5 h-5 w-5 flex-shrink-0 text-yellow-600" />
             <div>
               <h3 className="mb-1 font-semibold">Duplicate Pixel Warning</h3>
-              <p className="text-sm text-gray-600 dark:text-gray-400">
+              <p className="text-sm text-gray-600">
                 <strong>Solusi:</strong> Cari semua instance pixel code di website dan hapus
                 duplikatnya. Pastikan hanya satu pixel code yang terpasang per halaman.
               </p>

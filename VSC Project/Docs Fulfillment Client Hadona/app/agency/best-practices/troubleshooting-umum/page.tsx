@@ -14,7 +14,7 @@ export default function Page() {
       nextTitle="FAQ"
     >
       <div className="mb-8">
-        <p className="text-xl text-gray-700 dark:text-gray-300">
+        <p className="text-xl text-gray-700">
           Panduan troubleshooting ini akan membantu Anda mengidentifikasi dan menyelesaikan masalah
           umum yang mungkin terjadi saat mengelola kampanye iklan Meta.
         </p>
@@ -49,12 +49,12 @@ export default function Page() {
       <h2>Masalah Umum & Solusi</h2>
 
       <h3>1. Kampanye Tidak Menghabiskan Budget</h3>
-      <div className="my-6 rounded-lg border border-yellow-200 bg-yellow-50 p-4 dark:border-yellow-800 dark:bg-yellow-900/20">
+      <div className="my-6 rounded-lg border border-yellow-200 bg-yellow-50 p-4">
         <div className="mb-2 flex items-center gap-2">
-          <AlertTriangle className="h-5 w-5 text-yellow-600 dark:text-yellow-400" />
-          <strong className="text-yellow-800 dark:text-yellow-200">Gejala:</strong>
+          <AlertTriangle className="h-5 w-5 text-yellow-600" />
+          <strong className="text-yellow-800">Gejala:</strong>
         </div>
-        <ul className="ml-7 text-sm text-yellow-700 dark:text-yellow-300">
+        <ul className="ml-7 text-sm text-yellow-700">
           <li>• Budget tidak terpakai atau terpakai sangat sedikit</li>
           <li>• Impressions sangat rendah</li>
           <li>• Status kampanye "Active" tapi tidak ada delivery</li>
@@ -104,12 +104,12 @@ export default function Page() {
       </ul>
 
       <h3>2. CPA Terlalu Tinggi</h3>
-      <div className="my-6 rounded-lg border border-red-200 bg-red-50 p-4 dark:border-red-800 dark:bg-red-900/20">
+      <div className="my-6 rounded-lg border border-red-200 bg-red-50 p-4">
         <div className="mb-2 flex items-center gap-2">
-          <XCircle className="h-5 w-5 text-red-600 dark:text-red-400" />
-          <strong className="text-red-800 dark:text-red-200">Gejala:</strong>
+          <XCircle className="h-5 w-5 text-red-600" />
+          <strong className="text-red-800">Gejala:</strong>
         </div>
-        <ul className="ml-7 text-sm text-red-700 dark:text-red-300">
+        <ul className="ml-7 text-sm text-red-700">
           <li>• Cost per conversion melebihi target</li>
           <li>• ROAS di bawah target</li>
           <li>• Budget habis dengan konversi sedikit</li>
@@ -163,12 +163,12 @@ export default function Page() {
       </ul>
 
       <h3>3. Ad Disapproved atau Rejected</h3>
-      <div className="my-6 rounded-lg border border-orange-200 bg-orange-50 p-4 dark:border-orange-800 dark:bg-orange-900/20">
+      <div className="my-6 rounded-lg border border-orange-200 bg-orange-50 p-4">
         <div className="mb-2 flex items-center gap-2">
-          <AlertTriangle className="h-5 w-5 text-orange-600 dark:text-orange-400" />
-          <strong className="text-orange-800 dark:text-orange-200">Gejala:</strong>
+          <AlertTriangle className="h-5 w-5 text-orange-600" />
+          <strong className="text-orange-800">Gejala:</strong>
         </div>
-        <ul className="ml-7 text-sm text-orange-700 dark:text-orange-300">
+        <ul className="ml-7 text-sm text-orange-700">
           <li>• Ad status menunjukkan "Disapproved" atau "Rejected"</li>
           <li>• Notifikasi dari Meta tentang policy violation</li>
           <li>• Ad tidak bisa diaktifkan</li>
@@ -317,36 +317,36 @@ export default function Page() {
 
       <h2>Tools untuk Troubleshooting</h2>
       <div className="my-6 grid gap-4 md:grid-cols-2">
-        <div className="rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-4">
           <h4 className="mb-2 font-semibold">Meta Ads Manager</h4>
-          <ul className="text-sm text-gray-600 dark:text-gray-400">
+          <ul className="text-sm text-gray-600">
             <li>• Campaign diagnostics</li>
             <li>• Ad review status</li>
             <li>• Account quality</li>
           </ul>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-4">
           <h4 className="mb-2 font-semibold">Meta Pixel Helper</h4>
-          <ul className="text-sm text-gray-600 dark:text-gray-400">
+          <ul className="text-sm text-gray-600">
             <li>• Verify pixel installation</li>
             <li>• Check events firing</li>
             <li>• Debug tracking issues</li>
           </ul>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-4">
           <h4 className="mb-2 font-semibold">Events Manager</h4>
-          <ul className="text-sm text-gray-600 dark:text-gray-400">
+          <ul className="text-sm text-gray-600">
             <li>• Test events</li>
             <li>• View event data</li>
             <li>• Debug conversions</li>
           </ul>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-4">
           <h4 className="mb-2 font-semibold">Business Manager</h4>
-          <ul className="text-sm text-gray-600 dark:text-gray-400">
+          <ul className="text-sm text-gray-600">
             <li>• Account status</li>
             <li>• Policy violations</li>
             <li>• Security settings</li>
@@ -360,7 +360,7 @@ export default function Page() {
           <CheckCircle2 className="mt-1 h-5 w-5 flex-shrink-0 text-green-600" />
           <div>
             <strong>Regular Monitoring</strong>
-            <p className="text-sm text-gray-600 dark:text-gray-400">
+            <p className="text-sm text-gray-600">
               Monitor kampanye secara rutin untuk mendeteksi masalah lebih awal.
             </p>
           </div>
@@ -369,7 +369,7 @@ export default function Page() {
           <CheckCircle2 className="mt-1 h-5 w-5 flex-shrink-0 text-green-600" />
           <div>
             <strong>Follow Policies</strong>
-            <p className="text-sm text-gray-600 dark:text-gray-400">
+            <p className="text-sm text-gray-600">
               Selalu ikuti Meta Advertising Policies untuk menghindari rejections.
             </p>
           </div>
@@ -378,7 +378,7 @@ export default function Page() {
           <CheckCircle2 className="mt-1 h-5 w-5 flex-shrink-0 text-green-600" />
           <div>
             <strong>Test Before Scale</strong>
-            <p className="text-sm text-gray-600 dark:text-gray-400">
+            <p className="text-sm text-gray-600">
               Test kampanye dengan budget kecil sebelum scale up.
             </p>
           </div>
@@ -387,7 +387,7 @@ export default function Page() {
           <CheckCircle2 className="mt-1 h-5 w-5 flex-shrink-0 text-green-600" />
           <div>
             <strong>Document Changes</strong>
-            <p className="text-sm text-gray-600 dark:text-gray-400">
+            <p className="text-sm text-gray-600">
               Catat semua perubahan untuk membantu troubleshooting di masa depan.
             </p>
           </div>

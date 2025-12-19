@@ -15,7 +15,7 @@ export default function Page() {
       nextTitle="Mengatur Permission"
     >
       <div className="mb-8">
-        <p className="text-xl text-gray-700 dark:text-gray-300">
+        <p className="text-xl text-gray-700">
           Ad Account (Akun Iklan) adalah tempat di mana Anda membuat, mengelola, dan membayar
           kampanye iklan di Meta. Menautkan Ad Account ke Business Manager memungkinkan Anda
           mengelola semua kampanye iklan dari satu tempat terpusat bersama dengan tim Anda.
@@ -26,27 +26,27 @@ export default function Page() {
       <p>Menautkan Ad Account memberikan beberapa keuntungan penting:</p>
 
       <div className="my-8 grid gap-6 md:grid-cols-2">
-        <div className="rounded-lg border border-gray-200 bg-white p-6 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-6">
           <div className="mb-4 flex items-center gap-3">
             <div className="rounded-lg bg-hadona-primary/10 p-2">
               <DollarSign className="h-6 w-6 text-hadona-primary" />
             </div>
             <h3 className="text-lg font-semibold">Manajemen Kampanye</h3>
           </div>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-gray-600">
             Kelola semua kampanye iklan dari berbagai Ad Account dalam satu dashboard Business
             Manager.
           </p>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-white p-6 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-6">
           <div className="mb-4 flex items-center gap-3">
             <div className="rounded-lg bg-hadona-primary/10 p-2">
               <Plus className="h-6 w-6 text-hadona-primary" />
             </div>
             <h3 className="text-lg font-semibold">Kolaborasi Tim</h3>
           </div>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-gray-600">
             Berikan akses ke anggota tim tanpa harus membagikan kredensial login Ad Account.
           </p>
         </div>
@@ -56,17 +56,17 @@ export default function Page() {
       <p>Ada dua jenis Ad Account yang dapat ditautkan:</p>
 
       <div className="my-6 space-y-4">
-        <div className="rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-4">
           <h4 className="mb-2 font-semibold">Ad Account yang Sudah Ada</h4>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-gray-600">
             Ad Account yang sudah dibuat sebelumnya, baik dari akun Facebook pribadi atau Business
             Manager lain. Anda dapat meminta akses atau memindahkannya ke Business Manager Anda.
           </p>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-4">
           <h4 className="mb-2 font-semibold">Ad Account Baru</h4>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-gray-600">
             Membuat Ad Account baru langsung dari Business Manager. Ini adalah opsi yang
             direkomendasikan untuk memulai dari awal.
           </p>
@@ -377,36 +377,36 @@ export default function Page() {
 
       <h2>Troubleshooting</h2>
       <div className="my-6 space-y-4">
-        <div className="rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-4">
           <h4 className="mb-2 flex items-center gap-2 font-semibold">
             <AlertTriangle className="h-5 w-5 text-yellow-600" />
             Ad Account Tidak Bisa Ditautkan
           </h4>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-gray-600">
             Pastikan Anda memiliki peran admin di Ad Account tersebut. Jika Ad Account sudah dimiliki
             oleh Business Manager lain, Anda harus memindahkannya terlebih dahulu atau meminta
             akses sebagai partner.
           </p>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-4">
           <h4 className="mb-2 flex items-center gap-2 font-semibold">
             <AlertTriangle className="h-5 w-5 text-yellow-600" />
             Error Saat Membuat Ad Account Baru
           </h4>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-gray-600">
             Pastikan semua informasi yang dimasukkan benar, terutama zona waktu dan mata uang.
             Pastikan juga metode pembayaran valid dan aktif. Jika masalah berlanjut, coba refresh
             halaman atau hubungi support Meta.
           </p>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-4">
           <h4 className="mb-2 flex items-center gap-2 font-semibold">
             <AlertTriangle className="h-5 w-5 text-yellow-600" />
             Request Access Ditolak
           </h4>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-gray-600">
             Hubungi admin Ad Account untuk membahas kebutuhan akses. Pastikan Anda menjelaskan
             alasan mengapa akses diperlukan dan permission apa yang dibutuhkan.
           </p>

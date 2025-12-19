@@ -16,7 +16,7 @@ export default function BusinessManagerPage() {
   return (
     <div>
       <h1 className="mb-4 text-4xl font-bold">Business Manager</h1>
-      <p className="mb-8 text-lg text-gray-600 dark:text-gray-400">
+      <p className="mb-8 text-lg text-gray-600">
         Panduan setup dan konfigurasi Business Manager
       </p>
       <div className="space-y-4">
@@ -24,7 +24,7 @@ export default function BusinessManagerPage() {
           <Link
             key={article.href}
             href={article.href}
-            className="flex items-center justify-between rounded-lg border border-gray-200 bg-white p-4 transition-colors hover:border-hadona-primary hover:bg-hadona-primary/5 dark:border-gray-800 dark:bg-gray-900"
+            className="flex items-center justify-between rounded-lg border border-gray-200 bg-white p-4 transition-colors hover:border-hadona-primary hover:bg-hadona-primary/5"
           >
             <span className="font-medium">{article.title}</span>
             <ArrowRight className="h-5 w-5 text-gray-400" />

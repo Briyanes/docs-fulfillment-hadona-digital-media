@@ -14,7 +14,7 @@ export default function Page() {
       nextTitle="Audit Log"
     >
       <div className="mb-8">
-        <p className="text-xl text-gray-700 dark:text-gray-300">
+        <p className="text-xl text-gray-700">
           Role dan Permission adalah sistem kontrol akses yang menentukan apa yang dapat dilakukan
           oleh setiap user di platform Hadona. Memahami sistem ini penting untuk keamanan dan
           efisiensi manajemen tim.
@@ -34,17 +34,17 @@ export default function Page() {
       </p>
 
       <div className="my-6 space-y-4">
-        <div className="rounded-lg border-2 border-red-200 bg-white p-6 dark:border-red-800 dark:bg-gray-900">
+        <div className="rounded-lg border-2 border-red-200 bg-white p-6">
           <div className="mb-4 flex items-center gap-3">
-            <div className="rounded-lg bg-red-100 p-3 dark:bg-red-900/30">
-              <Shield className="h-6 w-6 text-red-600 dark:text-red-400" />
+            <div className="rounded-lg bg-red-100 p-3">
+              <Shield className="h-6 w-6 text-red-600" />
             </div>
             <div>
               <h3 className="text-xl font-bold">Admin</h3>
-              <p className="text-sm text-gray-600 dark:text-gray-400">Akses Penuh</p>
+              <p className="text-sm text-gray-600">Akses Penuh</p>
             </div>
           </div>
-          <p className="mb-4 text-gray-700 dark:text-gray-300">
+          <p className="mb-4 text-gray-700">
             Role dengan akses tertinggi. Admin memiliki kontrol penuh atas semua fitur dan
             pengaturan platform.
           </p>
@@ -87,17 +87,17 @@ export default function Page() {
           </Callout>
         </div>
 
-        <div className="rounded-lg border-2 border-blue-200 bg-white p-6 dark:border-blue-800 dark:bg-gray-900">
+        <div className="rounded-lg border-2 border-blue-200 bg-white p-6">
           <div className="mb-4 flex items-center gap-3">
-            <div className="rounded-lg bg-blue-100 p-3 dark:bg-blue-900/30">
-              <Users className="h-6 w-6 text-blue-600 dark:text-blue-400" />
+            <div className="rounded-lg bg-blue-100 p-3">
+              <Users className="h-6 w-6 text-blue-600" />
             </div>
             <div>
               <h3 className="text-xl font-bold">Manager</h3>
-              <p className="text-sm text-gray-600 dark:text-gray-400">Akses Operasional</p>
+              <p className="text-sm text-gray-600">Akses Operasional</p>
             </div>
           </div>
-          <p className="mb-4 text-gray-700 dark:text-gray-300">
+          <p className="mb-4 text-gray-700">
             Role untuk user yang perlu mengelola campaign dan melihat laporan, tetapi tidak perlu
             akses ke pengaturan sistem atau user management.
           </p>
@@ -137,17 +137,17 @@ export default function Page() {
           </div>
         </div>
 
-        <div className="rounded-lg border-2 border-green-200 bg-white p-6 dark:border-green-800 dark:bg-gray-900">
+        <div className="rounded-lg border-2 border-green-200 bg-white p-6">
           <div className="mb-4 flex items-center gap-3">
-            <div className="rounded-lg bg-green-100 p-3 dark:bg-green-900/30">
-              <Eye className="h-6 w-6 text-green-600 dark:text-green-400" />
+            <div className="rounded-lg bg-green-100 p-3">
+              <Eye className="h-6 w-6 text-green-600" />
             </div>
             <div>
               <h3 className="text-xl font-bold">Viewer</h3>
-              <p className="text-sm text-gray-600 dark:text-gray-400">Akses Read-Only</p>
+              <p className="text-sm text-gray-600">Akses Read-Only</p>
             </div>
           </div>
-          <p className="mb-4 text-gray-700 dark:text-gray-300">
+          <p className="mb-4 text-gray-700">
             Role untuk user yang hanya perlu melihat dashboard dan laporan, tanpa kemampuan untuk
             melakukan perubahan apapun.
           </p>
@@ -196,7 +196,7 @@ export default function Page() {
       <div className="my-6 overflow-x-auto">
         <table className="w-full border-collapse text-sm">
           <thead>
-            <tr className="border-b-2 border-gray-300 dark:border-gray-700">
+            <tr className="border-b-2 border-gray-300">
               <th className="px-4 py-3 text-left font-semibold">Permission</th>
               <th className="px-4 py-3 text-center font-semibold">Admin</th>
               <th className="px-4 py-3 text-center font-semibold">Manager</th>
@@ -204,7 +204,7 @@ export default function Page() {
             </tr>
           </thead>
           <tbody>
-            <tr className="border-b border-gray-200 dark:border-gray-800">
+            <tr className="border-b border-gray-200">
               <td className="px-4 py-3 font-medium">Melihat Dashboard</td>
               <td className="px-4 py-3 text-center">
                 <CheckCircle2 className="mx-auto h-5 w-5 text-green-500" />
@@ -216,7 +216,7 @@ export default function Page() {
                 <CheckCircle2 className="mx-auto h-5 w-5 text-green-500" />
               </td>
             </tr>
-            <tr className="border-b border-gray-200 dark:border-gray-800">
+            <tr className="border-b border-gray-200">
               <td className="px-4 py-3 font-medium">Membuat Campaign</td>
               <td className="px-4 py-3 text-center">
                 <CheckCircle2 className="mx-auto h-5 w-5 text-green-500" />
@@ -228,7 +228,7 @@ export default function Page() {
                 <XCircle className="mx-auto h-5 w-5 text-red-500" />
               </td>
             </tr>
-            <tr className="border-b border-gray-200 dark:border-gray-800">
+            <tr className="border-b border-gray-200">
               <td className="px-4 py-3 font-medium">Mengedit Campaign</td>
               <td className="px-4 py-3 text-center">
                 <CheckCircle2 className="mx-auto h-5 w-5 text-green-500" />
@@ -240,7 +240,7 @@ export default function Page() {
                 <XCircle className="mx-auto h-5 w-5 text-red-500" />
               </td>
             </tr>
-            <tr className="border-b border-gray-200 dark:border-gray-800">
+            <tr className="border-b border-gray-200">
               <td className="px-4 py-3 font-medium">Menghapus Campaign</td>
               <td className="px-4 py-3 text-center">
                 <CheckCircle2 className="mx-auto h-5 w-5 text-green-500" />
@@ -252,7 +252,7 @@ export default function Page() {
                 <XCircle className="mx-auto h-5 w-5 text-red-500" />
               </td>
             </tr>
-            <tr className="border-b border-gray-200 dark:border-gray-800">
+            <tr className="border-b border-gray-200">
               <td className="px-4 py-3 font-medium">Mengatur Budget</td>
               <td className="px-4 py-3 text-center">
                 <CheckCircle2 className="mx-auto h-5 w-5 text-green-500" />
@@ -264,7 +264,7 @@ export default function Page() {
                 <XCircle className="mx-auto h-5 w-5 text-red-500" />
               </td>
             </tr>
-            <tr className="border-b border-gray-200 dark:border-gray-800">
+            <tr className="border-b border-gray-200">
               <td className="px-4 py-3 font-medium">Mengakses Laporan</td>
               <td className="px-4 py-3 text-center">
                 <CheckCircle2 className="mx-auto h-5 w-5 text-green-500" />
@@ -276,7 +276,7 @@ export default function Page() {
                 <CheckCircle2 className="mx-auto h-5 w-5 text-green-500" />
               </td>
             </tr>
-            <tr className="border-b border-gray-200 dark:border-gray-800">
+            <tr className="border-b border-gray-200">
               <td className="px-4 py-3 font-medium">Mengelola User</td>
               <td className="px-4 py-3 text-center">
                 <CheckCircle2 className="mx-auto h-5 w-5 text-green-500" />
@@ -288,7 +288,7 @@ export default function Page() {
                 <XCircle className="mx-auto h-5 w-5 text-red-500" />
               </td>
             </tr>
-            <tr className="border-b border-gray-200 dark:border-gray-800">
+            <tr className="border-b border-gray-200">
               <td className="px-4 py-3 font-medium">Mengubah Settings</td>
               <td className="px-4 py-3 text-center">
                 <CheckCircle2 className="mx-auto h-5 w-5 text-green-500" />
@@ -300,7 +300,7 @@ export default function Page() {
                 <XCircle className="mx-auto h-5 w-5 text-red-500" />
               </td>
             </tr>
-            <tr className="border-b border-gray-200 dark:border-gray-800">
+            <tr className="border-b border-gray-200">
               <td className="px-4 py-3 font-medium">Mengakses Audit Log</td>
               <td className="px-4 py-3 text-center">
                 <CheckCircle2 className="mx-auto h-5 w-5 text-green-500" />
@@ -322,9 +322,9 @@ export default function Page() {
       </p>
 
       <div className="my-6 space-y-4">
-        <div className="rounded-lg border border-gray-200 bg-white p-5 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-5">
           <h3 className="mb-2 font-semibold">Kapan Memberikan Role Admin?</h3>
-          <ul className="ml-4 space-y-1 text-sm text-gray-600 dark:text-gray-400">
+          <ul className="ml-4 space-y-1 text-sm text-gray-600">
             <li>• Pemilik bisnis atau direktur yang perlu kontrol penuh</li>
             <li>• IT Manager yang bertanggung jawab atas sistem</li>
             <li>• Account Manager senior yang mengelola multiple client</li>
@@ -332,9 +332,9 @@ export default function Page() {
           </ul>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-white p-5 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-5">
           <h3 className="mb-2 font-semibold">Kapan Memberikan Role Manager?</h3>
-          <ul className="ml-4 space-y-1 text-sm text-gray-600 dark:text-gray-400">
+          <ul className="ml-4 space-y-1 text-sm text-gray-600">
             <li>• Digital Marketing Manager yang mengelola campaign</li>
             <li>• Campaign Manager yang membuat dan mengoptimasi iklan</li>
             <li>• Media Buyer yang mengatur budget dan targeting</li>
@@ -342,9 +342,9 @@ export default function Page() {
           </ul>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-white p-5 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-5">
           <h3 className="mb-2 font-semibold">Kapan Memberikan Role Viewer?</h3>
-          <ul className="ml-4 space-y-1 text-sm text-gray-600 dark:text-gray-400">
+          <ul className="ml-4 space-y-1 text-sm text-gray-600">
             <li>• Client atau stakeholder yang hanya perlu melihat hasil</li>
             <li>• Finance team yang perlu melihat laporan budget</li>
             <li>• Intern atau trainee yang sedang belajar</li>
@@ -359,7 +359,7 @@ export default function Page() {
           <AlertCircle className="mt-1 h-5 w-5 flex-shrink-0 text-yellow-500" />
           <div>
             <strong>Minimal Admin</strong>
-            <p className="text-sm text-gray-600 dark:text-gray-400">
+            <p className="text-sm text-gray-600">
               Batasi jumlah Admin seminimal mungkin. Setiap Admin adalah risiko keamanan potensial.
             </p>
           </div>
@@ -368,7 +368,7 @@ export default function Page() {
           <AlertCircle className="mt-1 h-5 w-5 flex-shrink-0 text-yellow-500" />
           <div>
             <strong>Review Role Secara Berkala</strong>
-            <p className="text-sm text-gray-600 dark:text-gray-400">
+            <p className="text-sm text-gray-600">
               Lakukan review setiap 3-6 bulan untuk memastikan role masih sesuai dengan
               tanggung jawab user.
             </p>
@@ -378,7 +378,7 @@ export default function Page() {
           <AlertCircle className="mt-1 h-5 w-5 flex-shrink-0 text-yellow-500" />
           <div>
             <strong>Dokumentasi</strong>
-            <p className="text-sm text-gray-600 dark:text-gray-400">
+            <p className="text-sm text-gray-600">
               Catat alasan pemberian role tertentu untuk setiap user. Ini membantu dalam audit dan
               review.
             </p>

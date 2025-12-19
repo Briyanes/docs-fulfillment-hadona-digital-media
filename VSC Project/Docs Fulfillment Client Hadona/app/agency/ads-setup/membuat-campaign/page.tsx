@@ -15,7 +15,7 @@ export default function Page() {
       nextTitle="Mengatur Budget"
     >
       <div className="mb-8">
-        <p className="text-xl text-gray-700 dark:text-gray-300">
+        <p className="text-xl text-gray-700">
           Campaign adalah fondasi dari setiap strategi iklan di Meta. Panduan ini akan membantu Anda
           membuat campaign pertama dengan langkah-langkah yang jelas dan best practices yang
           terbukti efektif.
@@ -28,38 +28,38 @@ export default function Page() {
       </p>
 
       <div className="my-8 grid gap-6 md:grid-cols-3">
-        <div className="rounded-lg border border-gray-200 bg-white p-6 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-6">
           <div className="mb-4 flex items-center gap-3">
             <div className="rounded-lg bg-hadona-primary/10 p-2">
               <Rocket className="h-6 w-6 text-hadona-primary" />
             </div>
             <h3 className="text-lg font-semibold">Campaign</h3>
           </div>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-gray-600">
             Level tertinggi yang menentukan tujuan iklan (Awareness, Traffic, Conversions, dll).
           </p>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-white p-6 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-6">
           <div className="mb-4 flex items-center gap-3">
             <div className="rounded-lg bg-hadona-primary/10 p-2">
               <Target className="h-6 w-6 text-hadona-primary" />
             </div>
             <h3 className="text-lg font-semibold">Ad Set</h3>
           </div>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-gray-600">
             Level tengah yang mengatur targeting, budget, schedule, dan placement.
           </p>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-white p-6 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-6">
           <div className="mb-4 flex items-center gap-3">
             <div className="rounded-lg bg-hadona-primary/10 p-2">
               <Image className="h-6 w-6 text-hadona-primary" />
             </div>
             <h3 className="text-lg font-semibold">Ad</h3>
           </div>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-gray-600">
             Level terendah yang berisi creative (gambar, video, teks) yang akan ditampilkan.
           </p>
         </div>
@@ -71,23 +71,23 @@ export default function Page() {
       </p>
 
       <div className="my-6 space-y-4">
-        <div className="rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-4">
           <h3 className="mb-2 font-semibold">Awareness</h3>
-          <p className="mb-2 text-sm text-gray-600 dark:text-gray-400">
+          <p className="mb-2 text-sm text-gray-600">
             Meningkatkan brand awareness dan reach. Cocok untuk brand baru atau produk baru.
           </p>
-          <ul className="text-sm text-gray-600 dark:text-gray-400">
+          <ul className="text-sm text-gray-600">
             <li>• Brand Awareness</li>
             <li>• Reach</li>
           </ul>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-4">
           <h3 className="mb-2 font-semibold">Consideration</h3>
-          <p className="mb-2 text-sm text-gray-600 dark:text-gray-400">
+          <p className="mb-2 text-sm text-gray-600">
             Mendorong engagement dan interaksi dengan brand Anda.
           </p>
-          <ul className="text-sm text-gray-600 dark:text-gray-400">
+          <ul className="text-sm text-gray-600">
             <li>• Traffic (ke website atau app)</li>
             <li>• Engagement (likes, comments, shares)</li>
             <li>• App Installs</li>
@@ -97,12 +97,12 @@ export default function Page() {
           </ul>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-4">
           <h3 className="mb-2 font-semibold">Conversion</h3>
-          <p className="mb-2 text-sm text-gray-600 dark:text-gray-400">
+          <p className="mb-2 text-sm text-gray-600">
             Mendorong aksi spesifik yang bernilai bisnis seperti pembelian atau registrasi.
           </p>
-          <ul className="text-sm text-gray-600 dark:text-gray-400">
+          <ul className="text-sm text-gray-600">
             <li>• Conversions (pembelian, registrasi, dll)</li>
             <li>• Catalog Sales</li>
             <li>• Store Traffic</li>
@@ -330,7 +330,7 @@ export default function Page() {
           <TrendingUp className="mt-1 h-5 w-5 flex-shrink-0 text-hadona-primary" />
           <div>
             <h3 className="font-semibold">Mulai dengan Budget Kecil</h3>
-            <p className="text-sm text-gray-600 dark:text-gray-400">
+            <p className="text-sm text-gray-600">
               Mulai dengan budget kecil ($10-20/hari) untuk testing, lalu scale up jika performa
               bagus.
             </p>
@@ -340,7 +340,7 @@ export default function Page() {
           <CheckCircle2 className="mt-1 h-5 w-5 flex-shrink-0 text-hadona-primary" />
           <div>
             <h3 className="font-semibold">Test Multiple Creatives</h3>
-            <p className="text-sm text-gray-600 dark:text-gray-400">
+            <p className="text-sm text-gray-600">
               Buat 3-5 variasi creative dalam satu Ad Set untuk melihat mana yang performa terbaik.
             </p>
           </div>
@@ -349,7 +349,7 @@ export default function Page() {
           <CheckCircle2 className="mt-1 h-5 w-5 flex-shrink-0 text-hadona-primary" />
           <div>
             <h3 className="font-semibold">Gunakan Automatic Placements</h3>
-            <p className="text-sm text-gray-600 dark:text-gray-400">
+            <p className="text-sm text-gray-600">
               Biarkan Meta memilih placement terbaik secara otomatis untuk hasil optimal.
             </p>
           </div>
@@ -374,23 +374,23 @@ export default function Page() {
 
       <h2>Masalah Umum</h2>
       <div className="my-6 space-y-4">
-        <div className="rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-4">
           <h3 className="mb-2 font-semibold">Campaign Ditolak</h3>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-gray-600">
             Cek email atau notification untuk alasan penolakan. Biasanya karena melanggar policy,
             creative tidak jelas, atau landing page bermasalah. Perbaiki dan submit ulang.
           </p>
         </div>
-        <div className="rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-4">
           <h3 className="mb-2 font-semibold">Campaign Tidak Berjalan</h3>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-gray-600">
             Pastikan budget sudah diatur, metode pembayaran valid, dan campaign status "Active".
             Cek juga apakah ada error di Ad Set atau Ad level.
           </p>
         </div>
-        <div className="rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-4">
           <h3 className="mb-2 font-semibold">Tidak Ada Impressions</h3>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-gray-600">
             Audience targeting mungkin terlalu sempit. Coba perlebar audience atau gunakan
             Automatic Placements untuk reach yang lebih luas.
           </p>

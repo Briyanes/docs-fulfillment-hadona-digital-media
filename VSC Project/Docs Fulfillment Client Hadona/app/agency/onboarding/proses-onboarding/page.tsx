@@ -15,7 +15,7 @@ export default function ProsesOnboardingPage() {
       nextTitle="Persiapan"
     >
       <div className="mb-8">
-        <p className="text-xl text-gray-700 dark:text-gray-300">
+        <p className="text-xl text-gray-700">
           Proses onboarding Hadona dirancang untuk memudahkan Anda memulai dengan cepat dan efisien.
           Panduan ini akan menjelaskan langkah-langkah yang perlu Anda lakukan dari awal hingga
           siap menjalankan kampanye pertama.
@@ -29,14 +29,14 @@ export default function ProsesOnboardingPage() {
         kerja, tergantung pada kompleksitas setup dan responsivitas tim Anda.
       </p>
 
-      <div className="my-8 rounded-lg border border-gray-200 bg-gray-50 p-6 dark:border-gray-800 dark:bg-gray-900">
+      <div className="my-8 rounded-lg border border-gray-200 bg-gray-50 p-6">
         <div className="flex items-start gap-3">
           <Clock className="mt-1 h-5 w-5 flex-shrink-0 text-hadona-primary" />
           <div>
-            <h3 className="mb-2 font-semibold text-gray-900 dark:text-gray-100">
+            <h3 className="mb-2 font-semibold text-gray-900">
               Estimasi Waktu
             </h3>
-            <p className="text-sm text-gray-600 dark:text-gray-400">
+            <p className="text-sm text-gray-600">
               Total waktu yang dibutuhkan: <strong>3-5 hari kerja</strong>
               <br />
               Waktu aktif yang diperlukan dari Anda: <strong>2-3 jam</strong>
@@ -74,7 +74,7 @@ export default function ProsesOnboardingPage() {
                   menjawab pertanyaan Anda, dan menyusun rencana setup. Meeting ini biasanya
                   berlangsung selama 30-45 menit.
                 </p>
-                <p className="text-sm text-gray-600 dark:text-gray-400">
+                <p className="text-sm text-gray-600">
                   <strong>Yang akan dibahas:</strong>
                 </p>
                 <ul className="ml-4 list-disc space-y-1 text-sm">
@@ -94,7 +94,7 @@ export default function ProsesOnboardingPage() {
                   Siapkan semua dokumen dan akses yang diperlukan sebelum memulai setup. Ini akan
                   mempercepat proses verifikasi dan konfigurasi.
                 </p>
-                <p className="text-sm text-gray-600 dark:text-gray-400">
+                <p className="text-sm text-gray-600">
                   <strong>Dokumen yang perlu disiapkan:</strong>
                 </p>
                 <ul className="ml-4 list-disc space-y-1 text-sm">
@@ -115,7 +115,7 @@ export default function ProsesOnboardingPage() {
                   dan penautan aset digital (Page, Instagram, Ad Account). Proses ini memerlukan
                   akses dari Anda untuk beberapa langkah.
                 </p>
-                <p className="text-sm text-gray-600 dark:text-gray-400">
+                <p className="text-sm text-gray-600">
                   <strong>Langkah-langkah:</strong>
                 </p>
                 <ul className="ml-4 list-disc space-y-1 text-sm">
@@ -137,7 +137,7 @@ export default function ProsesOnboardingPage() {
                   Setelah Business Manager siap, langkah berikutnya adalah konfigurasi Ads Manager.
                   Ini termasuk setup pixel, audience, dan struktur kampanye dasar.
                 </p>
-                <p className="text-sm text-gray-600 dark:text-gray-400">
+                <p className="text-sm text-gray-600">
                   <strong>Konfigurasi yang dilakukan:</strong>
                 </p>
                 <ul className="ml-4 list-disc space-y-1 text-sm">
@@ -157,7 +157,7 @@ export default function ProsesOnboardingPage() {
                   Tambahkan anggota tim Anda ke platform dan atur permission sesuai dengan role
                   mereka. Ini memastikan setiap orang memiliki akses yang tepat.
                 </p>
-                <p className="text-sm text-gray-600 dark:text-gray-400">
+                <p className="text-sm text-gray-600">
                   <strong>Aktivitas:</strong>
                 </p>
                 <ul className="ml-4 list-disc space-y-1 text-sm">
@@ -178,7 +178,7 @@ export default function ProsesOnboardingPage() {
                   memberikan akses ke dokumentasi lengkap. Anda juga akan mendapatkan best practices
                   untuk optimasi kampanye.
                 </p>
-                <p className="text-sm text-gray-600 dark:text-gray-400">
+                <p className="text-sm text-gray-600">
                   <strong>Materi training:</strong>
                 </p>
                 <ul className="ml-4 list-disc space-y-1 text-sm">
@@ -198,7 +198,7 @@ export default function ProsesOnboardingPage() {
                   Setelah semua setup selesai, Anda siap untuk menjalankan kampanye pertama! Tim
                   Hadona akan terus memberikan support selama periode onboarding dan seterusnya.
                 </p>
-                <p className="text-sm text-gray-600 dark:text-gray-400">
+                <p className="text-sm text-gray-600">
                   <strong>Dukungan yang tersedia:</strong>
                 </p>
                 <ul className="ml-4 list-disc space-y-1 text-sm">
@@ -217,56 +217,56 @@ export default function ProsesOnboardingPage() {
       <p>Gunakan checklist ini untuk memastikan Anda tidak melewatkan langkah penting:</p>
 
       <div className="my-6 space-y-3">
-        <div className="flex items-start gap-3 rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
+        <div className="flex items-start gap-3 rounded-lg border border-gray-200 bg-white p-4">
           <CheckCircle2 className="mt-1 h-5 w-5 flex-shrink-0 text-green-500" />
           <div>
             <div className="font-semibold">Akun Aktif</div>
-            <div className="text-sm text-gray-600 dark:text-gray-400">
+            <div className="text-sm text-gray-600">
               Email terverifikasi dan profil lengkap
             </div>
           </div>
         </div>
-        <div className="flex items-start gap-3 rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
+        <div className="flex items-start gap-3 rounded-lg border border-gray-200 bg-white p-4">
           <CheckCircle2 className="mt-1 h-5 w-5 flex-shrink-0 text-green-500" />
           <div>
             <div className="font-semibold">Kickoff Meeting Selesai</div>
-            <div className="text-sm text-gray-600 dark:text-gray-400">
+            <div className="text-sm text-gray-600">
               Meeting dengan tim Hadona telah dilakukan
             </div>
           </div>
         </div>
-        <div className="flex items-start gap-3 rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
+        <div className="flex items-start gap-3 rounded-lg border border-gray-200 bg-white p-4">
           <CheckCircle2 className="mt-1 h-5 w-5 flex-shrink-0 text-green-500" />
           <div>
             <div className="font-semibold">Dokumen Siap</div>
-            <div className="text-sm text-gray-600 dark:text-gray-400">
+            <div className="text-sm text-gray-600">
               Semua dokumen verifikasi telah disiapkan
             </div>
           </div>
         </div>
-        <div className="flex items-start gap-3 rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
+        <div className="flex items-start gap-3 rounded-lg border border-gray-200 bg-white p-4">
           <CheckCircle2 className="mt-1 h-5 w-5 flex-shrink-0 text-green-500" />
           <div>
             <div className="font-semibold">Business Manager Terverifikasi</div>
-            <div className="text-sm text-gray-600 dark:text-gray-400">
+            <div className="text-sm text-gray-600">
               BM sudah diverifikasi dan aset tertaut
             </div>
           </div>
         </div>
-        <div className="flex items-start gap-3 rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
+        <div className="flex items-start gap-3 rounded-lg border border-gray-200 bg-white p-4">
           <CheckCircle2 className="mt-1 h-5 w-5 flex-shrink-0 text-green-500" />
           <div>
             <div className="font-semibold">Ads Manager Terkonfigurasi</div>
-            <div className="text-sm text-gray-600 dark:text-gray-400">
+            <div className="text-sm text-gray-600">
               Pixel, audience, dan tracking sudah setup
             </div>
           </div>
         </div>
-        <div className="flex items-start gap-3 rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
+        <div className="flex items-start gap-3 rounded-lg border border-gray-200 bg-white p-4">
           <CheckCircle2 className="mt-1 h-5 w-5 flex-shrink-0 text-green-500" />
           <div>
             <div className="font-semibold">Tim Terdaftar</div>
-            <div className="text-sm text-gray-600 dark:text-gray-400">
+            <div className="text-sm text-gray-600">
               Semua anggota tim sudah ditambahkan dengan permission yang tepat
             </div>
           </div>
@@ -284,29 +284,29 @@ export default function ProsesOnboardingPage() {
       <div className="my-6 overflow-x-auto">
         <table className="w-full border-collapse">
           <thead>
-            <tr className="border-b border-gray-200 dark:border-gray-700">
+            <tr className="border-b border-gray-200">
               <th className="px-4 py-3 text-left font-semibold">Hari</th>
               <th className="px-4 py-3 text-left font-semibold">Aktivitas</th>
               <th className="px-4 py-3 text-left font-semibold">Pihak Terlibat</th>
             </tr>
           </thead>
           <tbody>
-            <tr className="border-b border-gray-200 dark:border-gray-700">
+            <tr className="border-b border-gray-200">
               <td className="px-4 py-3">Hari 1</td>
               <td className="px-4 py-3">Registrasi, aktivasi, dan kickoff meeting</td>
               <td className="px-4 py-3">Client + Hadona</td>
             </tr>
-            <tr className="border-b border-gray-200 dark:border-gray-700">
+            <tr className="border-b border-gray-200">
               <td className="px-4 py-3">Hari 2</td>
               <td className="px-4 py-3">Persiapan dokumen dan setup Business Manager</td>
               <td className="px-4 py-3">Client + Hadona</td>
             </tr>
-            <tr className="border-b border-gray-200 dark:border-gray-700">
+            <tr className="border-b border-gray-200">
               <td className="px-4 py-3">Hari 3</td>
               <td className="px-4 py-3">Verifikasi dan konfigurasi Ads Manager</td>
               <td className="px-4 py-3">Hadona (dengan akses Client)</td>
             </tr>
-            <tr className="border-b border-gray-200 dark:border-gray-700">
+            <tr className="border-b border-gray-200">
               <td className="px-4 py-3">Hari 4</td>
               <td className="px-4 py-3">User management dan training</td>
               <td className="px-4 py-3">Client + Hadona</td>
@@ -330,22 +330,22 @@ export default function ProsesOnboardingPage() {
 
       <h2>Pertanyaan Umum</h2>
       <div className="my-6 space-y-4">
-        <div className="rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-4">
           <h3 className="mb-2 font-semibold">Berapa lama proses onboarding?</h3>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-gray-600">
             Rata-rata 3-5 hari kerja, tergantung kompleksitas dan responsivitas tim.
           </p>
         </div>
-        <div className="rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-4">
           <h3 className="mb-2 font-semibold">Apakah saya perlu pengetahuan teknis?</h3>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-gray-600">
             Tidak perlu. Tim Hadona akan memandu Anda di setiap langkah. Namun, pemahaman dasar
             tentang Facebook Ads akan membantu.
           </p>
         </div>
-        <div className="rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-4">
           <h3 className="mb-2 font-semibold">Bagaimana jika saya sudah punya Business Manager?</h3>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-gray-600">
             Tidak masalah! Kami akan menghubungkan Business Manager yang sudah ada ke platform
             Hadona.
           </p>

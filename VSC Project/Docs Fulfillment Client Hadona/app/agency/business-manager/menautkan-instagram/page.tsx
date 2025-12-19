@@ -15,7 +15,7 @@ export default function Page() {
       nextTitle="Menautkan Ad Account"
     >
       <div className="mb-8">
-        <p className="text-xl text-gray-700 dark:text-gray-300">
+        <p className="text-xl text-gray-700">
           Menautkan akun Instagram ke Business Manager memungkinkan Anda menjalankan iklan
           Instagram dan mengelola akun dari satu tempat terpusat. Akun Instagram harus dikonversi
           menjadi Instagram Business Account terlebih dahulu sebelum dapat ditautkan.
@@ -26,26 +26,26 @@ export default function Page() {
       <p>Menautkan Instagram Account memberikan beberapa keuntungan:</p>
 
       <div className="my-8 grid gap-6 md:grid-cols-2">
-        <div className="rounded-lg border border-gray-200 bg-white p-6 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-6">
           <div className="mb-4 flex items-center gap-3">
             <div className="rounded-lg bg-hadona-primary/10 p-2">
               <Instagram className="h-6 w-6 text-hadona-primary" />
             </div>
             <h3 className="text-lg font-semibold">Iklan Instagram</h3>
           </div>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-gray-600">
             Menjalankan kampanye iklan Instagram melalui Ads Manager dengan berbagai format iklan.
           </p>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-white p-6 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-6">
           <div className="mb-4 flex items-center gap-3">
             <div className="rounded-lg bg-hadona-primary/10 p-2">
               <Link2 className="h-6 w-6 text-hadona-primary" />
             </div>
             <h3 className="text-lg font-semibold">Manajemen Terpusat</h3>
           </div>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-gray-600">
             Kelola akun Instagram bersama dengan aset lainnya dari Business Manager.
           </p>
         </div>
@@ -275,36 +275,36 @@ export default function Page() {
 
       <h2>Troubleshooting</h2>
       <div className="my-6 space-y-4">
-        <div className="rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-4">
           <h4 className="mb-2 flex items-center gap-2 font-semibold">
             <AlertTriangle className="h-5 w-5 text-yellow-600" />
             Instagram Tidak Bisa Ditautkan
           </h4>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-gray-600">
             Pastikan akun Instagram sudah dikonversi menjadi Business Account dan sudah ditautkan
             ke Facebook Page. Personal Instagram Account tidak dapat ditautkan ke Business
             Manager.
           </p>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-4">
           <h4 className="mb-2 flex items-center gap-2 font-semibold">
             <AlertTriangle className="h-5 w-5 text-yellow-600" />
             Error Login Instagram
           </h4>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-gray-600">
             Pastikan username dan password Instagram benar. Jika menggunakan Two-Factor
             Authentication, pastikan kode verifikasi dimasukkan dengan benar. Coba login langsung
             ke aplikasi Instagram terlebih dahulu untuk memastikan akun aktif.
           </p>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-4">
           <h4 className="mb-2 flex items-center gap-2 font-semibold">
             <AlertTriangle className="h-5 w-5 text-yellow-600" />
             Instagram Tidak Muncul Otomatis
           </h4>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-gray-600">
             Jika Instagram sudah ditautkan ke Page tetapi tidak muncul di Business Manager, coba
             refresh halaman atau logout dan login ulang. Pastikan juga Page sudah benar-benar
             ditautkan ke Business Manager.

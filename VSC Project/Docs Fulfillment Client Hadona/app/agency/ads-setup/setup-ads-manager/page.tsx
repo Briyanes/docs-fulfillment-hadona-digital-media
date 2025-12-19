@@ -13,7 +13,7 @@ export default function Page() {
       nextTitle="Membuat Campaign"
     >
       <div className="mb-8">
-        <p className="text-xl text-gray-700 dark:text-gray-300">
+        <p className="text-xl text-gray-700">
           Ads Manager adalah platform utama untuk membuat, mengelola, dan mengoptimalkan kampanye
           iklan di Meta (Facebook & Instagram). Panduan ini akan membantu Anda melakukan setup awal
           Ads Manager dengan benar.
@@ -27,38 +27,38 @@ export default function Page() {
       </p>
 
       <div className="my-8 grid gap-6 md:grid-cols-3">
-        <div className="rounded-lg border border-gray-200 bg-white p-6 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-6">
           <div className="mb-4 flex items-center gap-3">
             <div className="rounded-lg bg-hadona-primary/10 p-2">
               <Settings className="h-6 w-6 text-hadona-primary" />
             </div>
             <h3 className="text-lg font-semibold">Kelola Campaign</h3>
           </div>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-gray-600">
             Buat, edit, dan kelola semua kampanye iklan Anda dari satu tempat.
           </p>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-white p-6 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-6">
           <div className="mb-4 flex items-center gap-3">
             <div className="rounded-lg bg-hadona-primary/10 p-2">
               <Target className="h-6 w-6 text-hadona-primary" />
             </div>
             <h3 className="text-lg font-semibold">Targeting Audience</h3>
           </div>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-gray-600">
             Setup dan kelola audience targeting untuk mencapai target pasar yang tepat.
           </p>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-white p-6 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-6">
           <div className="mb-4 flex items-center gap-3">
             <div className="rounded-lg bg-hadona-primary/10 p-2">
               <BarChart3 className="h-6 w-6 text-hadona-primary" />
             </div>
             <h3 className="text-lg font-semibold">Analytics & Reporting</h3>
           </div>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-gray-600">
             Monitor performa kampanye dengan analytics dan reporting yang detail.
           </p>
         </div>
@@ -289,23 +289,23 @@ export default function Page() {
 
       <h2>Masalah Umum</h2>
       <div className="my-6 space-y-4">
-        <div className="rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-4">
           <h3 className="mb-2 font-semibold">Ad Account Tidak Muncul</h3>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-gray-600">
             Pastikan Ad Account sudah ditautkan ke Business Manager dan Anda memiliki permission
             yang tepat. Cek di Business Settings → Accounts → Ad Accounts.
           </p>
         </div>
-        <div className="rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-4">
           <h3 className="mb-2 font-semibold">Metode Pembayaran Ditolak</h3>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-gray-600">
             Pastikan kartu kredit/debit masih valid dan memiliki saldo yang cukup. Jika masalah
             berlanjut, hubungi bank atau gunakan metode pembayaran lain.
           </p>
         </div>
-        <div className="rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-4">
           <h3 className="mb-2 font-semibold">Tidak Bisa Membuat Campaign</h3>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-gray-600">
             Pastikan Page atau Instagram sudah ditautkan dan memiliki status aktif. Juga pastikan
             Ad Account tidak dalam status "Restricted" atau "Disabled".
           </p>

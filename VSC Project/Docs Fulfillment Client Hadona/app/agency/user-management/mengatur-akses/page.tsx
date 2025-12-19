@@ -15,7 +15,7 @@ export default function Page() {
       nextTitle="Role & Permission"
     >
       <div className="mb-8">
-        <p className="text-xl text-gray-700 dark:text-gray-300">
+        <p className="text-xl text-gray-700">
           Mengatur akses user memungkinkan Anda mengontrol apa yang dapat dilihat dan dilakukan oleh
           setiap anggota tim. Halaman ini menjelaskan cara mengubah, menyesuaikan, dan mengelola
           akses user di platform Hadona.
@@ -35,68 +35,68 @@ export default function Page() {
       </p>
 
       <div className="my-6 space-y-4">
-        <div className="rounded-lg border border-gray-200 bg-white p-5 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-5">
           <div className="mb-3 flex items-center gap-3">
             <div className="rounded-lg bg-hadona-primary/10 p-2">
               <Eye className="h-5 w-5 text-hadona-primary" />
             </div>
             <h3 className="text-lg font-semibold">Akses Dashboard</h3>
           </div>
-          <p className="mb-2 text-sm text-gray-600 dark:text-gray-400">
+          <p className="mb-2 text-sm text-gray-600">
             Mengontrol apakah user dapat melihat dashboard dan metrik utama.
           </p>
-          <ul className="ml-4 space-y-1 text-sm text-gray-600 dark:text-gray-400">
+          <ul className="ml-4 space-y-1 text-sm text-gray-600">
             <li>• View: Dapat melihat semua dashboard</li>
             <li>• Restricted: Hanya melihat dashboard tertentu</li>
             <li>• None: Tidak dapat mengakses dashboard</li>
           </ul>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-white p-5 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-5">
           <div className="mb-3 flex items-center gap-3">
             <div className="rounded-lg bg-hadona-primary/10 p-2">
               <Edit className="h-5 w-5 text-hadona-primary" />
             </div>
             <h3 className="text-lg font-semibold">Akses Campaign Management</h3>
           </div>
-          <p className="mb-2 text-sm text-gray-600 dark:text-gray-400">
+          <p className="mb-2 text-sm text-gray-600">
             Mengontrol kemampuan user untuk membuat, mengedit, atau menghapus campaign.
           </p>
-          <ul className="ml-4 space-y-1 text-sm text-gray-600 dark:text-gray-400">
+          <ul className="ml-4 space-y-1 text-sm text-gray-600">
             <li>• Full: Dapat membuat, mengedit, dan menghapus campaign</li>
             <li>• Edit Only: Hanya dapat mengedit campaign yang sudah ada</li>
             <li>• View Only: Hanya dapat melihat campaign</li>
           </ul>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-white p-5 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-5">
           <div className="mb-3 flex items-center gap-3">
             <div className="rounded-lg bg-hadona-primary/10 p-2">
               <Settings className="h-5 w-5 text-hadona-primary" />
             </div>
             <h3 className="text-lg font-semibold">Akses Settings</h3>
           </div>
-          <p className="mb-2 text-sm text-gray-600 dark:text-gray-400">
+          <p className="mb-2 text-sm text-gray-600">
             Mengontrol akses ke pengaturan sistem dan konfigurasi.
           </p>
-          <ul className="ml-4 space-y-1 text-sm text-gray-600 dark:text-gray-400">
+          <ul className="ml-4 space-y-1 text-sm text-gray-600">
             <li>• Full: Dapat mengubah semua settings</li>
             <li>• Limited: Hanya dapat mengubah settings tertentu</li>
             <li>• None: Tidak dapat mengakses settings</li>
           </ul>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-white p-5 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-5">
           <div className="mb-3 flex items-center gap-3">
             <div className="rounded-lg bg-hadona-primary/10 p-2">
               <Shield className="h-5 w-5 text-hadona-primary" />
             </div>
             <h3 className="text-lg font-semibold">Akses User Management</h3>
           </div>
-          <p className="mb-2 text-sm text-gray-600 dark:text-gray-400">
+          <p className="mb-2 text-sm text-gray-600">
             Mengontrol kemampuan untuk menambah, mengedit, atau menghapus user lain.
           </p>
-          <ul className="ml-4 space-y-1 text-sm text-gray-600 dark:text-gray-400">
+          <ul className="ml-4 space-y-1 text-sm text-gray-600">
             <li>• Full: Dapat mengelola semua user</li>
             <li>• View Only: Hanya dapat melihat daftar user</li>
             <li>• None: Tidak dapat mengakses user management</li>
@@ -157,7 +157,7 @@ export default function Page() {
                 <p className="mb-3">
                   Pilih level akses yang ingin diberikan. Anda dapat memilih dari:
                 </p>
-                <div className="my-4 space-y-2 rounded-lg border border-gray-200 bg-gray-50 p-4 dark:border-gray-700 dark:bg-gray-800">
+                <div className="my-4 space-y-2 rounded-lg border border-gray-200 bg-gray-50 p-4">
                   <div className="flex items-center gap-2">
                     <Lock className="h-4 w-4 text-red-500" />
                     <strong>Admin</strong> - Akses penuh ke semua fitur
@@ -182,7 +182,7 @@ export default function Page() {
                   Jika platform mendukung custom permissions, Anda dapat mengatur akses spesifik
                   untuk setiap fitur. Centang atau uncentang checkbox sesuai kebutuhan.
                 </p>
-                <p className="text-sm text-gray-600 dark:text-gray-400">
+                <p className="text-sm text-gray-600">
                   Contoh: User dapat melihat campaign tetapi tidak dapat mengedit budget.
                 </p>
               </div>
@@ -214,7 +214,7 @@ export default function Page() {
         jika Anda ingin membatasi user hanya pada project tertentu.
       </p>
 
-      <div className="my-6 rounded-lg border border-gray-200 bg-white p-5 dark:border-gray-800 dark:bg-gray-900">
+      <div className="my-6 rounded-lg border border-gray-200 bg-white p-5">
         <h3 className="mb-3 font-semibold">Cara Mengatur Akses Per Project:</h3>
         <ol className="ml-4 space-y-2 text-sm">
           <li className="list-decimal">
@@ -239,7 +239,7 @@ export default function Page() {
           <CheckCircle2 className="mt-1 h-5 w-5 flex-shrink-0 text-green-500" />
           <div>
             <strong>Prinsip Least Privilege</strong>
-            <p className="text-sm text-gray-600 dark:text-gray-400">
+            <p className="text-sm text-gray-600">
               Berikan akses minimal yang diperlukan untuk user melakukan tugasnya. Jangan berikan
               akses Admin jika user hanya perlu melihat laporan.
             </p>
@@ -249,7 +249,7 @@ export default function Page() {
           <CheckCircle2 className="mt-1 h-5 w-5 flex-shrink-0 text-green-500" />
           <div>
             <strong>Review Akses Secara Berkala</strong>
-            <p className="text-sm text-gray-600 dark:text-gray-400">
+            <p className="text-sm text-gray-600">
               Lakukan review akses setiap 3-6 bulan untuk memastikan user masih memerlukan akses
               yang diberikan. Hapus akses yang tidak lagi diperlukan.
             </p>
@@ -259,7 +259,7 @@ export default function Page() {
           <CheckCircle2 className="mt-1 h-5 w-5 flex-shrink-0 text-green-500" />
           <div>
             <strong>Dokumentasi Perubahan</strong>
-            <p className="text-sm text-gray-600 dark:text-gray-400">
+            <p className="text-sm text-gray-600">
               Catat setiap perubahan akses yang dilakukan, termasuk alasan perubahan. Ini membantu
               dalam audit dan troubleshooting.
             </p>
@@ -269,7 +269,7 @@ export default function Page() {
           <AlertCircle className="mt-1 h-5 w-5 flex-shrink-0 text-yellow-500" />
           <div>
             <strong>Komunikasi dengan User</strong>
-            <p className="text-sm text-gray-600 dark:text-gray-400">
+            <p className="text-sm text-gray-600">
               Beri tahu user jika akses mereka diubah, terutama jika akses dikurangi. Ini
               menghindari kebingungan dan membantu user memahami perubahan.
             </p>
@@ -280,26 +280,26 @@ export default function Page() {
       <h2>Troubleshooting</h2>
 
       <div className="my-6 space-y-4">
-        <div className="rounded-lg border border-gray-200 bg-white p-5 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-5">
           <h3 className="mb-2 font-semibold">User masih memiliki akses setelah diubah</h3>
-          <ul className="ml-4 space-y-1 text-sm text-gray-600 dark:text-gray-400">
+          <ul className="ml-4 space-y-1 text-sm text-gray-600">
             <li>• Pastikan perubahan sudah disimpan dengan benar</li>
             <li>• Minta user untuk logout dan login kembali</li>
             <li>• Clear cache browser user</li>
             <li>• Periksa apakah ada multiple roles yang diberikan</li>
           </ul>
         </div>
-        <div className="rounded-lg border border-gray-200 bg-white p-5 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-5">
           <h3 className="mb-2 font-semibold">Tidak bisa mengubah akses user tertentu</h3>
-          <ul className="ml-4 space-y-1 text-sm text-gray-600 dark:text-gray-400">
+          <ul className="ml-4 space-y-1 text-sm text-gray-600">
             <li>• Pastikan Anda memiliki akses Admin</li>
             <li>• Periksa apakah user tersebut adalah super admin yang tidak dapat diubah</li>
             <li>• Hubungi support jika masalah berlanjut</li>
           </ul>
         </div>
-        <div className="rounded-lg border border-gray-200 bg-white p-5 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-5">
           <h3 className="mb-2 font-semibold">User kehilangan akses yang seharusnya dimiliki</h3>
-          <ul className="ml-4 space-y-1 text-sm text-gray-600 dark:text-gray-400">
+          <ul className="ml-4 space-y-1 text-sm text-gray-600">
             <li>• Periksa kembali pengaturan akses user</li>
             <li>• Periksa audit log untuk melihat perubahan terakhir</li>
             <li>• Restore akses yang diperlukan</li>

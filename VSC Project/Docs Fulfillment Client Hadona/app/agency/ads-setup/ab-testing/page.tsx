@@ -15,7 +15,7 @@ export default function Page() {
       nextTitle="Reporting & Analytics"
     >
       <div className="mb-8">
-        <p className="text-xl text-gray-700 dark:text-gray-300">
+        <p className="text-xl text-gray-700">
           A/B Testing adalah metode untuk membandingkan dua atau lebih variasi untuk menemukan mana
           yang performa terbaik. Panduan ini akan membantu Anda setup dan menjalankan A/B test yang
           efektif.
@@ -24,38 +24,38 @@ export default function Page() {
 
       <h2>Mengapa A/B Testing Penting?</h2>
       <div className="my-8 grid gap-6 md:grid-cols-3">
-        <div className="rounded-lg border border-gray-200 bg-white p-6 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-6">
           <div className="mb-4 flex items-center gap-3">
             <div className="rounded-lg bg-hadona-primary/10 p-2">
               <FlaskConical className="h-6 w-6 text-hadona-primary" />
             </div>
             <h3 className="text-lg font-semibold">Data-Driven Decisions</h3>
           </div>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-gray-600">
             Membuat keputusan berdasarkan data, bukan asumsi atau feeling.
           </p>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-white p-6 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-6">
           <div className="mb-4 flex items-center gap-3">
             <div className="rounded-lg bg-hadona-primary/10 p-2">
               <Target className="h-6 w-6 text-hadona-primary" />
             </div>
             <h3 className="text-lg font-semibold">Continuous Improvement</h3>
           </div>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-gray-600">
             Meningkatkan performa campaign secara berkelanjutan melalui iterasi testing.
           </p>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-white p-6 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-6">
           <div className="mb-4 flex items-center gap-3">
             <div className="rounded-lg bg-hadona-primary/10 p-2">
               <Image className="h-6 w-6 text-hadona-primary" />
             </div>
             <h3 className="text-lg font-semibold">Lower CPA</h3>
           </div>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-gray-600">
             Menemukan creative dan strategy terbaik untuk menurunkan Cost Per Acquisition.
           </p>
         </div>
@@ -63,9 +63,9 @@ export default function Page() {
 
       <h2>Apa yang Bisa Di-test?</h2>
       <div className="my-6 space-y-4">
-        <div className="rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-4">
           <h3 className="mb-2 font-semibold">Creative Elements</h3>
-          <ul className="text-sm text-gray-600 dark:text-gray-400">
+          <ul className="text-sm text-gray-600">
             <li>• Image vs Video</li>
             <li>• Berbagai style creative (lifestyle vs product shot)</li>
             <li>• Warna, komposisi, atau angle yang berbeda</li>
@@ -73,9 +73,9 @@ export default function Page() {
           </ul>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-4">
           <h3 className="mb-2 font-semibold">Copy & Messaging</h3>
-          <ul className="text-sm text-gray-600 dark:text-gray-400">
+          <ul className="text-sm text-gray-600">
             <li>• Headline variations (benefit-focused vs feature-focused)</li>
             <li>• Primary text (short vs long, different hooks)</li>
             <li>• Value propositions</li>
@@ -83,9 +83,9 @@ export default function Page() {
           </ul>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-4">
           <h3 className="mb-2 font-semibold">Targeting & Placement</h3>
-          <ul className="text-sm text-gray-600 dark:text-gray-400">
+          <ul className="text-sm text-gray-600">
             <li>• Audience types (Saved vs Custom vs Lookalike)</li>
             <li>• Lookalike percentages (1% vs 5% vs 10%)</li>
             <li>• Placement (Feed vs Stories vs Reels)</li>
@@ -93,9 +93,9 @@ export default function Page() {
           </ul>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-4">
           <h3 className="mb-2 font-semibold">Campaign Settings</h3>
-          <ul className="text-sm text-gray-600 dark:text-gray-400">
+          <ul className="text-sm text-gray-600">
             <li>• Objectives (Traffic vs Conversions)</li>
             <li>• Bid strategies (Lowest Cost vs Cost Cap)</li>
             <li>• Campaign Budget Optimization ON vs OFF</li>
@@ -258,7 +258,7 @@ export default function Page() {
           <CheckCircle2 className="mt-1 h-5 w-5 flex-shrink-0 text-hadona-primary" />
           <div>
             <h3 className="font-semibold">Test One Variable at a Time</h3>
-            <p className="text-sm text-gray-600 dark:text-gray-400">
+            <p className="text-sm text-gray-600">
               Hanya test satu variabel per test untuk hasil yang valid. Multi-variable testing
               membutuhkan sample size yang jauh lebih besar.
             </p>
@@ -268,7 +268,7 @@ export default function Page() {
           <CheckCircle2 className="mt-1 h-5 w-5 flex-shrink-0 text-hadona-primary" />
           <div>
             <h3 className="font-semibold">Run Tests Simultaneously</h3>
-            <p className="text-sm text-gray-600 dark:text-gray-400">
+            <p className="text-sm text-gray-600">
               Jalankan semua variations secara bersamaan untuk kondisi yang fair. External factors
               (hari, waktu, seasonality) dapat mempengaruhi hasil.
             </p>
@@ -278,7 +278,7 @@ export default function Page() {
           <CheckCircle2 className="mt-1 h-5 w-5 flex-shrink-0 text-hadona-primary" />
           <div>
             <h3 className="font-semibold">Wait for Statistical Significance</h3>
-            <p className="text-sm text-gray-600 dark:text-gray-400">
+            <p className="text-sm text-gray-600">
               Jangan declare winner terlalu cepat. Tunggu hingga mencapai 95%+ confidence level
               atau minimal 7 hari dengan 100+ conversions per variation.
             </p>
@@ -288,7 +288,7 @@ export default function Page() {
           <CheckCircle2 className="mt-1 h-5 w-5 flex-shrink-0 text-hadona-primary" />
           <div>
             <h3 className="font-semibold">Document Everything</h3>
-            <p className="text-sm text-gray-600 dark:text-gray-400">
+            <p className="text-sm text-gray-600">
               Document hypothesis, setup, results, dan insights. Ini membantu learning jangka
               panjang dan menghindari test yang sama berulang kali.
             </p>
@@ -298,7 +298,7 @@ export default function Page() {
           <CheckCircle2 className="mt-1 h-5 w-5 flex-shrink-0 text-hadona-primary" />
           <div>
             <h3 className="font-semibold">Test Continuously</h3>
-            <p className="text-sm text-gray-600 dark:text-gray-400">
+            <p className="text-sm text-gray-600">
               A/B testing adalah proses berkelanjutan. Selalu ada room untuk improvement. Setelah
               satu test selesai, setup test berikutnya.
             </p>
@@ -308,30 +308,30 @@ export default function Page() {
 
       <h2>Common A/B Testing Mistakes</h2>
       <div className="my-6 space-y-4">
-        <div className="rounded-lg border border-red-200 bg-red-50 p-4 dark:border-red-800 dark:bg-red-900/20">
-          <h3 className="mb-2 font-semibold text-red-800 dark:text-red-200">Stopping Test Terlalu Cepat</h3>
-          <p className="text-sm text-red-700 dark:text-red-300">
+        <div className="rounded-lg border border-red-200 bg-red-50 p-4">
+          <h3 className="mb-2 font-semibold text-red-800">Stopping Test Terlalu Cepat</h3>
+          <p className="text-sm text-red-700">
             Membuat conclusions setelah 1-2 hari atau dengan sample size terlalu kecil. Ini
             menghasilkan false positives dan bad decisions.
           </p>
         </div>
-        <div className="rounded-lg border border-red-200 bg-red-50 p-4 dark:border-red-800 dark:bg-red-900/20">
-          <h3 className="mb-2 font-semibold text-red-800 dark:text-red-200">Testing Multiple Variables</h3>
-          <p className="text-sm text-red-700 dark:text-red-300">
+        <div className="rounded-lg border border-red-200 bg-red-50 p-4">
+          <h3 className="mb-2 font-semibold text-red-800">Testing Multiple Variables</h3>
+          <p className="text-sm text-red-700">
             Test creative DAN audience DAN bid strategy sekaligus. Ini membuat tidak jelas mana
             yang menyebabkan perbedaan performa.
           </p>
         </div>
-        <div className="rounded-lg border border-red-200 bg-red-50 p-4 dark:border-red-800 dark:bg-red-900/20">
-          <h3 className="mb-2 font-semibold text-red-800 dark:text-red-200">Tidak Equal Budget</h3>
-          <p className="text-sm text-red-700 dark:text-red-300">
+        <div className="rounded-lg border border-red-200 bg-red-50 p-4">
+          <h3 className="mb-2 font-semibold text-red-800">Tidak Equal Budget</h3>
+          <p className="text-sm text-red-700">
             Memberikan budget berbeda untuk setiap variation. Ini membuat comparison tidak fair
             karena sample size berbeda.
           </p>
         </div>
-        <div className="rounded-lg border border-red-200 bg-red-50 p-4 dark:border-red-800 dark:bg-red-900/20">
-          <h3 className="mb-2 font-semibold text-red-800 dark:text-red-200">Tidak Document Insights</h3>
-          <p className="text-sm text-red-700 dark:text-red-300">
+        <div className="rounded-lg border border-red-200 bg-red-50 p-4">
+          <h3 className="mb-2 font-semibold text-red-800">Tidak Document Insights</h3>
+          <p className="text-sm text-red-700">
             Tidak document results dan insights. Ini membuat learning hilang dan mungkin test hal
             yang sama berulang kali.
           </p>

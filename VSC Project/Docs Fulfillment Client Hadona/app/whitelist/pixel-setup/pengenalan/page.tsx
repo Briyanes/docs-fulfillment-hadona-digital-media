@@ -12,7 +12,7 @@ export default function Page() {
       nextTitle="Membuat Meta Pixel"
     >
       <div className="mb-8">
-        <p className="text-xl text-gray-700 dark:text-gray-300">
+        <p className="text-xl text-gray-700">
           Meta Pixel adalah tool tracking yang memungkinkan Anda mengukur efektivitas iklan dengan
           melacak tindakan yang dilakukan pengunjung di website Anda. Panduan ini akan membantu Anda
           memahami konsep dasar dan manfaat Meta Pixel.
@@ -26,37 +26,37 @@ export default function Page() {
       </p>
 
       <div className="my-8 grid gap-6 md:grid-cols-2">
-        <div className="rounded-lg border border-gray-200 bg-white p-6 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-6">
           <Target className="mb-3 h-8 w-8 text-hadona-primary" />
           <h3 className="mb-2 text-lg font-semibold">Track Conversions</h3>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-gray-600">
             Melacak konversi seperti pembelian, pendaftaran, atau download untuk mengukur ROI iklan
             Anda.
           </p>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-white p-6 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-6">
           <BarChart3 className="mb-3 h-8 w-8 text-hadona-primary" />
           <h3 className="mb-2 text-lg font-semibold">Optimize Campaigns</h3>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-gray-600">
             Meta menggunakan data pixel untuk mengoptimalkan delivery iklan ke audience yang paling
             mungkin melakukan konversi.
           </p>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-white p-6 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-6">
           <Users className="mb-3 h-8 w-8 text-hadona-primary" />
           <h3 className="mb-2 text-lg font-semibold">Build Custom Audiences</h3>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-gray-600">
             Membuat custom audience berdasarkan pengunjung website untuk retargeting dan lookalike
             audiences.
           </p>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-white p-6 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-6">
           <ShoppingCart className="mb-3 h-8 w-8 text-hadona-primary" />
           <h3 className="mb-2 text-lg font-semibold">Track E-commerce Events</h3>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-gray-600">
             Melacak event e-commerce seperti Add to Cart, Initiate Checkout, dan Purchase untuk
             analisis yang lebih detail.
           </p>
@@ -101,76 +101,76 @@ export default function Page() {
         Meta Pixel dapat melacak berbagai jenis event. Berikut adalah event standar yang tersedia:
       </p>
 
-      <div className="my-8 overflow-x-auto rounded-lg border border-gray-200 dark:border-gray-800">
+      <div className="my-8 overflow-x-auto rounded-lg border border-gray-200">
         <table className="w-full">
-          <thead className="bg-gray-50 dark:bg-gray-900">
+          <thead className="bg-gray-50">
             <tr>
               <th className="px-4 py-3 text-left text-sm font-semibold">Event</th>
               <th className="px-4 py-3 text-left text-sm font-semibold">Deskripsi</th>
               <th className="px-4 py-3 text-left text-sm font-semibold">Use Case</th>
             </tr>
           </thead>
-          <tbody className="divide-y divide-gray-200 dark:divide-gray-800">
+          <tbody className="divide-y divide-gray-200">
             <tr>
               <td className="px-4 py-3 text-sm font-medium">PageView</td>
-              <td className="px-4 py-3 text-sm text-gray-600 dark:text-gray-400">
+              <td className="px-4 py-3 text-sm text-gray-600">
                 Terpicu otomatis saat halaman dimuat
               </td>
-              <td className="px-4 py-3 text-sm text-gray-600 dark:text-gray-400">
+              <td className="px-4 py-3 text-sm text-gray-600">
                 Tracking semua kunjungan website
               </td>
             </tr>
-            <tr className="bg-gray-50 dark:bg-gray-900">
+            <tr className="bg-gray-50">
               <td className="px-4 py-3 text-sm font-medium">ViewContent</td>
-              <td className="px-4 py-3 text-sm text-gray-600 dark:text-gray-400">
+              <td className="px-4 py-3 text-sm text-gray-600">
                 Melihat konten produk/halaman
               </td>
-              <td className="px-4 py-3 text-sm text-gray-600 dark:text-gray-400">
+              <td className="px-4 py-3 text-sm text-gray-600">
                 E-commerce: melihat detail produk
               </td>
             </tr>
             <tr>
               <td className="px-4 py-3 text-sm font-medium">AddToCart</td>
-              <td className="px-4 py-3 text-sm text-gray-600 dark:text-gray-400">
+              <td className="px-4 py-3 text-sm text-gray-600">
                 Menambahkan item ke keranjang
               </td>
-              <td className="px-4 py-3 text-sm text-gray-600 dark:text-gray-400">
+              <td className="px-4 py-3 text-sm text-gray-600">
                 E-commerce: tracking minat pembelian
               </td>
             </tr>
-            <tr className="bg-gray-50 dark:bg-gray-900">
+            <tr className="bg-gray-50">
               <td className="px-4 py-3 text-sm font-medium">InitiateCheckout</td>
-              <td className="px-4 py-3 text-sm text-gray-600 dark:text-gray-400">
+              <td className="px-4 py-3 text-sm text-gray-600">
                 Memulai proses checkout
               </td>
-              <td className="px-4 py-3 text-sm text-gray-600 dark:text-gray-400">
+              <td className="px-4 py-3 text-sm text-gray-600">
                 E-commerce: tracking intent pembelian tinggi
               </td>
             </tr>
             <tr>
               <td className="px-4 py-3 text-sm font-medium">Purchase</td>
-              <td className="px-4 py-3 text-sm text-gray-600 dark:text-gray-400">
+              <td className="px-4 py-3 text-sm text-gray-600">
                 Menyelesaikan pembelian
               </td>
-              <td className="px-4 py-3 text-sm text-gray-600 dark:text-gray-400">
+              <td className="px-4 py-3 text-sm text-gray-600">
                 E-commerce: konversi utama
               </td>
             </tr>
-            <tr className="bg-gray-50 dark:bg-gray-900">
+            <tr className="bg-gray-50">
               <td className="px-4 py-3 text-sm font-medium">Lead</td>
-              <td className="px-4 py-3 text-sm text-gray-600 dark:text-gray-400">
+              <td className="px-4 py-3 text-sm text-gray-600">
                 Submit form atau mendaftar
               </td>
-              <td className="px-4 py-3 text-sm text-gray-600 dark:text-gray-400">
+              <td className="px-4 py-3 text-sm text-gray-600">
                 Lead generation campaigns
               </td>
             </tr>
             <tr>
               <td className="px-4 py-3 text-sm font-medium">CompleteRegistration</td>
-              <td className="px-4 py-3 text-sm text-gray-600 dark:text-gray-400">
+              <td className="px-4 py-3 text-sm text-gray-600">
                 Menyelesaikan registrasi akun
               </td>
-              <td className="px-4 py-3 text-sm text-gray-600 dark:text-gray-400">
+              <td className="px-4 py-3 text-sm text-gray-600">
                 App/Website: tracking sign-ups
               </td>
             </tr>
@@ -185,7 +185,7 @@ export default function Page() {
           <Zap className="mt-1 h-5 w-5 flex-shrink-0 text-hadona-primary" />
           <div>
             <h3 className="mb-1 font-semibold">Optimasi Otomatis</h3>
-            <p className="text-sm text-gray-600 dark:text-gray-400">
+            <p className="text-sm text-gray-600">
               Meta menggunakan data pixel untuk secara otomatis mengoptimalkan delivery iklan ke
               orang yang paling mungkin melakukan konversi, meningkatkan ROI kampanye Anda.
             </p>
@@ -196,7 +196,7 @@ export default function Page() {
           <Target className="mt-1 h-5 w-5 flex-shrink-0 text-hadona-primary" />
           <div>
             <h3 className="mb-1 font-semibold">Retargeting yang Akurat</h3>
-            <p className="text-sm text-gray-600 dark:text-gray-400">
+            <p className="text-sm text-gray-600">
               Buat custom audience berdasarkan pengunjung website untuk retargeting yang lebih efektif
               dan relevan.
             </p>
@@ -207,7 +207,7 @@ export default function Page() {
           <BarChart3 className="mt-1 h-5 w-5 flex-shrink-0 text-hadona-primary" />
           <div>
             <h3 className="mb-1 font-semibold">Data-Driven Decisions</h3>
-            <p className="text-sm text-gray-600 dark:text-gray-400">
+            <p className="text-sm text-gray-600">
               Dapatkan insight mendalam tentang perilaku pengunjung dan performa kampanye untuk
               membuat keputusan berbasis data.
             </p>
@@ -218,7 +218,7 @@ export default function Page() {
           <Shield className="mt-1 h-5 w-5 flex-shrink-0 text-hadona-primary" />
           <div>
             <h3 className="mb-1 font-semibold">Attribution yang Akurat</h3>
-            <p className="text-sm text-gray-600 dark:text-gray-400">
+            <p className="text-sm text-gray-600">
               Track konversi dengan akurat dan lihat bagaimana iklan Meta berkontribusi terhadap
               revenue bisnis Anda.
             </p>

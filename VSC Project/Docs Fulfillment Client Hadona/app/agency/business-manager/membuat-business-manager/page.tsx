@@ -13,7 +13,7 @@ export default function Page() {
       nextTitle="Verifikasi Business Manager"
     >
       <div className="mb-8">
-        <p className="text-xl text-gray-700 dark:text-gray-300">
+        <p className="text-xl text-gray-700">
           Business Manager adalah pusat kontrol untuk mengelola semua aset bisnis Anda di Meta
           (Facebook & Instagram). Panduan ini akan membantu Anda membuat Business Manager baru
           dengan langkah-langkah yang jelas.
@@ -28,38 +28,38 @@ export default function Page() {
       </p>
 
       <div className="my-8 grid gap-6 md:grid-cols-3">
-        <div className="rounded-lg border border-gray-200 bg-white p-6 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-6">
           <div className="mb-4 flex items-center gap-3">
             <div className="rounded-lg bg-hadona-primary/10 p-2">
               <Building2 className="h-6 w-6 text-hadona-primary" />
             </div>
             <h3 className="text-lg font-semibold">Kelola Aset</h3>
           </div>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-gray-600">
             Kelola semua halaman, akun Instagram, dan akun iklan dalam satu dashboard terpusat.
           </p>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-white p-6 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-6">
           <div className="mb-4 flex items-center gap-3">
             <div className="rounded-lg bg-hadona-primary/10 p-2">
               <Users className="h-6 w-6 text-hadona-primary" />
             </div>
             <h3 className="text-lg font-semibold">Kelola Tim</h3>
           </div>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-gray-600">
             Tambahkan anggota tim dan atur permission yang berbeda untuk setiap orang.
           </p>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-white p-6 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-6">
           <div className="mb-4 flex items-center gap-3">
             <div className="rounded-lg bg-hadona-primary/10 p-2">
               <Shield className="h-6 w-6 text-hadona-primary" />
             </div>
             <h3 className="text-lg font-semibold">Keamanan</h3>
           </div>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-gray-600">
             Kontrol akses yang lebih baik dan keamanan yang lebih kuat untuk aset bisnis Anda.
           </p>
         </div>

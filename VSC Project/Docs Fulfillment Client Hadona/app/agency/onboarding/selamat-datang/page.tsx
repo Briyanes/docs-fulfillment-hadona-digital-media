@@ -12,7 +12,7 @@ export default function SelamatDatangPage() {
       nextTitle="Mengapa Hadona"
     >
       <div className="mb-8">
-        <p className="text-xl text-gray-700 dark:text-gray-300">
+        <p className="text-xl text-gray-700">
           Selamat datang di Hadona Digital Media! Kami senang Anda bergabung dengan kami. Panduan
           ini akan membantu Anda memulai perjalanan digital marketing yang sukses bersama Hadona.
         </p>
@@ -32,53 +32,53 @@ export default function SelamatDatangPage() {
       </p>
 
       <div className="my-8 grid gap-6 md:grid-cols-2">
-        <div className="rounded-lg border border-gray-200 bg-white p-6 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-6">
           <div className="mb-4 flex items-center gap-3">
             <div className="rounded-lg bg-hadona-primary/10 p-2">
               <Users className="h-6 w-6 text-hadona-primary" />
             </div>
             <h3 className="text-lg font-semibold">Business Manager</h3>
           </div>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-gray-600">
             Setup dan kelola Business Manager, verifikasi akun, dan tautkan aset digital Anda
             (Page, Instagram, Ad Account).
           </p>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-white p-6 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-6">
           <div className="mb-4 flex items-center gap-3">
             <div className="rounded-lg bg-hadona-primary/10 p-2">
               <Rocket className="h-6 w-6 text-hadona-primary" />
             </div>
             <h3 className="text-lg font-semibold">Ads Setup</h3>
           </div>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-gray-600">
             Buat dan optimalkan kampanye iklan, setup audience, kelola budget, dan monitor
             performa iklan Anda.
           </p>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-white p-6 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-6">
           <div className="mb-4 flex items-center gap-3">
             <div className="rounded-lg bg-hadona-primary/10 p-2">
               <BarChart3 className="h-6 w-6 text-hadona-primary" />
             </div>
             <h3 className="text-lg font-semibold">User Management</h3>
           </div>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-gray-600">
             Kelola tim Anda, atur permission dan akses, serta monitor aktivitas pengguna dengan
             audit log.
           </p>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-white p-6 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-6">
           <div className="mb-4 flex items-center gap-3">
             <div className="rounded-lg bg-hadona-primary/10 p-2">
               <Shield className="h-6 w-6 text-hadona-primary" />
             </div>
             <h3 className="text-lg font-semibold">Best Practices</h3>
           </div>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-gray-600">
             Pelajari tips keamanan, optimasi performa, troubleshooting, dan best practices untuk
             hasil maksimal.
           </p>

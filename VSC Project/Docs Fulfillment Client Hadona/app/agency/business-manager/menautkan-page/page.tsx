@@ -15,7 +15,7 @@ export default function Page() {
       nextTitle="Menautkan Instagram Account"
     >
       <div className="mb-8">
-        <p className="text-xl text-gray-700 dark:text-gray-300">
+        <p className="text-xl text-gray-700">
           Menautkan Facebook Page ke Business Manager memungkinkan Anda mengelola halaman dari
           satu tempat terpusat. Ini adalah langkah penting sebelum membuat kampanye iklan, karena
           setiap iklan memerlukan Page yang terhubung ke Business Manager.
@@ -26,26 +26,26 @@ export default function Page() {
       <p>Menautkan Facebook Page memberikan beberapa keuntungan:</p>
 
       <div className="my-8 grid gap-6 md:grid-cols-2">
-        <div className="rounded-lg border border-gray-200 bg-white p-6 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-6">
           <div className="mb-4 flex items-center gap-3">
             <div className="rounded-lg bg-hadona-primary/10 p-2">
               <Facebook className="h-6 w-6 text-hadona-primary" />
             </div>
             <h3 className="text-lg font-semibold">Manajemen Terpusat</h3>
           </div>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-gray-600">
             Kelola semua halaman Facebook dari satu dashboard Business Manager yang terpusat.
           </p>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-white p-6 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-6">
           <div className="mb-4 flex items-center gap-3">
             <div className="rounded-lg bg-hadona-primary/10 p-2">
               <Link2 className="h-6 w-6 text-hadona-primary" />
             </div>
             <h3 className="text-lg font-semibold">Akses Tim</h3>
           </div>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-gray-600">
             Berikan akses ke anggota tim tanpa harus memberikan password akun Facebook pribadi.
           </p>
         </div>
@@ -294,35 +294,35 @@ export default function Page() {
 
       <h2>Troubleshooting</h2>
       <div className="my-6 space-y-4">
-        <div className="rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-4">
           <h4 className="mb-2 flex items-center gap-2 font-semibold">
             <AlertTriangle className="h-5 w-5 text-yellow-600" />
             Page Tidak Muncul dalam Daftar
           </h4>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-gray-600">
             Pastikan Anda memiliki peran admin di Page tersebut. Periksa juga apakah Page sudah
             ditautkan ke Business Manager lain. Jika ya, minta admin Business Manager tersebut
             untuk melepas Page terlebih dahulu.
           </p>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-4">
           <h4 className="mb-2 flex items-center gap-2 font-semibold">
             <AlertTriangle className="h-5 w-5 text-yellow-600" />
             Request Access Ditolak
           </h4>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-gray-600">
             Hubungi admin Page untuk membahas kebutuhan akses. Pastikan Anda menjelaskan alasan
             mengapa akses diperlukan dan permission apa yang dibutuhkan.
           </p>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-4">
           <h4 className="mb-2 flex items-center gap-2 font-semibold">
             <AlertTriangle className="h-5 w-5 text-yellow-600" />
             Error Saat Menautkan
           </h4>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-gray-600">
             Coba refresh halaman dan pastikan koneksi internet stabil. Jika masalah berlanjut,
             coba logout dan login ulang ke Business Manager.
           </p>

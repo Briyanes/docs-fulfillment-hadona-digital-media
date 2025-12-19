@@ -13,7 +13,7 @@ export default function Page() {
       nextTitle="Optimasi Performance"
     >
       <div className="mb-8">
-        <p className="text-xl text-gray-700 dark:text-gray-300">
+        <p className="text-xl text-gray-700">
           Keamanan akun adalah prioritas utama dalam mengelola kampanye iklan digital. Panduan ini
           akan membantu Anda melindungi akun Business Manager dan aset digital Anda dari ancaman
           keamanan.
@@ -35,53 +35,53 @@ export default function Page() {
       <h2>Best Practices Keamanan</h2>
 
       <div className="my-8 grid gap-6 md:grid-cols-2">
-        <div className="rounded-lg border border-gray-200 bg-white p-6 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-6">
           <div className="mb-4 flex items-center gap-3">
             <div className="rounded-lg bg-hadona-primary/10 p-2">
               <Lock className="h-6 w-6 text-hadona-primary" />
             </div>
             <h3 className="text-lg font-semibold">Two-Factor Authentication (2FA)</h3>
           </div>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-gray-600">
             Aktifkan 2FA untuk semua akun yang memiliki akses ke Business Manager. Ini menambahkan
             lapisan keamanan ekstra dengan memerlukan kode verifikasi selain password.
           </p>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-white p-6 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-6">
           <div className="mb-4 flex items-center gap-3">
             <div className="rounded-lg bg-hadona-primary/10 p-2">
               <Key className="h-6 w-6 text-hadona-primary" />
             </div>
             <h3 className="text-lg font-semibold">Password yang Kuat</h3>
           </div>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-gray-600">
             Gunakan password yang unik dan kompleks untuk setiap akun. Kombinasikan huruf besar,
             kecil, angka, dan simbol. Jangan gunakan password yang sama untuk beberapa akun.
           </p>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-white p-6 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-6">
           <div className="mb-4 flex items-center gap-3">
             <div className="rounded-lg bg-hadona-primary/10 p-2">
               <Eye className="h-6 w-6 text-hadona-primary" />
             </div>
             <h3 className="text-lg font-semibold">Audit Akses Berkala</h3>
           </div>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-gray-600">
             Lakukan review berkala terhadap daftar pengguna yang memiliki akses ke Business
             Manager. Hapus akses untuk pengguna yang tidak lagi membutuhkannya.
           </p>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-white p-6 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-6">
           <div className="mb-4 flex items-center gap-3">
             <div className="rounded-lg bg-hadona-primary/10 p-2">
               <Shield className="h-6 w-6 text-hadona-primary" />
             </div>
             <h3 className="text-lg font-semibold">Permission Management</h3>
           </div>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-gray-600">
             Terapkan prinsip least privilege - berikan hanya permission yang benar-benar diperlukan
             untuk setiap pengguna. Jangan berikan akses admin kecuali benar-benar diperlukan.
           </p>
@@ -226,7 +226,7 @@ export default function Page() {
           <CheckCircle2 className="mt-1 h-5 w-5 flex-shrink-0 text-green-600" />
           <div>
             <strong>Gunakan Email Bisnis</strong>
-            <p className="text-sm text-gray-600 dark:text-gray-400">
+            <p className="text-sm text-gray-600">
               Jangan gunakan email pribadi untuk akun bisnis. Email bisnis lebih aman dan
               profesional.
             </p>
@@ -236,7 +236,7 @@ export default function Page() {
           <CheckCircle2 className="mt-1 h-5 w-5 flex-shrink-0 text-green-600" />
           <div>
             <strong>Enable Login Alerts</strong>
-            <p className="text-sm text-gray-600 dark:text-gray-400">
+            <p className="text-sm text-gray-600">
               Aktifkan notifikasi untuk setiap login baru agar Anda selalu tahu siapa yang mengakses
               akun.
             </p>
@@ -246,7 +246,7 @@ export default function Page() {
           <CheckCircle2 className="mt-1 h-5 w-5 flex-shrink-0 text-green-600" />
           <div>
             <strong>Review Connected Apps</strong>
-            <p className="text-sm text-gray-600 dark:text-gray-400">
+            <p className="text-sm text-gray-600">
               Secara berkala review aplikasi pihak ketiga yang terhubung dengan akun Anda. Hapus
               yang tidak digunakan.
             </p>
@@ -256,7 +256,7 @@ export default function Page() {
           <CheckCircle2 className="mt-1 h-5 w-5 flex-shrink-0 text-green-600" />
           <div>
             <strong>Backup Data Berkala</strong>
-            <p className="text-sm text-gray-600 dark:text-gray-400">
+            <p className="text-sm text-gray-600">
               Lakukan backup data penting seperti daftar kampanye, audience, dan laporan secara
               berkala.
             </p>

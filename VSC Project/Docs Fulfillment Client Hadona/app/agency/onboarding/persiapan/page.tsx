@@ -15,7 +15,7 @@ export default function PersiapanPage() {
       nextTitle="Kickoff Meeting"
     >
       <div className="mb-8">
-        <p className="text-xl text-gray-700 dark:text-gray-300">
+        <p className="text-xl text-gray-700">
           Persiapan yang baik adalah kunci sukses onboarding yang cepat dan lancar. Halaman ini
           akan membantu Anda menyiapkan semua dokumen, akses, dan informasi yang diperlukan sebelum
           memulai proses setup.
@@ -36,7 +36,7 @@ export default function PersiapanPage() {
       </p>
 
       <div className="my-6 space-y-4">
-        <div className="rounded-lg border border-gray-200 bg-white p-5 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-5">
           <div className="mb-3 flex items-center gap-3">
             <div className="rounded-lg bg-hadona-primary/10 p-2">
               <FileText className="h-5 w-5 text-hadona-primary" />
@@ -72,7 +72,7 @@ export default function PersiapanPage() {
           </ul>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-white p-5 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-5">
           <div className="mb-3 flex items-center gap-3">
             <div className="rounded-lg bg-hadona-primary/10 p-2">
               <Globe className="h-5 w-5 text-hadona-primary" />
@@ -141,7 +141,7 @@ export default function PersiapanPage() {
                   <strong>Editor</strong> ke Page Facebook yang akan digunakan untuk iklan. Page
                   harus sudah aktif dan terverifikasi.
                 </p>
-                <p className="text-sm text-gray-600 dark:text-gray-400">
+                <p className="text-sm text-gray-600">
                   <strong>Cara cek:</strong> Buka Page Settings → Page Roles, pastikan email Anda
                   terdaftar dengan role Admin atau Editor.
                 </p>
@@ -157,7 +157,7 @@ export default function PersiapanPage() {
                   <strong> Instagram Business</strong> atau <strong>Creator Account</strong> dan
                   terhubung dengan Page Facebook.
                 </p>
-                <p className="text-sm text-gray-600 dark:text-gray-400">
+                <p className="text-sm text-gray-600">
                   <strong>Catatan:</strong> Akun Instagram personal tidak dapat digunakan untuk
                   iklan berbayar.
                 </p>
@@ -173,7 +173,7 @@ export default function PersiapanPage() {
                   <strong>Admin</strong> atau <strong>Advertiser</strong>. Jika belum memiliki, kami
                   akan membantu membuatkannya.
                 </p>
-                <p className="text-sm text-gray-600 dark:text-gray-400">
+                <p className="text-sm text-gray-600">
                   <strong>Info yang diperlukan:</strong> Ad Account ID dan nama Ad Account (jika
                   sudah ada).
                 </p>
@@ -189,7 +189,7 @@ export default function PersiapanPage() {
         diperlukan:
       </p>
 
-      <div className="my-6 rounded-lg border border-gray-200 bg-white p-5 dark:border-gray-800 dark:bg-gray-900">
+      <div className="my-6 rounded-lg border border-gray-200 bg-white p-5">
         <div className="mb-4 flex items-center gap-3">
           <div className="rounded-lg bg-hadona-primary/10 p-2">
             <Users className="h-5 w-5 text-hadona-primary" />
@@ -199,25 +199,25 @@ export default function PersiapanPage() {
         <div className="overflow-x-auto">
           <table className="w-full text-sm">
             <thead>
-              <tr className="border-b border-gray-200 dark:border-gray-700">
+              <tr className="border-b border-gray-200">
                 <th className="px-3 py-2 text-left font-semibold">Informasi</th>
                 <th className="px-3 py-2 text-left font-semibold">Keterangan</th>
               </tr>
             </thead>
             <tbody>
-              <tr className="border-b border-gray-200 dark:border-gray-700">
+              <tr className="border-b border-gray-200">
                 <td className="px-3 py-2 font-medium">Nama Lengkap</td>
                 <td className="px-3 py-2">Nama sesuai KTP atau identitas resmi</td>
               </tr>
-              <tr className="border-b border-gray-200 dark:border-gray-700">
+              <tr className="border-b border-gray-200">
                 <td className="px-3 py-2 font-medium">Email</td>
                 <td className="px-3 py-2">Email bisnis yang aktif (bukan personal email)</td>
               </tr>
-              <tr className="border-b border-gray-200 dark:border-gray-700">
+              <tr className="border-b border-gray-200">
                 <td className="px-3 py-2 font-medium">Role/Position</td>
                 <td className="px-3 py-2">Jabatan di perusahaan (untuk menentukan permission)</td>
               </tr>
-              <tr className="border-b border-gray-200 dark:border-gray-700">
+              <tr className="border-b border-gray-200">
                 <td className="px-3 py-2 font-medium">Level Akses</td>
                 <td className="px-3 py-2">
                   Admin, Manager, atau Viewer (akan dibahas di kickoff meeting)
@@ -240,7 +240,7 @@ export default function PersiapanPage() {
           <CheckCircle2 className="mt-1 h-5 w-5 flex-shrink-0 text-hadona-primary" />
           <div>
             <strong>Nama Perusahaan Resmi</strong>
-            <p className="text-sm text-gray-600 dark:text-gray-400">
+            <p className="text-sm text-gray-600">
               Sesuai dengan dokumen legal (SIUP/Akta)
             </p>
           </div>
@@ -249,7 +249,7 @@ export default function PersiapanPage() {
           <CheckCircle2 className="mt-1 h-5 w-5 flex-shrink-0 text-hadona-primary" />
           <div>
             <strong>Alamat Lengkap</strong>
-            <p className="text-sm text-gray-600 dark:text-gray-400">
+            <p className="text-sm text-gray-600">
               Alamat kantor sesuai dokumen legal
             </p>
           </div>
@@ -258,7 +258,7 @@ export default function PersiapanPage() {
           <CheckCircle2 className="mt-1 h-5 w-5 flex-shrink-0 text-hadona-primary" />
           <div>
             <strong>Nomor Telepon Bisnis</strong>
-            <p className="text-sm text-gray-600 dark:text-gray-400">
+            <p className="text-sm text-gray-600">
               Nomor yang dapat dihubungi untuk verifikasi
             </p>
           </div>
@@ -267,7 +267,7 @@ export default function PersiapanPage() {
           <CheckCircle2 className="mt-1 h-5 w-5 flex-shrink-0 text-hadona-primary" />
           <div>
             <strong>Website Perusahaan</strong>
-            <p className="text-sm text-gray-600 dark:text-gray-400">
+            <p className="text-sm text-gray-600">
               URL website resmi (jika ada)
             </p>
           </div>
@@ -276,7 +276,7 @@ export default function PersiapanPage() {
           <CheckCircle2 className="mt-1 h-5 w-5 flex-shrink-0 text-hadona-primary" />
           <div>
             <strong>Kategori Bisnis</strong>
-            <p className="text-sm text-gray-600 dark:text-gray-400">
+            <p className="text-sm text-gray-600">
               Kategori industri atau sektor bisnis
             </p>
           </div>
@@ -289,74 +289,74 @@ export default function PersiapanPage() {
       </p>
 
       <div className="my-6 space-y-3">
-        <div className="flex items-start gap-3 rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
+        <div className="flex items-start gap-3 rounded-lg border border-gray-200 bg-white p-4">
           <input
             type="checkbox"
             className="mt-1 h-5 w-5 flex-shrink-0 rounded border-gray-300 text-hadona-primary focus:ring-hadona-primary"
           />
           <div>
             <div className="font-semibold">Dokumen Legal Siap</div>
-            <div className="text-sm text-gray-600 dark:text-gray-400">
+            <div className="text-sm text-gray-600">
               SIUP, NPWP, Akta, dan KTP sudah dalam format digital
             </div>
           </div>
         </div>
-        <div className="flex items-start gap-3 rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
+        <div className="flex items-start gap-3 rounded-lg border border-gray-200 bg-white p-4">
           <input
             type="checkbox"
             className="mt-1 h-5 w-5 flex-shrink-0 rounded border-gray-300 text-hadona-primary focus:ring-hadona-primary"
           />
           <div>
             <div className="font-semibold">Akses Business Manager</div>
-            <div className="text-sm text-gray-600 dark:text-gray-400">
+            <div className="text-sm text-gray-600">
               Memiliki akses Admin ke BM atau siap membuat yang baru
             </div>
           </div>
         </div>
-        <div className="flex items-start gap-3 rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
+        <div className="flex items-start gap-3 rounded-lg border border-gray-200 bg-white p-4">
           <input
             type="checkbox"
             className="mt-1 h-5 w-5 flex-shrink-0 rounded border-gray-300 text-hadona-primary focus:ring-hadona-primary"
           />
           <div>
             <div className="font-semibold">Page & Instagram Siap</div>
-            <div className="text-sm text-gray-600 dark:text-gray-400">
+            <div className="text-sm text-gray-600">
               Page Facebook aktif dan Instagram sudah Business account
             </div>
           </div>
         </div>
-        <div className="flex items-start gap-3 rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
+        <div className="flex items-start gap-3 rounded-lg border border-gray-200 bg-white p-4">
           <input
             type="checkbox"
             className="mt-1 h-5 w-5 flex-shrink-0 rounded border-gray-300 text-hadona-primary focus:ring-hadona-primary"
           />
           <div>
             <div className="font-semibold">Daftar Tim Lengkap</div>
-            <div className="text-sm text-gray-600 dark:text-gray-400">
+            <div className="text-sm text-gray-600">
               Semua data anggota tim sudah dikumpulkan
             </div>
           </div>
         </div>
-        <div className="flex items-start gap-3 rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
+        <div className="flex items-start gap-3 rounded-lg border border-gray-200 bg-white p-4">
           <input
             type="checkbox"
             className="mt-1 h-5 w-5 flex-shrink-0 rounded border-gray-300 text-hadona-primary focus:ring-hadona-primary"
           />
           <div>
             <div className="font-semibold">Informasi Bisnis Lengkap</div>
-            <div className="text-sm text-gray-600 dark:text-gray-400">
+            <div className="text-sm text-gray-600">
               Semua informasi perusahaan sudah disiapkan
             </div>
           </div>
         </div>
-        <div className="flex items-start gap-3 rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
+        <div className="flex items-start gap-3 rounded-lg border border-gray-200 bg-white p-4">
           <input
             type="checkbox"
             className="mt-1 h-5 w-5 flex-shrink-0 rounded border-gray-300 text-hadona-primary focus:ring-hadona-primary"
           />
           <div>
             <div className="font-semibold">Jadwal Kickoff Meeting</div>
-            <div className="text-sm text-gray-600 dark:text-gray-400">
+            <div className="text-sm text-gray-600">
               Sudah mengkonfirmasi jadwal dengan tim Hadona
             </div>
           </div>
@@ -376,7 +376,7 @@ export default function PersiapanPage() {
           <AlertCircle className="mt-1 h-5 w-5 flex-shrink-0 text-yellow-500" />
           <div>
             <strong>Backup Dokumen</strong>
-            <p className="text-sm text-gray-600 dark:text-gray-400">
+            <p className="text-sm text-gray-600">
               Simpan salinan digital semua dokumen di tempat yang mudah diakses. Format PDF lebih
               disarankan untuk dokumen legal.
             </p>
@@ -386,7 +386,7 @@ export default function PersiapanPage() {
           <AlertCircle className="mt-1 h-5 w-5 flex-shrink-0 text-yellow-500" />
           <div>
             <strong>Koordinasi dengan Tim</strong>
-            <p className="text-sm text-gray-600 dark:text-gray-400">
+            <p className="text-sm text-gray-600">
               Pastikan semua anggota tim yang akan diberikan akses sudah mengetahui dan setuju.
               Koordinasi sebelumnya akan mempercepat proses.
             </p>
@@ -396,7 +396,7 @@ export default function PersiapanPage() {
           <AlertCircle className="mt-1 h-5 w-5 flex-shrink-0 text-yellow-500" />
           <div>
             <strong>Siapkan Pertanyaan</strong>
-            <p className="text-sm text-gray-600 dark:text-gray-400">
+            <p className="text-sm text-gray-600">
               Tuliskan pertanyaan atau concern yang ingin dibahas di kickoff meeting. Ini akan
               membuat meeting lebih produktif.
             </p>

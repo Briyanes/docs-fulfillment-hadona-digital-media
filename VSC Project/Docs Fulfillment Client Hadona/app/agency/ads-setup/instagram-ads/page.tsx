@@ -15,7 +15,7 @@ export default function Page() {
       nextTitle="WhatsApp Ads"
     >
       <div className="mb-8">
-        <p className="text-xl text-gray-700 dark:text-gray-300">
+        <p className="text-xl text-gray-700">
           Instagram adalah platform visual yang sangat powerful untuk iklan. Panduan ini akan
           membantu Anda membuat dan mengoptimalkan iklan Instagram yang efektif.
         </p>
@@ -27,38 +27,38 @@ export default function Page() {
       </p>
 
       <div className="my-8 grid gap-6 md:grid-cols-3">
-        <div className="rounded-lg border border-gray-200 bg-white p-6 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-6">
           <div className="mb-4 flex items-center gap-3">
             <div className="rounded-lg bg-hadona-primary/10 p-2">
               <Image className="h-6 w-6 text-hadona-primary" />
             </div>
             <h3 className="text-lg font-semibold">Visual Platform</h3>
           </div>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-gray-600">
             Platform yang sangat cocok untuk visual content dan storytelling brand.
           </p>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-white p-6 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-6">
           <div className="mb-4 flex items-center gap-3">
             <div className="rounded-lg bg-hadona-primary/10 p-2">
               <TrendingUp className="h-6 w-6 text-hadona-primary" />
             </div>
             <h3 className="text-lg font-semibold">Engagement Tinggi</h3>
           </div>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-gray-600">
             Engagement rate di Instagram umumnya lebih tinggi dibanding platform lain.
           </p>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-white p-6 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-6">
           <div className="mb-4 flex items-center gap-3">
             <div className="rounded-lg bg-hadona-primary/10 p-2">
               <Instagram className="h-6 w-6 text-hadona-primary" />
             </div>
             <h3 className="text-lg font-semibold">Diverse Formats</h3>
           </div>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-gray-600">
             Berbagai format iklan: Feed, Stories, Reels, Explore, dan Shopping.
           </p>
         </div>
@@ -66,25 +66,25 @@ export default function Page() {
 
       <h2>Format Iklan Instagram</h2>
       <div className="my-6 space-y-4">
-        <div className="rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-4">
           <h3 className="mb-2 font-semibold">Instagram Feed Ads</h3>
-          <p className="mb-2 text-sm text-gray-600 dark:text-gray-400">
+          <p className="mb-2 text-sm text-gray-600">
             Iklan yang muncul di feed Instagram, terlihat seperti post organik. Format: Single
             Image, Video, Carousel, atau Collection.
           </p>
-          <ul className="text-sm text-gray-600 dark:text-gray-400">
+          <ul className="text-sm text-gray-600">
             <li>• Ukuran: 1080x1080px (square) atau 1080x1350px (portrait)</li>
             <li>• Video: Max 60 detik untuk Feed</li>
             <li>• Sangat efektif untuk brand awareness dan conversions</li>
           </ul>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-4">
           <h3 className="mb-2 font-semibold">Instagram Stories Ads</h3>
-          <p className="mb-2 text-sm text-gray-600 dark:text-gray-400">
+          <p className="mb-2 text-sm text-gray-600">
             Iklan full-screen yang muncul di antara Stories. Format: Image atau Video (vertical).
           </p>
-          <ul className="text-sm text-gray-600 dark:text-gray-400">
+          <ul className="text-sm text-gray-600">
             <li>• Ukuran: 1080x1920px (9:16 aspect ratio)</li>
             <li>• Video: Max 15 detik</li>
             <li>• Sangat efektif untuk engagement dan reach</li>
@@ -92,12 +92,12 @@ export default function Page() {
           </ul>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-4">
           <h3 className="mb-2 font-semibold">Instagram Reels Ads</h3>
-          <p className="mb-2 text-sm text-gray-600 dark:text-gray-400">
+          <p className="mb-2 text-sm text-gray-600">
             Iklan yang muncul di antara Reels. Format: Video vertical yang engaging.
           </p>
-          <ul className="text-sm text-gray-600 dark:text-gray-400">
+          <ul className="text-sm text-gray-600">
             <li>• Ukuran: 1080x1920px (9:16 aspect ratio)</li>
             <li>• Video: 15-30 detik (optimal)</li>
             <li>• Sangat efektif untuk reach dan engagement</li>
@@ -105,13 +105,13 @@ export default function Page() {
           </ul>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-4">
           <h3 className="mb-2 font-semibold">Instagram Shopping Ads</h3>
-          <p className="mb-2 text-sm text-gray-600 dark:text-gray-400">
+          <p className="mb-2 text-sm text-gray-600">
             Iklan yang menampilkan produk dengan tag produk. Format: Single Image, Video, atau
             Carousel.
           </p>
-          <ul className="text-sm text-gray-600 dark:text-gray-400">
+          <ul className="text-sm text-gray-600">
             <li>• Perlu setup Instagram Shopping terlebih dahulu</li>
             <li>• Tag produk langsung di iklan</li>
             <li>• Sangat efektif untuk e-commerce</li>
@@ -341,7 +341,7 @@ export default function Page() {
           <CheckCircle2 className="mt-1 h-5 w-5 flex-shrink-0 text-hadona-primary" />
           <div>
             <h3 className="font-semibold">Visual First</h3>
-            <p className="text-sm text-gray-600 dark:text-gray-400">
+            <p className="text-sm text-gray-600">
               Instagram adalah platform visual. Prioritaskan kualitas visual yang tinggi, warna
               yang menarik, dan komposisi yang baik.
             </p>
@@ -351,7 +351,7 @@ export default function Page() {
           <CheckCircle2 className="mt-1 h-5 w-5 flex-shrink-0 text-hadona-primary" />
           <div>
             <h3 className="font-semibold">Mobile-Optimized</h3>
-            <p className="text-sm text-gray-600 dark:text-gray-400">
+            <p className="text-sm text-gray-600">
               Sebagian besar pengguna Instagram menggunakan mobile. Pastikan creative terlihat bagus
               di layar kecil dan vertical format.
             </p>
@@ -361,7 +361,7 @@ export default function Page() {
           <CheckCircle2 className="mt-1 h-5 w-5 flex-shrink-0 text-hadona-primary" />
           <div>
             <h3 className="font-semibold">Authentic Content</h3>
-            <p className="text-sm text-gray-600 dark:text-gray-400">
+            <p className="text-sm text-gray-600">
               Instagram audience lebih menyukai content yang authentic dan tidak terlalu polished.
               Gunakan user-generated content atau behind-the-scenes jika memungkinkan.
             </p>
@@ -371,7 +371,7 @@ export default function Page() {
           <CheckCircle2 className="mt-1 h-5 w-5 flex-shrink-0 text-hadona-primary" />
           <div>
             <h3 className="font-semibold">Use Stories & Reels</h3>
-            <p className="text-sm text-gray-600 dark:text-gray-400">
+            <p className="text-sm text-gray-600">
               Stories dan Reels biasanya memiliki engagement rate yang lebih tinggi. Prioritaskan
               format ini untuk reach dan engagement.
             </p>
@@ -381,7 +381,7 @@ export default function Page() {
           <CheckCircle2 className="mt-1 h-5 w-5 flex-shrink-0 text-hadona-primary" />
           <div>
             <h3 className="font-semibold">Test Multiple Formats</h3>
-            <p className="text-sm text-gray-600 dark:text-gray-400">
+            <p className="text-sm text-gray-600">
               Test Feed, Stories, dan Reels untuk melihat format mana yang paling efektif untuk
               brand Anda.
             </p>
@@ -398,23 +398,23 @@ export default function Page() {
 
       <h2>Masalah Umum</h2>
       <div className="my-6 space-y-4">
-        <div className="rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-4">
           <h3 className="mb-2 font-semibold">Instagram Account Tidak Muncul</h3>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-gray-600">
             Pastikan Instagram account sudah ditautkan ke Business Manager dan memiliki status
             aktif. Cek di Business Settings → Instagram Accounts.
           </p>
         </div>
-        <div className="rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-4">
           <h3 className="mb-2 font-semibold">Creative Ditolak</h3>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-gray-600">
             Pastikan text overlay tidak melebihi 20% dari area gambar, dan creative memenuhi
             Instagram Advertising Policies. Cek email untuk detail penolakan.
           </p>
         </div>
-        <div className="rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-4">
           <h3 className="mb-2 font-semibold">Low Engagement</h3>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-gray-600">
             Jika engagement rendah, coba perbaiki creative quality, gunakan format Stories/Reels,
             atau test audience yang berbeda. Instagram membutuhkan creative yang sangat engaging.
           </p>

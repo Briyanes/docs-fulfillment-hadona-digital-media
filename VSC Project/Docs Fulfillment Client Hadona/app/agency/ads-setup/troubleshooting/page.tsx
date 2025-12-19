@@ -12,7 +12,7 @@ export default function Page() {
       prevTitle="Reporting & Analytics"
     >
       <div className="mb-8">
-        <p className="text-xl text-gray-700 dark:text-gray-300">
+        <p className="text-xl text-gray-700">
           Masalah teknis dan performa dapat terjadi pada campaign. Panduan ini akan membantu Anda
           mengidentifikasi dan mengatasi masalah umum yang sering terjadi di Meta Ads.
         </p>
@@ -21,27 +21,27 @@ export default function Page() {
       <h2>Masalah Umum dan Solusinya</h2>
 
       <div className="my-6 space-y-6">
-        <div className="rounded-lg border-2 border-red-200 bg-red-50 p-6 dark:border-red-800 dark:bg-red-900/20">
+        <div className="rounded-lg border-2 border-red-200 bg-red-50 p-6">
           <div className="mb-4 flex items-center gap-3">
-            <XCircle className="h-6 w-6 text-red-600 dark:text-red-400" />
-            <h3 className="text-lg font-semibold text-red-800 dark:text-red-200">
+            <XCircle className="h-6 w-6 text-red-600" />
+            <h3 className="text-lg font-semibold text-red-800">
               Campaign/Ad Ditolak (Rejected)
             </h3>
           </div>
-          <p className="mb-3 text-sm text-red-700 dark:text-red-300">
+          <p className="mb-3 text-sm text-red-700">
             <strong>Penyebab Umum:</strong>
           </p>
-          <ul className="mb-3 space-y-1 text-sm text-red-700 dark:text-red-300">
+          <ul className="mb-3 space-y-1 text-sm text-red-700">
             <li>• Melanggar Advertising Policies (prohibited content, misleading claims, dll)</li>
             <li>• Text overlay lebih dari 20% di gambar</li>
             <li>• Landing page tidak berfungsi atau melanggar policy</li>
             <li>• Creative tidak jelas atau low quality</li>
             <li>• Before/After claims tanpa disclaimer</li>
           </ul>
-          <p className="mb-2 text-sm font-semibold text-red-800 dark:text-red-200">
+          <p className="mb-2 text-sm font-semibold text-red-800">
             Solusi:
           </p>
-          <ul className="space-y-1 text-sm text-red-700 dark:text-red-300">
+          <ul className="space-y-1 text-sm text-red-700">
             <li>1. Cek email atau notification untuk detail penolakan</li>
             <li>2. Review{' '}
               <a
@@ -59,17 +59,17 @@ export default function Page() {
           </ul>
         </div>
 
-        <div className="rounded-lg border-2 border-orange-200 bg-orange-50 p-6 dark:border-orange-800 dark:bg-orange-900/20">
+        <div className="rounded-lg border-2 border-orange-200 bg-orange-50 p-6">
           <div className="mb-4 flex items-center gap-3">
-            <Clock className="h-6 w-6 text-orange-600 dark:text-orange-400" />
-            <h3 className="text-lg font-semibold text-orange-800 dark:text-orange-200">
+            <Clock className="h-6 w-6 text-orange-600" />
+            <h3 className="text-lg font-semibold text-orange-800">
               Campaign Tidak Berjalan (Tidak Ada Impressions)
             </h3>
           </div>
-          <p className="mb-3 text-sm text-orange-700 dark:text-orange-300">
+          <p className="mb-3 text-sm text-orange-700">
             <strong>Penyebab Umum:</strong>
           </p>
-          <ul className="mb-3 space-y-1 text-sm text-orange-700 dark:text-orange-300">
+          <ul className="mb-3 space-y-1 text-sm text-orange-700">
             <li>• Campaign masih dalam review (tunggu 15 menit - 24 jam)</li>
             <li>• Metode pembayaran tidak valid atau ditolak</li>
             <li>• Audience targeting terlalu sempit (estimated reach &lt; 1000)</li>
@@ -77,10 +77,10 @@ export default function Page() {
             <li>• Ad Account dalam status restricted atau disabled</li>
             <li>• Campaign schedule belum mulai atau sudah berakhir</li>
           </ul>
-          <p className="mb-2 text-sm font-semibold text-orange-800 dark:text-orange-200">
+          <p className="mb-2 text-sm font-semibold text-orange-800">
             Solusi:
           </p>
-          <ul className="space-y-1 text-sm text-orange-700 dark:text-orange-300">
+          <ul className="space-y-1 text-sm text-orange-700">
             <li>1. Cek status campaign (Active, In Review, Paused, dll)</li>
             <li>2. Verifikasi metode pembayaran di Billing → Payment Methods</li>
             <li>3. Perlebar audience targeting (estimated reach minimal 100K-500K)</li>
@@ -90,26 +90,26 @@ export default function Page() {
           </ul>
         </div>
 
-        <div className="rounded-lg border-2 border-yellow-200 bg-yellow-50 p-6 dark:border-yellow-800 dark:bg-yellow-900/20">
+        <div className="rounded-lg border-2 border-yellow-200 bg-yellow-50 p-6">
           <div className="mb-4 flex items-center gap-3">
-            <TrendingDown className="h-6 w-6 text-yellow-600 dark:text-yellow-400" />
-            <h3 className="text-lg font-semibold text-yellow-800 dark:text-yellow-200">
+            <TrendingDown className="h-6 w-6 text-yellow-600" />
+            <h3 className="text-lg font-semibold text-yellow-800">
               Low CTR (&lt; 0.5%)
             </h3>
           </div>
-          <p className="mb-3 text-sm text-yellow-700 dark:text-yellow-300">
+          <p className="mb-3 text-sm text-yellow-700">
             <strong>Penyebab Umum:</strong>
           </p>
-          <ul className="mb-3 space-y-1 text-sm text-yellow-700 dark:text-yellow-300">
+          <ul className="mb-3 space-y-1 text-sm text-yellow-700">
             <li>• Creative tidak menarik atau tidak relevan</li>
             <li>• Audience targeting tidak tepat</li>
             <li>• Copy tidak engaging atau value proposition tidak jelas</li>
             <li>• Ad fatigue (frequency terlalu tinggi)</li>
           </ul>
-          <p className="mb-2 text-sm font-semibold text-yellow-800 dark:text-yellow-200">
+          <p className="mb-2 text-sm font-semibold text-yellow-800">
             Solusi:
           </p>
-          <ul className="space-y-1 text-sm text-yellow-700 dark:text-yellow-300">
+          <ul className="space-y-1 text-sm text-yellow-700">
             <li>1. Test creative baru yang lebih engaging (video, carousel, dll)</li>
             <li>2. Perbaiki copy dengan hook yang lebih kuat</li>
             <li>3. Sempitkan audience untuk lebih relevan</li>
@@ -118,26 +118,26 @@ export default function Page() {
           </ul>
         </div>
 
-        <div className="rounded-lg border-2 border-purple-200 bg-purple-50 p-6 dark:border-purple-800 dark:bg-purple-900/20">
+        <div className="rounded-lg border-2 border-purple-200 bg-purple-50 p-6">
           <div className="mb-4 flex items-center gap-3">
-            <AlertCircle className="h-6 w-6 text-purple-600 dark:text-purple-400" />
-            <h3 className="text-lg font-semibold text-purple-800 dark:text-purple-200">
+            <AlertCircle className="h-6 w-6 text-purple-600" />
+            <h3 className="text-lg font-semibold text-purple-800">
               High CPC (Cost Per Click Tinggi)
             </h3>
           </div>
-          <p className="mb-3 text-sm text-purple-700 dark:text-purple-300">
+          <p className="mb-3 text-sm text-purple-700">
             <strong>Penyebab Umum:</strong>
           </p>
-          <ul className="mb-3 space-y-1 text-sm text-purple-700 dark:text-purple-300">
+          <ul className="mb-3 space-y-1 text-sm text-purple-700">
             <li>• Kompetisi tinggi di audience target</li>
             <li>• Relevance score rendah</li>
             <li>• Audience terlalu sempit</li>
             <li>• Bid strategy tidak optimal</li>
           </ul>
-          <p className="mb-2 text-sm font-semibold text-purple-800 dark:text-purple-200">
+          <p className="mb-2 text-sm font-semibold text-purple-800">
             Solusi:
           </p>
-          <ul className="space-y-1 text-sm text-purple-700 dark:text-purple-300">
+          <ul className="space-y-1 text-sm text-purple-700">
             <li>1. Perlebar audience untuk mengurangi kompetisi</li>
             <li>2. Perbaiki creative untuk meningkatkan relevance score</li>
             <li>3. Test placement yang berbeda (Automatic vs Manual)</li>
@@ -146,27 +146,27 @@ export default function Page() {
           </ul>
         </div>
 
-        <div className="rounded-lg border-2 border-blue-200 bg-blue-50 p-6 dark:border-blue-800 dark:bg-blue-900/20">
+        <div className="rounded-lg border-2 border-blue-200 bg-blue-50 p-6">
           <div className="mb-4 flex items-center gap-3">
-            <XCircle className="h-6 w-6 text-blue-600 dark:text-blue-400" />
-            <h3 className="text-lg font-semibold text-blue-800 dark:text-blue-200">
+            <XCircle className="h-6 w-6 text-blue-600" />
+            <h3 className="text-lg font-semibold text-blue-800">
               Low Conversion Rate
             </h3>
           </div>
-          <p className="mb-3 text-sm text-blue-700 dark:text-blue-300">
+          <p className="mb-3 text-sm text-blue-700">
             <strong>Penyebab Umum:</strong>
           </p>
-          <ul className="mb-3 space-y-1 text-sm text-blue-700 dark:text-blue-300">
+          <ul className="mb-3 space-y-1 text-sm text-blue-700">
             <li>• Landing page tidak optimal (slow, bad UX, tidak mobile-friendly)</li>
             <li>• Mismatch antara ad dan landing page</li>
             <li>• Audience tidak qualified</li>
             <li>• Value proposition tidak jelas</li>
             <li>• Funnel terlalu panjang atau complicated</li>
           </ul>
-          <p className="mb-2 text-sm font-semibold text-blue-800 dark:text-blue-200">
+          <p className="mb-2 text-sm font-semibold text-blue-800">
             Solusi:
           </p>
-          <ul className="space-y-1 text-sm text-blue-700 dark:text-blue-300">
+          <ul className="space-y-1 text-sm text-blue-700">
             <li>1. Optimize landing page (speed, UX, mobile-friendliness)</li>
             <li>2. Pastikan message consistency antara ad dan landing page</li>
             <li>3. Gunakan Lookalike atau Custom Audience yang lebih qualified</li>
@@ -175,26 +175,26 @@ export default function Page() {
           </ul>
         </div>
 
-        <div className="rounded-lg border-2 border-pink-200 bg-pink-50 p-6 dark:border-pink-800 dark:bg-pink-900/20">
+        <div className="rounded-lg border-2 border-pink-200 bg-pink-50 p-6">
           <div className="mb-4 flex items-center gap-3">
-            <TrendingDown className="h-6 w-6 text-pink-600 dark:text-pink-400" />
-            <h3 className="text-lg font-semibold text-pink-800 dark:text-pink-200">
+            <TrendingDown className="h-6 w-6 text-pink-600" />
+            <h3 className="text-lg font-semibold text-pink-800">
               Budget Tidak Terpakai
             </h3>
           </div>
-          <p className="mb-3 text-sm text-pink-700 dark:text-pink-300">
+          <p className="mb-3 text-sm text-pink-700">
             <strong>Penyebab Umum:</strong>
           </p>
-          <ul className="mb-3 space-y-1 text-sm text-pink-700 dark:text-pink-300">
+          <ul className="mb-3 space-y-1 text-sm text-pink-700">
             <li>• Audience terlalu sempit</li>
             <li>• Bid terlalu rendah</li>
             <li>• Creative quality rendah atau tidak engaging</li>
             <li>• Placement restrictions terlalu banyak</li>
           </ul>
-          <p className="mb-2 text-sm font-semibold text-pink-800 dark:text-pink-200">
+          <p className="mb-2 text-sm font-semibold text-pink-800">
             Solusi:
           </p>
-          <ul className="space-y-1 text-sm text-pink-700 dark:text-pink-300">
+          <ul className="space-y-1 text-sm text-pink-700">
             <li>1. Perlebar audience targeting</li>
             <li>2. Gunakan Automatic Bidding atau tingkatkan bid</li>
             <li>3. Improve creative quality dan test variations</li>
@@ -206,13 +206,13 @@ export default function Page() {
 
       <h2>Account-Level Issues</h2>
       <div className="my-6 space-y-4">
-        <div className="rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-4">
           <h3 className="mb-2 font-semibold">Ad Account Disabled</h3>
-          <p className="mb-2 text-sm text-gray-600 dark:text-gray-400">
+          <p className="mb-2 text-sm text-gray-600">
             <strong>Penyebab:</strong> Melanggar policy berulang kali, payment issues, atau suspicious activity.
           </p>
-          <p className="mb-1 text-sm font-semibold text-gray-700 dark:text-gray-300">Solusi:</p>
-          <ul className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="mb-1 text-sm font-semibold text-gray-700">Solusi:</p>
+          <ul className="text-sm text-gray-600">
             <li>1. Cek notification untuk alasan disable</li>
             <li>2. Request Review di Account Quality</li>
             <li>3. Perbaiki semua violations sebelum request review</li>
@@ -220,13 +220,13 @@ export default function Page() {
           </ul>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-4">
           <h3 className="mb-2 font-semibold">Payment Method Declined</h3>
-          <p className="mb-2 text-sm text-gray-600 dark:text-gray-400">
+          <p className="mb-2 text-sm text-gray-600">
             <strong>Penyebab:</strong> Kartu expired, insufficient funds, atau fraud detection.
           </p>
-          <p className="mb-1 text-sm font-semibold text-gray-700 dark:text-gray-300">Solusi:</p>
-          <ul className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="mb-1 text-sm font-semibold text-gray-700">Solusi:</p>
+          <ul className="text-sm text-gray-600">
             <li>1. Cek billing information dan update jika perlu</li>
             <li>2. Contact bank untuk memastikan tidak ada blocks</li>
             <li>3. Tambahkan backup payment method</li>
@@ -234,13 +234,13 @@ export default function Page() {
           </ul>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-4">
           <h3 className="mb-2 font-semibold">Pixel Not Firing</h3>
-          <p className="mb-2 text-sm text-gray-600 dark:text-gray-400">
+          <p className="mb-2 text-sm text-gray-600">
             <strong>Penyebab:</strong> Pixel tidak terinstall dengan benar, script error, atau ad blockers.
           </p>
-          <p className="mb-1 text-sm font-semibold text-gray-700 dark:text-gray-300">Solusi:</p>
-          <ul className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="mb-1 text-sm font-semibold text-gray-700">Solusi:</p>
+          <ul className="text-sm text-gray-600">
             <li>1. Test Pixel menggunakan Facebook Pixel Helper extension</li>
             <li>2. Verifikasi Pixel code terinstall di semua pages</li>
             <li>3. Cek untuk JavaScript errors di browser console</li>
@@ -252,13 +252,13 @@ export default function Page() {
 
       <h2>Performance Issues</h2>
       <div className="my-6 space-y-4">
-        <div className="rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-4">
           <h3 className="mb-2 font-semibold">Learning Phase Stuck</h3>
-          <p className="mb-2 text-sm text-gray-600 dark:text-gray-400">
+          <p className="mb-2 text-sm text-gray-600">
             <strong>Issue:</strong> Ad Set stuck di learning phase lebih dari 7 hari.
           </p>
-          <p className="mb-1 text-sm font-semibold text-gray-700 dark:text-gray-300">Solusi:</p>
-          <ul className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="mb-1 text-sm font-semibold text-gray-700">Solusi:</p>
+          <ul className="text-sm text-gray-600">
             <li>• Tingkatkan budget untuk mendapatkan 50+ conversions per week</li>
             <li>• Perlebar audience jika terlalu sempit</li>
             <li>• Consolidate multiple Ad Sets menjadi satu dengan CBO</li>
@@ -266,13 +266,13 @@ export default function Page() {
           </ul>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-4">
           <h3 className="mb-2 font-semibold">Ad Fatigue</h3>
-          <p className="mb-2 text-sm text-gray-600 dark:text-gray-400">
+          <p className="mb-2 text-sm text-gray-600">
             <strong>Issue:</strong> Performa menurun setelah beberapa minggu, frequency &gt; 3.
           </p>
-          <p className="mb-1 text-sm font-semibold text-gray-700 dark:text-gray-300">Solusi:</p>
-          <ul className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="mb-1 text-sm font-semibold text-gray-700">Solusi:</p>
+          <ul className="text-sm text-gray-600">
             <li>• Refresh creative dengan variations baru</li>
             <li>• Perlebar audience untuk reduce frequency</li>
             <li>• Pause campaign sementara lalu restart dengan creative baru</li>
@@ -280,13 +280,13 @@ export default function Page() {
           </ul>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-4">
           <h3 className="mb-2 font-semibold">Sudden Performance Drop</h3>
-          <p className="mb-2 text-sm text-gray-600 dark:text-gray-400">
+          <p className="mb-2 text-sm text-gray-600">
             <strong>Issue:</strong> Performa tiba-tiba drop significantly tanpa perubahan.
           </p>
-          <p className="mb-1 text-sm font-semibold text-gray-700 dark:text-gray-300">Solusi:</p>
-          <ul className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="mb-1 text-sm font-semibold text-gray-700">Solusi:</p>
+          <ul className="text-sm text-gray-600">
             <li>• Cek untuk external factors (seasonality, competitors, market changes)</li>
             <li>• Verifikasi Pixel masih firing dengan benar</li>
             <li>• Cek landing page speed dan functionality</li>

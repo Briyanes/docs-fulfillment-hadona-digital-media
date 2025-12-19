@@ -16,7 +16,7 @@ export default function Page() {
       nextTitle="Instalasi Manual"
     >
       <div className="mb-8">
-        <p className="text-xl text-gray-700 dark:text-gray-300">
+        <p className="text-xl text-gray-700">
           Panduan ini akan membantu Anda membuat Meta Pixel baru di Meta Events Manager. Setelah pixel
           dibuat, Anda akan mendapatkan Pixel ID yang digunakan untuk instalasi di website.
         </p>
@@ -59,7 +59,7 @@ export default function Page() {
                   </a>
                   .
                 </p>
-                <p className="text-sm text-gray-600 dark:text-gray-400">
+                <p className="text-sm text-gray-600">
                   Pastikan Anda menggunakan akun dengan akses yang sesuai.
                 </p>
               </div>
@@ -83,7 +83,7 @@ export default function Page() {
                   </a>
                   .
                 </p>
-                <p className="text-sm text-gray-600 dark:text-gray-400">
+                <p className="text-sm text-gray-600">
                   Events Manager adalah tempat untuk mengelola semua pixel dan event tracking Anda.
                 </p>
               </div>
@@ -98,7 +98,7 @@ export default function Page() {
                   <strong>"Add"</strong> di bagian Data Sources.
                 </p>
                 <p className="mb-3">Pilih opsi <strong>"Web"</strong> sebagai sumber data.</p>
-                <p className="text-sm text-gray-600 dark:text-gray-400">
+                <p className="text-sm text-gray-600">
                   Meta akan meminta Anda memilih antara Meta Pixel atau Conversions API. Pilih{' '}
                   <strong>"Meta Pixel"</strong> untuk setup awal.
                 </p>
@@ -134,7 +134,7 @@ export default function Page() {
                   Masukkan URL website Anda (contoh: https://www.example.com). URL ini akan digunakan
                   untuk verifikasi domain dan testing.
                 </p>
-                <p className="text-sm text-gray-600 dark:text-gray-400">
+                <p className="text-sm text-gray-600">
                   Pastikan URL yang Anda masukkan adalah domain utama website Anda.
                 </p>
               </div>
@@ -160,7 +160,7 @@ export default function Page() {
                     <strong>Email instructions</strong> - Kirim instruksi ke developer
                   </li>
                 </ul>
-                <p className="mt-3 text-sm text-gray-600 dark:text-gray-400">
+                <p className="mt-3 text-sm text-gray-600">
                   Untuk saat ini, pilih <strong>"Install code manually"</strong>. Kita akan membahas
                   metode lain di artikel berikutnya.
                 </p>
@@ -216,7 +216,7 @@ fbq('track', 'PageView');
                   Manager. Status pixel akan menunjukkan <strong>"Not set up"</strong> atau{' '}
                   <strong>"No activity"</strong> sampai pixel diinstal dan mulai mengirim data.
                 </p>
-                <p className="text-sm text-gray-600 dark:text-gray-400">
+                <p className="text-sm text-gray-600">
                   Pixel Anda sekarang siap untuk diinstal di website. Lanjutkan ke artikel berikutnya
                   untuk panduan instalasi.
                 </p>
@@ -233,25 +233,25 @@ fbq('track', 'PageView');
       </p>
 
       <div className="my-8 space-y-4">
-        <div className="rounded-lg border border-gray-200 bg-gray-50 p-4 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-gray-50 p-4">
           <h3 className="mb-2 font-semibold">Format Pixel ID</h3>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-gray-600">
             Pixel ID biasanya berupa angka 15-16 digit (contoh: 1234567890123456). ID ini unik untuk
             setiap pixel dan tidak dapat diubah setelah dibuat.
           </p>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-gray-50 p-4 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-gray-50 p-4">
           <h3 className="mb-2 font-semibold">Multiple Pixels</h3>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-gray-600">
             Anda dapat membuat multiple pixels untuk website yang berbeda atau untuk testing purposes.
             Setiap pixel memiliki ID sendiri.
           </p>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-gray-50 p-4 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-gray-50 p-4">
           <h3 className="mb-2 font-semibold">Melihat Pixel ID Kembali</h3>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-gray-600">
             Pixel ID dapat dilihat kembali di Events Manager dengan mengklik pixel yang ingin Anda
             lihat. ID akan terlihat di bagian Settings atau di URL browser.
           </p>
@@ -263,7 +263,7 @@ fbq('track', 'PageView');
       <div className="my-6 space-y-4">
         <div>
           <h3 className="mb-2 font-semibold">Tidak bisa akses Events Manager</h3>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-gray-600">
             Pastikan Anda memiliki akses ke Business Manager atau Ads Manager dengan permission untuk
             Events Manager. Hubungi admin Business Manager jika diperlukan.
           </p>
@@ -271,7 +271,7 @@ fbq('track', 'PageView');
 
         <div>
           <h3 className="mb-2 font-semibold">Tombol "Connect Data Sources" tidak muncul</h3>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-gray-600">
             Pastikan Anda berada di level Business Manager yang benar dan memiliki permission yang
             sesuai. Coba refresh halaman atau gunakan browser lain.
           </p>
@@ -279,7 +279,7 @@ fbq('track', 'PageView');
 
         <div>
           <h3 className="mb-2 font-semibold">Error saat membuat pixel</h3>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-gray-600">
             Pastikan URL website yang Anda masukkan valid dan dapat diakses. Jika masalah berlanjut,
             coba buat pixel dengan nama yang berbeda atau hubungi Meta Support.
           </p>

@@ -15,7 +15,7 @@ export default function Page() {
       nextTitle="Two-Factor Authentication"
     >
       <div className="mb-8">
-        <p className="text-xl text-gray-700 dark:text-gray-300">
+        <p className="text-xl text-gray-700">
           Mengatur permission (izin akses) adalah cara untuk mengontrol siapa yang dapat mengakses
           dan melakukan apa di Business Manager dan aset-asetnya. Dengan permission yang tepat,
           Anda dapat memastikan keamanan sambil memungkinkan tim bekerja secara efisien.
@@ -26,27 +26,27 @@ export default function Page() {
       <p>Mengatur permission dengan baik memberikan beberapa manfaat:</p>
 
       <div className="my-8 grid gap-6 md:grid-cols-2">
-        <div className="rounded-lg border border-gray-200 bg-white p-6 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-6">
           <div className="mb-4 flex items-center gap-3">
             <div className="rounded-lg bg-hadona-primary/10 p-2">
               <Shield className="h-6 w-6 text-hadona-primary" />
             </div>
             <h3 className="text-lg font-semibold">Keamanan</h3>
           </div>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-gray-600">
             Melindungi aset bisnis dengan memberikan akses hanya kepada orang yang tepat dengan
             permission yang sesuai.
           </p>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-white p-6 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-6">
           <div className="mb-4 flex items-center gap-3">
             <div className="rounded-lg bg-hadona-primary/10 p-2">
               <Users className="h-6 w-6 text-hadona-primary" />
             </div>
             <h3 className="text-lg font-semibold">Kolaborasi</h3>
           </div>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-gray-600">
             Memungkinkan tim bekerja bersama tanpa harus membagikan kredensial login pribadi.
           </p>
         </div>
@@ -56,12 +56,12 @@ export default function Page() {
       <p>Ada beberapa level permission yang dapat diberikan:</p>
 
       <div className="my-6 space-y-4">
-        <div className="rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-4">
           <h4 className="mb-2 font-semibold">Business Manager Level</h4>
-          <p className="mb-2 text-sm text-gray-600 dark:text-gray-400">
+          <p className="mb-2 text-sm text-gray-600">
             Permission untuk mengelola Business Manager itu sendiri:
           </p>
-          <ul className="ml-4 space-y-1 text-sm text-gray-600 dark:text-gray-400">
+          <ul className="ml-4 space-y-1 text-sm text-gray-600">
             <li>
               <strong>Admin:</strong> Akses penuh ke semua pengaturan Business Manager
             </li>
@@ -78,12 +78,12 @@ export default function Page() {
           </ul>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-4">
           <h4 className="mb-2 font-semibold">Page Level</h4>
-          <p className="mb-2 text-sm text-gray-600 dark:text-gray-400">
+          <p className="mb-2 text-sm text-gray-600">
             Permission untuk mengelola Facebook Page:
           </p>
-          <ul className="ml-4 space-y-1 text-sm text-gray-600 dark:text-gray-400">
+          <ul className="ml-4 space-y-1 text-sm text-gray-600">
             <li>
               <strong>Admin:</strong> Kontrol penuh termasuk menghapus Page
             </li>
@@ -102,12 +102,12 @@ export default function Page() {
           </ul>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-4">
           <h4 className="mb-2 font-semibold">Ad Account Level</h4>
-          <p className="mb-2 text-sm text-gray-600 dark:text-gray-400">
+          <p className="mb-2 text-sm text-gray-600">
             Permission untuk mengelola Ad Account:
           </p>
-          <ul className="ml-4 space-y-1 text-sm text-gray-600 dark:text-gray-400">
+          <ul className="ml-4 space-y-1 text-sm text-gray-600">
             <li>
               <strong>Admin:</strong> Kontrol penuh termasuk pengaturan pembayaran
             </li>
@@ -120,12 +120,12 @@ export default function Page() {
           </ul>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-4">
           <h4 className="mb-2 font-semibold">Instagram Account Level</h4>
-          <p className="mb-2 text-sm text-gray-600 dark:text-gray-400">
+          <p className="mb-2 text-sm text-gray-600">
             Permission untuk mengelola Instagram Account:
           </p>
-          <ul className="ml-4 space-y-1 text-sm text-gray-600 dark:text-gray-400">
+          <ul className="ml-4 space-y-1 text-sm text-gray-600">
             <li>
               <strong>Admin:</strong> Kontrol penuh termasuk menghapus akun
             </li>
@@ -365,34 +365,34 @@ export default function Page() {
 
       <h2>Best Practices untuk Permission Management</h2>
       <div className="my-6 space-y-4">
-        <div className="rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-4">
           <h4 className="mb-2 font-semibold">1. Audit Permission Secara Berkala</h4>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-gray-600">
             Lakukan review permission secara berkala (misalnya setiap 3-6 bulan) untuk memastikan
             hanya orang yang masih aktif yang memiliki akses. Hapus akses untuk orang yang sudah
             tidak bekerja di tim.
           </p>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-4">
           <h4 className="mb-2 font-semibold">2. Gunakan Naming Convention</h4>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-gray-600">
             Gunakan email bisnis yang konsisten dan mudah diidentifikasi. Hindari menggunakan
             email pribadi untuk akses Business Manager.
           </p>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-4">
           <h4 className="mb-2 font-semibold">3. Dokumentasikan Permission</h4>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-gray-600">
             Simpan dokumentasi tentang siapa yang memiliki akses apa dan mengapa. Ini akan
             memudahkan audit dan onboarding anggota tim baru.
           </p>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-4">
           <h4 className="mb-2 font-semibold">4. Multiple Admins untuk Aset Penting</h4>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-gray-600">
             Pastikan ada minimal 2 admin untuk setiap aset penting (Page, Ad Account) untuk
             menghindari kehilangan akses jika satu admin tidak tersedia.
           </p>
@@ -401,35 +401,35 @@ export default function Page() {
 
       <h2>Troubleshooting</h2>
       <div className="my-6 space-y-4">
-        <div className="rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-4">
           <h4 className="mb-2 flex items-center gap-2 font-semibold">
             <AlertTriangle className="h-5 w-5 text-yellow-600" />
             Undangan Tidak Diterima
           </h4>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-gray-600">
             Pastikan email yang digunakan terhubung dengan akun Facebook. Minta orang tersebut
             memeriksa folder spam. Jika masih tidak muncul, coba kirim ulang undangan atau gunakan
             email alternatif.
           </p>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-4">
           <h4 className="mb-2 flex items-center gap-2 font-semibold">
             <AlertTriangle className="h-5 w-5 text-yellow-600" />
             Tidak Bisa Mengubah Permission
           </h4>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-gray-600">
             Pastikan Anda memiliki permission Admin di Business Manager atau aset yang ingin
             diubah. Hanya Admin yang dapat mengubah permission orang lain.
           </p>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-4">
           <h4 className="mb-2 flex items-center gap-2 font-semibold">
             <AlertTriangle className="h-5 w-5 text-yellow-600" />
             Orang Tidak Bisa Mengakses Aset
           </h4>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-gray-600">
             Pastikan orang tersebut sudah menerima undangan dan memiliki permission yang sesuai di
             aset tersebut. Periksa juga apakah aset sudah benar-benar ditautkan ke Business
             Manager.

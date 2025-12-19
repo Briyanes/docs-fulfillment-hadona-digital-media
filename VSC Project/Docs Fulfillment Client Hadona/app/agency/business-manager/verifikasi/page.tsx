@@ -15,7 +15,7 @@ export default function Page() {
       nextTitle="Menautkan Facebook Page"
     >
       <div className="mb-8">
-        <p className="text-xl text-gray-700 dark:text-gray-300">
+        <p className="text-xl text-gray-700">
           Verifikasi Business Manager adalah proses penting untuk membuktikan bahwa bisnis Anda
           sah dan meningkatkan keamanan akun. Business Manager yang terverifikasi memberikan akses
           ke fitur-fitur premium dan mengurangi risiko pembatasan akun.
@@ -26,52 +26,52 @@ export default function Page() {
       <p>Verifikasi Business Manager memberikan beberapa manfaat penting:</p>
 
       <div className="my-8 grid gap-6 md:grid-cols-2">
-        <div className="rounded-lg border border-gray-200 bg-white p-6 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-6">
           <div className="mb-4 flex items-center gap-3">
             <div className="rounded-lg bg-hadona-primary/10 p-2">
               <Shield className="h-6 w-6 text-hadona-primary" />
             </div>
             <h3 className="text-lg font-semibold">Keamanan</h3>
           </div>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-gray-600">
             Meningkatkan keamanan akun dan mengurangi risiko pembatasan atau penangguhan akun oleh
             Meta.
           </p>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-white p-6 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-6">
           <div className="mb-4 flex items-center gap-3">
             <div className="rounded-lg bg-hadona-primary/10 p-2">
               <CheckCircle2 className="h-6 w-6 text-hadona-primary" />
             </div>
             <h3 className="text-lg font-semibold">Kredibilitas</h3>
           </div>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-gray-600">
             Meningkatkan kredibilitas bisnis Anda di mata Meta dan mengurangi risiko iklan ditolak.
           </p>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-white p-6 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-6">
           <div className="mb-4 flex items-center gap-3">
             <div className="rounded-lg bg-hadona-primary/10 p-2">
               <FileText className="h-6 w-6 text-hadona-primary" />
             </div>
             <h3 className="text-lg font-semibold">Fitur Premium</h3>
           </div>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-gray-600">
             Mengakses fitur-fitur premium seperti advanced targeting dan reporting yang lebih
             detail.
           </p>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-white p-6 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-6">
           <div className="mb-4 flex items-center gap-3">
             <div className="rounded-lg bg-hadona-primary/10 p-2">
               <Clock className="h-6 w-6 text-hadona-primary" />
             </div>
             <h3 className="text-lg font-semibold">Prioritas Support</h3>
           </div>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-gray-600">
             Mendapatkan prioritas dalam proses review dan dukungan dari tim Meta.
           </p>
         </div>
@@ -221,14 +221,14 @@ export default function Page() {
       <p>Setelah mengirimkan dokumen, status verifikasi Anda akan berubah:</p>
 
       <div className="my-6 space-y-4">
-        <div className="rounded-lg border border-yellow-200 bg-yellow-50 p-4 dark:border-yellow-800 dark:bg-yellow-900/20">
+        <div className="rounded-lg border border-yellow-200 bg-yellow-50 p-4">
           <div className="flex items-start gap-3">
-            <Clock className="mt-0.5 h-5 w-5 flex-shrink-0 text-yellow-600 dark:text-yellow-400" />
+            <Clock className="mt-0.5 h-5 w-5 flex-shrink-0 text-yellow-600" />
             <div>
-              <h4 className="font-semibold text-yellow-800 dark:text-yellow-200">
+              <h4 className="font-semibold text-yellow-800">
                 Pending Review
               </h4>
-              <p className="mt-1 text-sm text-yellow-700 dark:text-yellow-300">
+              <p className="mt-1 text-sm text-yellow-700">
                 Dokumen Anda sedang direview oleh tim Meta. Tunggu notifikasi email untuk update
                 status.
               </p>
@@ -236,12 +236,12 @@ export default function Page() {
           </div>
         </div>
 
-        <div className="rounded-lg border border-green-200 bg-green-50 p-4 dark:border-green-800 dark:bg-green-900/20">
+        <div className="rounded-lg border border-green-200 bg-green-50 p-4">
           <div className="flex items-start gap-3">
-            <CheckCircle2 className="mt-0.5 h-5 w-5 flex-shrink-0 text-green-600 dark:text-green-400" />
+            <CheckCircle2 className="mt-0.5 h-5 w-5 flex-shrink-0 text-green-600" />
             <div>
-              <h4 className="font-semibold text-green-800 dark:text-green-200">Verified</h4>
-              <p className="mt-1 text-sm text-green-700 dark:text-green-300">
+              <h4 className="font-semibold text-green-800">Verified</h4>
+              <p className="mt-1 text-sm text-green-700">
                 Business Manager Anda telah terverifikasi. Anda sekarang dapat mengakses fitur-fitur
                 premium.
               </p>
@@ -249,12 +249,12 @@ export default function Page() {
           </div>
         </div>
 
-        <div className="rounded-lg border border-red-200 bg-red-50 p-4 dark:border-red-800 dark:bg-red-900/20">
+        <div className="rounded-lg border border-red-200 bg-red-50 p-4">
           <div className="flex items-start gap-3">
-            <AlertTriangle className="mt-0.5 h-5 w-5 flex-shrink-0 text-red-600 dark:text-red-400" />
+            <AlertTriangle className="mt-0.5 h-5 w-5 flex-shrink-0 text-red-600" />
             <div>
-              <h4 className="font-semibold text-red-800 dark:text-red-200">Rejected</h4>
-              <p className="mt-1 text-sm text-red-700 dark:text-red-300">
+              <h4 className="font-semibold text-red-800">Rejected</h4>
+              <p className="mt-1 text-sm text-red-700">
                 Verifikasi ditolak. Periksa email untuk alasan penolakan dan perbaiki dokumen yang
                 diperlukan, lalu ajukan ulang.
               </p>

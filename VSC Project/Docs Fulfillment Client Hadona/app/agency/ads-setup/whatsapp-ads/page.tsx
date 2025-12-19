@@ -15,7 +15,7 @@ export default function Page() {
       nextTitle="Instagram & WhatsApp Linking"
     >
       <div className="mb-8">
-        <p className="text-xl text-gray-700 dark:text-gray-300">
+        <p className="text-xl text-gray-700">
           WhatsApp Ads memungkinkan Anda mengarahkan pengguna langsung ke percakapan WhatsApp
           bisnis Anda. Format ini sangat efektif untuk customer service, lead generation, dan
           direct sales.
@@ -28,40 +28,40 @@ export default function Page() {
       </p>
 
       <div className="my-8 grid gap-6 md:grid-cols-3">
-        <div className="rounded-lg border border-gray-200 bg-white p-6 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-6">
           <div className="mb-4 flex items-center gap-3">
             <div className="rounded-lg bg-hadona-primary/10 p-2">
               <MessageCircle className="h-6 w-6 text-hadona-primary" />
             </div>
             <h3 className="text-lg font-semibold">Direct Communication</h3>
           </div>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-gray-600">
             Langsung terhubung dengan customer melalui WhatsApp untuk komunikasi personal dan
             real-time.
           </p>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-white p-6 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-6">
           <div className="mb-4 flex items-center gap-3">
             <div className="rounded-lg bg-hadona-primary/10 p-2">
               <Send className="h-6 w-6 text-hadona-primary" />
             </div>
             <h3 className="text-lg font-semibold">High Intent</h3>
           </div>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-gray-600">
             User yang klik WhatsApp ads biasanya memiliki intent tinggi karena langsung ingin
             berkomunikasi.
           </p>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-white p-6 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-6">
           <div className="mb-4 flex items-center gap-3">
             <div className="rounded-lg bg-hadona-primary/10 p-2">
               <Users className="h-6 w-6 text-hadona-primary" />
             </div>
             <h3 className="text-lg font-semibold">Popular di Indonesia</h3>
           </div>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-gray-600">
             WhatsApp sangat populer di Indonesia, membuat format ini sangat efektif untuk market
             lokal.
           </p>
@@ -70,26 +70,26 @@ export default function Page() {
 
       <h2>Jenis WhatsApp Ads</h2>
       <div className="my-6 space-y-4">
-        <div className="rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-4">
           <h3 className="mb-2 font-semibold">Click-to-WhatsApp Ads</h3>
-          <p className="mb-2 text-sm text-gray-600 dark:text-gray-400">
+          <p className="mb-2 text-sm text-gray-600">
             Iklan dengan CTA button "Send Message" yang mengarahkan user langsung ke percakapan
             WhatsApp. Format: Single Image, Video, atau Carousel.
           </p>
-          <ul className="text-sm text-gray-600 dark:text-gray-400">
+          <ul className="text-sm text-gray-600">
             <li>• Muncul di Facebook Feed, Instagram Feed, dan Stories</li>
             <li>• User klik button → langsung buka WhatsApp dengan pre-filled message</li>
             <li>• Sangat efektif untuk lead generation dan customer service</li>
           </ul>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-4">
           <h3 className="mb-2 font-semibold">WhatsApp Business Directory</h3>
-          <p className="mb-2 text-sm text-gray-600 dark:text-gray-400">
+          <p className="mb-2 text-sm text-gray-600">
             Listing di WhatsApp Business Directory yang memungkinkan user menemukan bisnis Anda
             melalui search di WhatsApp.
           </p>
-          <ul className="text-sm text-gray-600 dark:text-gray-400">
+          <ul className="text-sm text-gray-600">
             <li>• Perlu setup WhatsApp Business API</li>
             <li>• User dapat menemukan bisnis melalui search</li>
             <li>• Cocok untuk bisnis lokal</li>
@@ -319,7 +319,7 @@ export default function Page() {
           <CheckCircle2 className="mt-1 h-5 w-5 flex-shrink-0 text-hadona-primary" />
           <div>
             <h3 className="font-semibold">Response Time Cepat</h3>
-            <p className="text-sm text-gray-600 dark:text-gray-400">
+            <p className="text-sm text-gray-600">
               Respon pesan dalam 1 jam pertama sangat penting. Response time yang cepat meningkatkan
               conversion rate dan customer satisfaction.
             </p>
@@ -329,7 +329,7 @@ export default function Page() {
           <CheckCircle2 className="mt-1 h-5 w-5 flex-shrink-0 text-hadona-primary" />
           <div>
             <h3 className="font-semibold">Gunakan Pre-filled Message</h3>
-            <p className="text-sm text-gray-600 dark:text-gray-400">
+            <p className="text-sm text-gray-600">
               Pre-filled message membantu user memulai percakapan dengan lebih mudah dan mengurangi
               friction.
             </p>
@@ -339,7 +339,7 @@ export default function Page() {
           <CheckCircle2 className="mt-1 h-5 w-5 flex-shrink-0 text-hadona-primary" />
           <div>
             <h3 className="font-semibold">Setup Business Hours</h3>
-            <p className="text-sm text-gray-600 dark:text-gray-400">
+            <p className="text-sm text-gray-600">
               Setup business hours di WhatsApp Business profile dan gunakan away message saat di
               luar jam kerja untuk manage expectations.
             </p>
@@ -349,7 +349,7 @@ export default function Page() {
           <CheckCircle2 className="mt-1 h-5 w-5 flex-shrink-0 text-hadona-primary" />
           <div>
             <h3 className="font-semibold">Track & Measure</h3>
-            <p className="text-sm text-gray-600 dark:text-gray-400">
+            <p className="text-sm text-gray-600">
               Track metrics seperti click-to-message rate, response rate, dan conversion dari
               WhatsApp. Gunakan UTM parameters untuk tracking yang lebih detail.
             </p>
@@ -359,7 +359,7 @@ export default function Page() {
           <CheckCircle2 className="mt-1 h-5 w-5 flex-shrink-0 text-hadona-primary" />
           <div>
             <h3 className="font-semibold">Personal Touch</h3>
-            <p className="text-sm text-gray-600 dark:text-gray-400">
+            <p className="text-sm text-gray-600">
               WhatsApp adalah platform personal. Gunakan tone yang friendly dan personal dalam
               percakapan, bukan formal seperti email.
             </p>
@@ -376,30 +376,30 @@ export default function Page() {
 
       <h2>Masalah Umum</h2>
       <div className="my-6 space-y-4">
-        <div className="rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-4">
           <h3 className="mb-2 font-semibold">WhatsApp Account Tidak Muncul</h3>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-gray-600">
             Pastikan WhatsApp Business Account sudah ditautkan ke Business Manager dan verified.
             Cek di Business Settings → WhatsApp Accounts.
           </p>
         </div>
-        <div className="rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-4">
           <h3 className="mb-2 font-semibold">Banyak Pesan Masuk</h3>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-gray-600">
             Jika terlalu banyak pesan masuk, pertimbangkan untuk turunkan budget atau sempitkan
             audience. Pastikan tim customer service siap untuk handle volume.
           </p>
         </div>
-        <div className="rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-4">
           <h3 className="mb-2 font-semibold">Low Click-to-Message Rate</h3>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-gray-600">
             Jika click-to-message rate rendah, perbaiki creative dan copy untuk membuat value
             proposition lebih jelas. Test berbagai creative dan copy.
           </p>
         </div>
-        <div className="rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-4">
           <h3 className="mb-2 font-semibold">Response Time Lambat</h3>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-gray-600">
             Setup auto-reply untuk acknowledge pesan masuk. Pertimbangkan menggunakan WhatsApp
             Business API dengan chatbot untuk handle pesan otomatis di luar jam kerja.
           </p>

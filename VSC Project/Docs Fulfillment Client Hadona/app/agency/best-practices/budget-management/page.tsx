@@ -15,7 +15,7 @@ export default function Page() {
       nextTitle="Content Strategy"
     >
       <div className="mb-8">
-        <p className="text-xl text-gray-700 dark:text-gray-300">
+        <p className="text-xl text-gray-700">
           Manajemen budget yang efektif adalah kunci sukses kampanye iklan. Panduan ini akan
           membantu Anda mengalokasikan, mengoptimalkan, dan mengontrol budget iklan dengan lebih
           baik.
@@ -46,38 +46,38 @@ export default function Page() {
       <h2>Jenis Budget di Meta Ads</h2>
 
       <div className="my-8 grid gap-6 md:grid-cols-2">
-        <div className="rounded-lg border border-gray-200 bg-white p-6 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-6">
           <div className="mb-4 flex items-center gap-3">
             <div className="rounded-lg bg-hadona-primary/10 p-2">
               <DollarSign className="h-6 w-6 text-hadona-primary" />
             </div>
             <h3 className="text-lg font-semibold">Campaign Budget</h3>
           </div>
-          <p className="mb-3 text-sm text-gray-600 dark:text-gray-400">
+          <p className="mb-3 text-sm text-gray-600">
             Budget yang dialokasikan di level campaign dan dibagi otomatis ke semua ad sets dalam
             campaign tersebut.
           </p>
-          <p className="text-xs font-semibold text-gray-700 dark:text-gray-300">Kapan Digunakan:</p>
-          <ul className="text-xs text-gray-600 dark:text-gray-400">
+          <p className="text-xs font-semibold text-gray-700">Kapan Digunakan:</p>
+          <ul className="text-xs text-gray-600">
             <li>• Multiple ad sets dengan tujuan sama</li>
             <li>• Ingin Meta mengoptimalkan distribusi budget</li>
             <li>• Campaign dengan banyak variasi</li>
           </ul>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-white p-6 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-6">
           <div className="mb-4 flex items-center gap-3">
             <div className="rounded-lg bg-hadona-primary/10 p-2">
               <PieChart className="h-6 w-6 text-hadona-primary" />
             </div>
             <h3 className="text-lg font-semibold">Ad Set Budget</h3>
           </div>
-          <p className="mb-3 text-sm text-gray-600 dark:text-gray-400">
+          <p className="mb-3 text-sm text-gray-600">
             Budget yang ditetapkan untuk setiap ad set secara individual. Memberikan kontrol lebih
             granular.
           </p>
-          <p className="text-xs font-semibold text-gray-700 dark:text-gray-300">Kapan Digunakan:</p>
-          <ul className="text-xs text-gray-600 dark:text-gray-400">
+          <p className="text-xs font-semibold text-gray-700">Kapan Digunakan:</p>
+          <ul className="text-xs text-gray-600">
             <li>• Kontrol spesifik per ad set</li>
             <li>• Testing dengan budget berbeda</li>
             <li>• Campaign dengan sedikit ad sets</li>
@@ -251,27 +251,27 @@ export default function Page() {
       <p>Pantau budget dengan metrik berikut:</p>
 
       <div className="my-6 space-y-4">
-        <div className="rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-4">
           <h4 className="mb-2 font-semibold">Daily Metrics</h4>
-          <ul className="text-sm text-gray-600 dark:text-gray-400">
+          <ul className="text-sm text-gray-600">
             <li>• Daily spend vs daily budget</li>
             <li>• Projected monthly spend</li>
             <li>• Budget utilization rate</li>
           </ul>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-4">
           <h4 className="mb-2 font-semibold">Performance Metrics</h4>
-          <ul className="text-sm text-gray-600 dark:text-gray-400">
+          <ul className="text-sm text-gray-600">
             <li>• CPA per campaign/ad set</li>
             <li>• ROAS per campaign/ad set</li>
             <li>• Cost efficiency trends</li>
           </ul>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-4">
           <h4 className="mb-2 font-semibold">Budget Health</h4>
-          <ul className="text-sm text-gray-600 dark:text-gray-400">
+          <ul className="text-sm text-gray-600">
             <li>• Budget pacing (on track/behind/ahead)</li>
             <li>• Budget distribution across campaigns</li>
             <li>• Budget allocation efficiency</li>
@@ -309,7 +309,7 @@ export default function Page() {
           <CheckCircle2 className="mt-1 h-5 w-5 flex-shrink-0 text-green-600" />
           <div>
             <strong>Start Conservative</strong>
-            <p className="text-sm text-gray-600 dark:text-gray-400">
+            <p className="text-sm text-gray-600">
               Mulai dengan budget konservatif, lalu scale up setelah melihat performa yang baik.
             </p>
           </div>
@@ -318,7 +318,7 @@ export default function Page() {
           <CheckCircle2 className="mt-1 h-5 w-5 flex-shrink-0 text-green-600" />
           <div>
             <strong>Use Campaign Budget for Testing</strong>
-            <p className="text-sm text-gray-600 dark:text-gray-400">
+            <p className="text-sm text-gray-600">
               Gunakan campaign budget untuk testing agar Meta dapat mengoptimalkan distribusi
               budget.
             </p>
@@ -337,7 +337,7 @@ export default function Page() {
           <CheckCircle2 className="mt-1 h-5 w-5 flex-shrink-0 text-green-600" />
           <div>
             <strong>Review Weekly</strong>
-            <p className="text-sm text-gray-600 dark:text-gray-400">
+            <p className="text-sm text-gray-600">
               Lakukan review budget mingguan untuk optimasi dan reallocation yang tepat waktu.
             </p>
           </div>
@@ -347,7 +347,7 @@ export default function Page() {
       <h2>Budget Planning Template</h2>
       <p>Gunakan template berikut untuk perencanaan budget:</p>
 
-      <div className="my-6 rounded-lg border border-gray-200 bg-gray-50 p-6 dark:border-gray-800 dark:bg-gray-900">
+      <div className="my-6 rounded-lg border border-gray-200 bg-gray-50 p-6">
         <h4 className="mb-4 font-semibold">Monthly Budget Plan</h4>
         <div className="space-y-3 text-sm">
           <div className="flex justify-between">
@@ -370,7 +370,7 @@ export default function Page() {
             <span>Retargeting (5%):</span>
             <strong>$500</strong>
           </div>
-          <div className="mt-4 border-t border-gray-300 pt-3 dark:border-gray-700">
+          <div className="mt-4 border-t border-gray-300 pt-3">
             <div className="flex justify-between">
               <span>Daily Budget (Total / 30):</span>
               <strong>$333/day</strong>

@@ -14,7 +14,7 @@ export default function Page() {
       nextTitle="Troubleshooting Ads"
     >
       <div className="mb-8">
-        <p className="text-xl text-gray-700 dark:text-gray-300">
+        <p className="text-xl text-gray-700">
           Reporting dan analytics yang tepat membantu Anda memahami performa kampanye dan membuat
           keputusan yang data-driven. Panduan ini akan membantu Anda setup dan menggunakan reporting
           tools di Meta Ads Manager.
@@ -23,9 +23,9 @@ export default function Page() {
 
       <h2>Key Metrics yang Perlu Dimonitor</h2>
       <div className="my-6 space-y-4">
-        <div className="rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-4">
           <h3 className="mb-2 font-semibold">Reach & Impressions Metrics</h3>
-          <ul className="text-sm text-gray-600 dark:text-gray-400">
+          <ul className="text-sm text-gray-600">
             <li>• <strong>Reach:</strong> Jumlah unique users yang melihat iklan</li>
             <li>• <strong>Impressions:</strong> Total berapa kali iklan ditampilkan</li>
             <li>• <strong>Frequency:</strong> Rata-rata berapa kali setiap user melihat iklan (Impressions ÷ Reach)</li>
@@ -33,9 +33,9 @@ export default function Page() {
           </ul>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-4">
           <h3 className="mb-2 font-semibold">Engagement Metrics</h3>
-          <ul className="text-sm text-gray-600 dark:text-gray-400">
+          <ul className="text-sm text-gray-600">
             <li>• <strong>CTR (Click-Through Rate):</strong> Persentase yang klik dari impressions</li>
             <li>• <strong>CPC (Cost Per Click):</strong> Biaya rata-rata per klik</li>
             <li>• <strong>Link Clicks:</strong> Total klik ke website/landing page</li>
@@ -43,9 +43,9 @@ export default function Page() {
           </ul>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-4">
           <h3 className="mb-2 font-semibold">Conversion Metrics</h3>
-          <ul className="text-sm text-gray-600 dark:text-gray-400">
+          <ul className="text-sm text-gray-600">
             <li>• <strong>Conversions:</strong> Total conversions (purchase, sign up, dll)</li>
             <li>• <strong>CVR (Conversion Rate):</strong> Persentase yang convert dari klik</li>
             <li>• <strong>CPA (Cost Per Acquisition):</strong> Biaya rata-rata per conversion</li>
@@ -53,9 +53,9 @@ export default function Page() {
           </ul>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-4">
           <h3 className="mb-2 font-semibold">Video Metrics (untuk Video Ads)</h3>
-          <ul className="text-sm text-gray-600 dark:text-gray-400">
+          <ul className="text-sm text-gray-600">
             <li>• <strong>Video Views:</strong> Total views (minimal 3 detik)</li>
             <li>• <strong>Video Watch Time:</strong> Total durasi yang ditonton</li>
             <li>• <strong>Video Completion Rate:</strong> Persentase yang tonton hingga selesai</li>
@@ -70,7 +70,7 @@ export default function Page() {
           <Eye className="mt-1 h-5 w-5 flex-shrink-0 text-hadona-primary" />
           <div>
             <h3 className="font-semibold">Campaigns Tab</h3>
-            <p className="text-sm text-gray-600 dark:text-gray-400">
+            <p className="text-sm text-gray-600">
               Lihat overview semua campaigns dengan metrics utama. Klik campaign untuk drill down
               ke Ad Set dan Ad level.
             </p>
@@ -80,7 +80,7 @@ export default function Page() {
           <BarChart3 className="mt-1 h-5 w-5 flex-shrink-0 text-hadona-primary" />
           <div>
             <h3 className="font-semibold">Breakdown</h3>
-            <p className="text-sm text-gray-600 dark:text-gray-400">
+            <p className="text-sm text-gray-600">
               Klik "Breakdown" button untuk analyze performa berdasarkan demographics (age, gender,
               location), placement, time, atau delivery.
             </p>
@@ -90,7 +90,7 @@ export default function Page() {
           <TrendingUp className="mt-1 h-5 w-5 flex-shrink-0 text-hadona-primary" />
           <div>
             <h3 className="font-semibold">Charts</h3>
-            <p className="text-sm text-gray-600 dark:text-gray-400">
+            <p className="text-sm text-gray-600">
               Klik "Charts" untuk visualize trends over time. Pilih metrics yang ingin di-plot dan
               time range.
             </p>
@@ -100,7 +100,7 @@ export default function Page() {
           <Download className="mt-1 h-5 w-5 flex-shrink-0 text-hadona-primary" />
           <div>
             <h3 className="font-semibold">Export</h3>
-            <p className="text-sm text-gray-600 dark:text-gray-400">
+            <p className="text-sm text-gray-600">
               Export reports ke Excel atau CSV untuk analysis lebih lanjut atau sharing dengan
               team/client.
             </p>
@@ -147,28 +147,28 @@ export default function Page() {
         Breakdowns membantu Anda understand performa lebih detail:
       </p>
       <div className="my-6 space-y-4">
-        <div className="rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-4">
           <h3 className="mb-2 font-semibold">By Demographics</h3>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-gray-600">
             Lihat performa by age, gender, atau location. Gunakan untuk optimize audience targeting.
           </p>
         </div>
-        <div className="rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-4">
           <h3 className="mb-2 font-semibold">By Placement</h3>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-gray-600">
             Lihat placement mana yang performa terbaik (Feed, Stories, Reels, dll). Optimize budget
             ke placement yang paling efektif.
           </p>
         </div>
-        <div className="rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-4">
           <h3 className="mb-2 font-semibold">By Time</h3>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-gray-600">
             Lihat performa by day, hour, atau week. Identify pola dan optimize schedule.
           </p>
         </div>
-        <div className="rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-4">
           <h3 className="mb-2 font-semibold">By Delivery</h3>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-gray-600">
             Lihat device (mobile vs desktop), platform (Facebook vs Instagram), atau operating system.
           </p>
         </div>
@@ -206,45 +206,45 @@ export default function Page() {
       </p>
 
       <div className="my-6 space-y-4">
-        <div className="rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-4">
           <h3 className="mb-2 font-semibold">Step 1: Check Overall Performance</h3>
-          <ul className="text-sm text-gray-600 dark:text-gray-400">
+          <ul className="text-sm text-gray-600">
             <li>• Apakah campaign mencapai target (ROAS, CPA, dll)?</li>
             <li>• Apakah budget terpakai dengan baik?</li>
             <li>• Apakah ada trends (naik/turun) dalam beberapa hari terakhir?</li>
           </ul>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-4">
           <h3 className="mb-2 font-semibold">Step 2: Drill Down ke Ad Set Level</h3>
-          <ul className="text-sm text-gray-600 dark:text-gray-400">
+          <ul className="text-sm text-gray-600">
             <li>• Ad Set mana yang performa terbaik/terburuk?</li>
             <li>• Apakah ada Ad Set yang perlu di-pause atau scale up?</li>
             <li>• Compare performa between different audiences</li>
           </ul>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-4">
           <h3 className="mb-2 font-semibold">Step 3: Analyze Ad Level</h3>
-          <ul className="text-sm text-gray-600 dark:text-gray-400">
+          <ul className="text-sm text-gray-600">
             <li>• Creative mana yang paling engaging (highest CTR)?</li>
             <li>• Creative mana yang paling converting (highest CVR)?</li>
             <li>• Apakah ada ad fatigue (declining performance over time)?</li>
           </ul>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-4">
           <h3 className="mb-2 font-semibold">Step 4: Use Breakdowns</h3>
-          <ul className="text-sm text-gray-600 dark:text-gray-400">
+          <ul className="text-sm text-gray-600">
             <li>• Demographics mana yang paling efektif?</li>
             <li>• Placement mana yang paling performing?</li>
             <li>• Ada pola berdasarkan time of day atau day of week?</li>
           </ul>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-4">
           <h3 className="mb-2 font-semibold">Step 5: Identify Actions</h3>
-          <ul className="text-sm text-gray-600 dark:text-gray-400">
+          <ul className="text-sm text-gray-600">
             <li>• Apa yang perlu di-optimize?</li>
             <li>• Apa yang perlu di-pause atau di-scale?</li>
             <li>• Test apa yang perlu dijalankan berikutnya?</li>
@@ -258,7 +258,7 @@ export default function Page() {
           <CheckCircle2 className="mt-1 h-5 w-5 flex-shrink-0 text-hadona-primary" />
           <div>
             <h3 className="font-semibold">Monitor Daily (First 7 Days)</h3>
-            <p className="text-sm text-gray-600 dark:text-gray-400">
+            <p className="text-sm text-gray-600">
               Untuk campaign baru, check performa daily di 7 hari pertama untuk catch issues early.
             </p>
           </div>
@@ -267,7 +267,7 @@ export default function Page() {
           <CheckCircle2 className="mt-1 h-5 w-5 flex-shrink-0 text-hadona-primary" />
           <div>
             <h3 className="font-semibold">Weekly Reviews (Mature Campaigns)</h3>
-            <p className="text-sm text-gray-600 dark:text-gray-400">
+            <p className="text-sm text-gray-600">
               Untuk campaign yang sudah mature, weekly reviews sudah cukup. Focus pada trends dan
               strategic optimizations.
             </p>
@@ -277,7 +277,7 @@ export default function Page() {
           <CheckCircle2 className="mt-1 h-5 w-5 flex-shrink-0 text-hadona-primary" />
           <div>
             <h3 className="font-semibold">Use Attribution Windows</h3>
-            <p className="text-sm text-gray-600 dark:text-gray-400">
+            <p className="text-sm text-gray-600">
               Understand attribution windows (1-day click, 7-day click, 1-day view). Pilih yang
               sesuai dengan sales cycle bisnis Anda.
             </p>
@@ -287,7 +287,7 @@ export default function Page() {
           <CheckCircle2 className="mt-1 h-5 w-5 flex-shrink-0 text-hadona-primary" />
           <div>
             <h3 className="font-semibold">Compare Time Periods</h3>
-            <p className="text-sm text-gray-600 dark:text-gray-400">
+            <p className="text-sm text-gray-600">
               Always compare dengan periode sebelumnya untuk identify trends. Gunakan "Compare"
               feature di date picker.
             </p>
@@ -297,7 +297,7 @@ export default function Page() {
           <CheckCircle2 className="mt-1 h-5 w-5 flex-shrink-0 text-hadona-primary" />
           <div>
             <h3 className="font-semibold">Export untuk Stakeholders</h3>
-            <p className="text-sm text-gray-600 dark:text-gray-400">
+            <p className="text-sm text-gray-600">
               Setup scheduled exports atau create custom dashboards untuk stakeholders yang perlu
               regular updates.
             </p>

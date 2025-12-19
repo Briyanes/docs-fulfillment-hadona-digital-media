@@ -15,7 +15,7 @@ export default function Page() {
       nextTitle="Troubleshooting BM"
     >
       <div className="mb-8">
-        <p className="text-xl text-gray-700 dark:text-gray-300">
+        <p className="text-xl text-gray-700">
           Two-Factor Authentication (2FA) atau Autentikasi Dua Faktor adalah lapisan keamanan
           tambahan yang melindungi Business Manager dan akun Facebook Anda. Dengan 2FA, selain
           password, Anda juga perlu memasukkan kode verifikasi yang dikirim ke perangkat Anda
@@ -27,27 +27,27 @@ export default function Page() {
       <p>Two-Factor Authentication memberikan perlindungan ekstra yang sangat penting:</p>
 
       <div className="my-8 grid gap-6 md:grid-cols-2">
-        <div className="rounded-lg border border-gray-200 bg-white p-6 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-6">
           <div className="mb-4 flex items-center gap-3">
             <div className="rounded-lg bg-hadona-primary/10 p-2">
               <Shield className="h-6 w-6 text-hadona-primary" />
             </div>
             <h3 className="text-lg font-semibold">Perlindungan dari Hacking</h3>
           </div>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-gray-600">
             Bahkan jika password Anda bocor, penyerang tidak dapat mengakses akun tanpa kode
             verifikasi dari perangkat Anda.
           </p>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-white p-6 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-6">
           <div className="mb-4 flex items-center gap-3">
             <div className="rounded-lg bg-hadona-primary/10 p-2">
               <Key className="h-6 w-6 text-hadona-primary" />
             </div>
             <h3 className="text-lg font-semibold">Kepatuhan Keamanan</h3>
           </div>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-gray-600">
             Banyak perusahaan dan klien memerlukan 2FA sebagai standar keamanan minimum untuk
             akses Business Manager.
           </p>
@@ -66,35 +66,35 @@ export default function Page() {
       <p>Meta menyediakan beberapa metode 2FA:</p>
 
       <div className="my-6 space-y-4">
-        <div className="rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-4">
           <div className="mb-2 flex items-center gap-3">
             <Smartphone className="h-5 w-5 text-hadona-primary" />
             <h4 className="font-semibold">Authentication App (Direkomendasikan)</h4>
           </div>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-gray-600">
             Menggunakan aplikasi authenticator seperti Google Authenticator, Authy, atau Microsoft
             Authenticator. Kode verifikasi dihasilkan langsung dari aplikasi di smartphone Anda.
             Metode ini paling aman karena tidak bergantung pada SMS.
           </p>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-4">
           <div className="mb-2 flex items-center gap-3">
             <Smartphone className="h-5 w-5 text-hadona-primary" />
             <h4 className="font-semibold">SMS (Text Message)</h4>
           </div>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-gray-600">
             Kode verifikasi dikirim melalui SMS ke nomor telepon yang terdaftar. Metode ini mudah
             digunakan tetapi kurang aman dibandingkan Authentication App karena SMS dapat diintercept.
           </p>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-4">
           <div className="mb-2 flex items-center gap-3">
             <Key className="h-5 w-5 text-hadona-primary" />
             <h4 className="font-semibold">Security Key</h4>
           </div>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-gray-600">
             Menggunakan perangkat fisik seperti USB security key atau NFC-enabled device. Metode
             ini sangat aman dan direkomendasikan untuk akun dengan tingkat keamanan tinggi.
           </p>
@@ -359,36 +359,36 @@ export default function Page() {
 
       <h2>Troubleshooting</h2>
       <div className="my-6 space-y-4">
-        <div className="rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-4">
           <h4 className="mb-2 flex items-center gap-2 font-semibold">
             <AlertTriangle className="h-5 w-5 text-yellow-600" />
             Kehilangan Akses ke Authentication App
           </h4>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-gray-600">
             Gunakan backup codes yang Anda simpan untuk login. Setelah login, setup ulang 2FA
             dengan aplikasi authenticator baru atau metode lain. Jika tidak memiliki backup codes,
             hubungi support Meta untuk proses pemulihan akun.
           </p>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-4">
           <h4 className="mb-2 flex items-center gap-2 font-semibold">
             <AlertTriangle className="h-5 w-5 text-yellow-600" />
             Tidak Menerima SMS Kode
           </h4>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-gray-600">
             Pastikan nomor telepon aktif dan dapat menerima SMS. Periksa juga apakah nomor telepon
             sudah benar. Jika masalah berlanjut, coba gunakan metode Authentication App sebagai
             alternatif yang lebih andal.
           </p>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-4">
           <h4 className="mb-2 flex items-center gap-2 font-semibold">
             <AlertTriangle className="h-5 w-5 text-yellow-600" />
             Kode Authenticator Tidak Valid
           </h4>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-gray-600">
             Pastikan waktu di smartphone Anda sudah disinkronkan dengan benar. Kode authenticator
             bergantung pada waktu yang akurat. Jika masih bermasalah, coba generate kode baru atau
             setup ulang 2FA.

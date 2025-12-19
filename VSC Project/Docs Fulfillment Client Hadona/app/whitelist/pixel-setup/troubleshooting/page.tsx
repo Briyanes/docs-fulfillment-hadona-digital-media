@@ -13,7 +13,7 @@ export default function Page() {
       prevTitle="Testing Pixel"
     >
       <div className="mb-8">
-        <p className="text-xl text-gray-700 dark:text-gray-300">
+        <p className="text-xl text-gray-700">
           Panduan ini membantu Anda mengidentifikasi dan menyelesaikan masalah umum yang terjadi
           dengan Meta Pixel. Gunakan panduan ini sebagai referensi saat menghadapi masalah tracking
           atau instalasi pixel.
@@ -31,11 +31,11 @@ export default function Page() {
       <h2>Masalah Umum dan Solusi</h2>
 
       <h3>1. Pixel Tidak Terdeteksi</h3>
-      <div className="my-6 rounded-lg border border-red-200 bg-red-50 p-6 dark:border-red-800 dark:bg-red-900/20">
+      <div className="my-6 rounded-lg border border-red-200 bg-red-50 p-6">
         <div className="mb-4 flex items-start gap-3">
-          <XCircle className="mt-0.5 h-6 w-6 flex-shrink-0 text-red-600 dark:text-red-400" />
+          <XCircle className="mt-0.5 h-6 w-6 flex-shrink-0 text-red-600" />
           <div>
-            <h4 className="mb-2 font-semibold text-red-900 dark:text-red-100">
+            <h4 className="mb-2 font-semibold text-red-900">
               Gejala: Pixel tidak muncul di Meta Pixel Helper atau Events Manager
             </h4>
           </div>
@@ -86,11 +86,11 @@ export default function Page() {
       </div>
 
       <h3>2. Events Tidak Muncul di Events Manager</h3>
-      <div className="my-6 rounded-lg border border-yellow-200 bg-yellow-50 p-6 dark:border-yellow-800 dark:bg-yellow-900/20">
+      <div className="my-6 rounded-lg border border-yellow-200 bg-yellow-50 p-6">
         <div className="mb-4 flex items-start gap-3">
-          <AlertTriangle className="mt-0.5 h-6 w-6 flex-shrink-0 text-yellow-600 dark:text-yellow-400" />
+          <AlertTriangle className="mt-0.5 h-6 w-6 flex-shrink-0 text-yellow-600" />
           <div>
-            <h4 className="mb-2 font-semibold text-yellow-900 dark:text-yellow-100">
+            <h4 className="mb-2 font-semibold text-yellow-900">
               Gejala: Pixel terdeteksi tapi events tidak muncul di Events Manager
             </h4>
           </div>
@@ -147,11 +147,11 @@ fbq('track', 'PageView');
       </div>
 
       <h3>3. Duplicate Pixel Warning</h3>
-      <div className="my-6 rounded-lg border border-yellow-200 bg-yellow-50 p-6 dark:border-yellow-800 dark:bg-yellow-900/20">
+      <div className="my-6 rounded-lg border border-yellow-200 bg-yellow-50 p-6">
         <div className="mb-4 flex items-start gap-3">
-          <AlertTriangle className="mt-0.5 h-6 w-6 flex-shrink-0 text-yellow-600 dark:text-yellow-400" />
+          <AlertTriangle className="mt-0.5 h-6 w-6 flex-shrink-0 text-yellow-600" />
           <div>
-            <h4 className="mb-2 font-semibold text-yellow-900 dark:text-yellow-100">
+            <h4 className="mb-2 font-semibold text-yellow-900">
               Gejala: Meta Pixel Helper menampilkan warning "Multiple Pixels Detected"
             </h4>
           </div>
@@ -192,11 +192,11 @@ fbq('track', 'PageView');
       </div>
 
       <h3>4. Events Terkirim Tapi Parameters Tidak Lengkap</h3>
-      <div className="my-6 rounded-lg border border-yellow-200 bg-yellow-50 p-6 dark:border-yellow-800 dark:bg-yellow-900/20">
+      <div className="my-6 rounded-lg border border-yellow-200 bg-yellow-50 p-6">
         <div className="mb-4 flex items-start gap-3">
-          <AlertTriangle className="mt-0.5 h-6 w-6 flex-shrink-0 text-yellow-600 dark:text-yellow-400" />
+          <AlertTriangle className="mt-0.5 h-6 w-6 flex-shrink-0 text-yellow-600" />
           <div>
-            <h4 className="mb-2 font-semibold text-yellow-900 dark:text-yellow-100">
+            <h4 className="mb-2 font-semibold text-yellow-900">
               Gejala: Events muncul tapi missing value, currency, atau parameters lainnya
             </h4>
           </div>
@@ -247,11 +247,11 @@ fbq('track', 'Purchase', {
       </div>
 
       <h3>5. Pixel Tidak Load di Mobile</h3>
-      <div className="my-6 rounded-lg border border-yellow-200 bg-yellow-50 p-6 dark:border-yellow-800 dark:bg-yellow-900/20">
+      <div className="my-6 rounded-lg border border-yellow-200 bg-yellow-50 p-6">
         <div className="mb-4 flex items-start gap-3">
-          <AlertTriangle className="mt-0.5 h-6 w-6 flex-shrink-0 text-yellow-600 dark:text-yellow-400" />
+          <AlertTriangle className="mt-0.5 h-6 w-6 flex-shrink-0 text-yellow-600" />
           <div>
-            <h4 className="mb-2 font-semibold text-yellow-900 dark:text-yellow-100">
+            <h4 className="mb-2 font-semibold text-yellow-900">
               Gejala: Pixel bekerja di desktop tapi tidak di mobile
             </h4>
           </div>
@@ -297,11 +297,11 @@ fbq('track', 'Purchase', {
       </div>
 
       <h3>6. CORS atau Network Errors</h3>
-      <div className="my-6 rounded-lg border border-red-200 bg-red-50 p-6 dark:border-red-800 dark:bg-red-900/20">
+      <div className="my-6 rounded-lg border border-red-200 bg-red-50 p-6">
         <div className="mb-4 flex items-start gap-3">
-          <XCircle className="mt-0.5 h-6 w-6 flex-shrink-0 text-red-600 dark:text-red-400" />
+          <XCircle className="mt-0.5 h-6 w-6 flex-shrink-0 text-red-600" />
           <div>
-            <h4 className="mb-2 font-semibold text-red-900 dark:text-red-100">
+            <h4 className="mb-2 font-semibold text-red-900">
               Gejala: Error di browser console tentang CORS atau network request failed
             </h4>
           </div>
@@ -343,46 +343,46 @@ fbq('track', 'Purchase', {
       </p>
 
       <div className="my-8 grid gap-6 md:grid-cols-2">
-        <div className="rounded-lg border border-gray-200 bg-white p-6 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-6">
           <Search className="mb-3 h-8 w-8 text-hadona-primary" />
           <h3 className="mb-2 text-lg font-semibold">Meta Pixel Helper</h3>
-          <p className="mb-3 text-sm text-gray-600 dark:text-gray-400">
+          <p className="mb-3 text-sm text-gray-600">
             Browser extension untuk deteksi visual pixel dan errors.
           </p>
-          <p className="text-xs text-gray-500 dark:text-gray-500">
+          <p className="text-xs text-gray-500">
             Install dari Chrome Web Store atau Firefox Add-ons
           </p>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-white p-6 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-6">
           <RefreshCw className="mb-3 h-8 w-8 text-hadona-primary" />
           <h3 className="mb-2 text-lg font-semibold">Test Events Tool</h3>
-          <p className="mb-3 text-sm text-gray-600 dark:text-gray-400">
+          <p className="mb-3 text-sm text-gray-600">
             Real-time event monitoring di Events Manager.
           </p>
-          <p className="text-xs text-gray-500 dark:text-gray-500">
+          <p className="text-xs text-gray-500">
             Events Manager → Test Events tab
           </p>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-white p-6 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-6">
           <Shield className="mb-3 h-8 w-8 text-hadona-primary" />
           <h3 className="mb-2 text-lg font-semibold">Browser DevTools</h3>
-          <p className="mb-3 text-sm text-gray-600 dark:text-gray-400">
+          <p className="mb-3 text-sm text-gray-600">
             Network tab dan Console untuk debug technical issues.
           </p>
-          <p className="text-xs text-gray-500 dark:text-gray-500">
+          <p className="text-xs text-gray-500">
             Press F12 untuk membuka DevTools
           </p>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-white p-6 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-6">
           <CheckCircle2 className="mb-3 h-8 w-8 text-hadona-primary" />
           <h3 className="mb-2 text-lg font-semibold">Events Manager Overview</h3>
-          <p className="mb-3 text-sm text-gray-600 dark:text-gray-400">
+          <p className="mb-3 text-sm text-gray-600">
             Monitor pixel activity dan event statistics.
           </p>
-          <p className="text-xs text-gray-500 dark:text-gray-500">
+          <p className="text-xs text-gray-500">
             Events Manager → Overview tab
           </p>
         </div>
@@ -393,7 +393,7 @@ fbq('track', 'Purchase', {
         Gunakan checklist ini untuk diagnosis cepat:
       </p>
 
-      <div className="my-8 rounded-lg border border-gray-200 bg-gray-50 p-6 dark:border-gray-800 dark:bg-gray-900">
+      <div className="my-8 rounded-lg border border-gray-200 bg-gray-50 p-6">
         <div className="space-y-3">
           <div className="flex items-start gap-3">
             <CheckCircle2 className="mt-0.5 h-5 w-5 flex-shrink-0 text-green-600" />

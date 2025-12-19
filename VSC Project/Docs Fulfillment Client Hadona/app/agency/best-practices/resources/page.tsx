@@ -14,7 +14,7 @@ export default function Page() {
       nextTitle="Updates & Changelog"
     >
       <div className="mb-8">
-        <p className="text-xl text-gray-700 dark:text-gray-300">
+        <p className="text-xl text-gray-700">
           Kumpulan resources yang berguna untuk membantu Anda mengoptimalkan kampanye iklan Meta.
           Dari dokumentasi resmi hingga tools dan templates, semua tersedia di sini.
         </p>
@@ -26,12 +26,12 @@ export default function Page() {
       </p>
 
       <div className="my-6 grid gap-4 md:grid-cols-2">
-        <div className="rounded-lg border border-gray-200 bg-white p-5 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-5">
           <div className="mb-3 flex items-center gap-3">
             <Book className="h-5 w-5 text-hadona-primary" />
             <h3 className="font-semibold">Meta Business Help Center</h3>
           </div>
-          <p className="mb-3 text-sm text-gray-600 dark:text-gray-400">
+          <p className="mb-3 text-sm text-gray-600">
             Panduan lengkap tentang Business Manager, Ads Manager, dan semua fitur Meta untuk
             bisnis.
           </p>
@@ -45,12 +45,12 @@ export default function Page() {
           </a>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-white p-5 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-5">
           <div className="mb-3 flex items-center gap-3">
             <FileText className="h-5 w-5 text-hadona-primary" />
             <h3 className="font-semibold">Meta Advertising Policies</h3>
           </div>
-          <p className="mb-3 text-sm text-gray-600 dark:text-gray-400">
+          <p className="mb-3 text-sm text-gray-600">
             Kebijakan iklan Meta yang harus diikuti untuk menghindari rejection dan account issues.
           </p>
           <a
@@ -63,12 +63,12 @@ export default function Page() {
           </a>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-white p-5 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-5">
           <div className="mb-3 flex items-center gap-3">
             <Video className="h-5 w-5 text-hadona-primary" />
             <h3 className="font-semibold">Meta Blueprint</h3>
           </div>
-          <p className="mb-3 text-sm text-gray-600 dark:text-gray-400">
+          <p className="mb-3 text-sm text-gray-600">
             Kursus online gratis dari Meta untuk belajar digital marketing dan advertising.
           </p>
           <a
@@ -81,12 +81,12 @@ export default function Page() {
           </a>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-white p-5 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-5">
           <div className="mb-3 flex items-center gap-3">
             <LinkIcon className="h-5 w-5 text-hadona-primary" />
             <h3 className="font-semibold">Meta for Developers</h3>
           </div>
-          <p className="mb-3 text-sm text-gray-600 dark:text-gray-400">
+          <p className="mb-3 text-sm text-gray-600">
             Dokumentasi teknis untuk developers, termasuk API, Pixel, dan Conversions API.
           </p>
           <a
@@ -104,9 +104,9 @@ export default function Page() {
       <p>Tools yang berguna untuk mengoptimalkan dan menganalisis kampanye Anda:</p>
 
       <div className="my-6 space-y-4">
-        <div className="rounded-lg border border-gray-200 bg-white p-5 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-5">
           <h3 className="mb-2 font-semibold">Meta Pixel Helper</h3>
-          <p className="mb-3 text-sm text-gray-600 dark:text-gray-400">
+          <p className="mb-3 text-sm text-gray-600">
             Browser extension untuk memverifikasi pixel installation dan debug tracking issues.
           </p>
           <div className="flex flex-wrap gap-2">
@@ -130,9 +130,9 @@ export default function Page() {
           </div>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-white p-5 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-5">
           <h3 className="mb-2 font-semibold">Text Overlay Checker</h3>
-          <p className="mb-3 text-sm text-gray-600 dark:text-gray-400">
+          <p className="mb-3 text-sm text-gray-600">
             Tool untuk memeriksa apakah text overlay pada image ads memenuhi aturan Meta (maksimal
             20%).
           </p>
@@ -146,9 +146,9 @@ export default function Page() {
           </a>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-white p-5 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-5">
           <h3 className="mb-2 font-semibold">Ad Library</h3>
-          <p className="mb-3 text-sm text-gray-600 dark:text-gray-400">
+          <p className="mb-3 text-sm text-gray-600">
             Lihat semua iklan aktif dari competitor atau brand lain untuk research dan inspiration.
           </p>
           <a
@@ -161,9 +161,9 @@ export default function Page() {
           </a>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-white p-5 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-5">
           <h3 className="mb-2 font-semibold">Audience Insights</h3>
-          <p className="mb-3 text-sm text-gray-600 dark:text-gray-400">
+          <p className="mb-3 text-sm text-gray-600">
             Tool untuk research audience, memahami demografi, interest, dan behavior target market
             Anda.
           </p>
@@ -182,12 +182,12 @@ export default function Page() {
       <p>Download templates dan checklist yang berguna untuk workflow Anda:</p>
 
       <div className="my-6 grid gap-4 md:grid-cols-2">
-        <div className="rounded-lg border border-gray-200 bg-white p-5 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-5">
           <div className="mb-3 flex items-center gap-3">
             <Download className="h-5 w-5 text-hadona-primary" />
             <h3 className="font-semibold">Campaign Planning Template</h3>
           </div>
-          <p className="mb-3 text-sm text-gray-600 dark:text-gray-400">
+          <p className="mb-3 text-sm text-gray-600">
             Template Excel untuk merencanakan kampanye, alokasi budget, dan tracking KPIs.
           </p>
           <button className="text-sm text-hadona-primary hover:text-hadona-dark">
@@ -195,12 +195,12 @@ export default function Page() {
           </button>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-white p-5 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-5">
           <div className="mb-3 flex items-center gap-3">
             <Download className="h-5 w-5 text-hadona-primary" />
             <h3 className="font-semibold">Content Calendar Template</h3>
           </div>
-          <p className="mb-3 text-sm text-gray-600 dark:text-gray-400">
+          <p className="mb-3 text-sm text-gray-600">
             Template untuk merencanakan dan mengorganisir konten iklan bulanan.
           </p>
           <button className="text-sm text-hadona-primary hover:text-hadona-dark">
@@ -208,12 +208,12 @@ export default function Page() {
           </button>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-white p-5 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-5">
           <div className="mb-3 flex items-center gap-3">
             <Download className="h-5 w-5 text-hadona-primary" />
             <h3 className="font-semibold">Campaign Launch Checklist</h3>
           </div>
-          <p className="mb-3 text-sm text-gray-600 dark:text-gray-400">
+          <p className="mb-3 text-sm text-gray-600">
             Checklist lengkap untuk memastikan semua elemen siap sebelum launch kampanye.
           </p>
           <button className="text-sm text-hadona-primary hover:text-hadona-dark">
@@ -221,12 +221,12 @@ export default function Page() {
           </button>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-white p-5 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-5">
           <div className="mb-3 flex items-center gap-3">
             <Download className="h-5 w-5 text-hadona-primary" />
             <h3 className="font-semibold">Performance Review Template</h3>
           </div>
-          <p className="mb-3 text-sm text-gray-600 dark:text-gray-400">
+          <p className="mb-3 text-sm text-gray-600">
             Template untuk weekly/monthly review performa kampanye dan optimasi.
           </p>
           <button className="text-sm text-hadona-primary hover:text-hadona-dark">
@@ -239,9 +239,9 @@ export default function Page() {
       <p>Kumpulan video tutorial dan webinar untuk meningkatkan pengetahuan Anda:</p>
 
       <div className="my-6 space-y-4">
-        <div className="rounded-lg border border-gray-200 bg-white p-5 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-5">
           <h3 className="mb-2 font-semibold">Hadona Academy</h3>
-          <p className="mb-3 text-sm text-gray-600 dark:text-gray-400">
+          <p className="mb-3 text-sm text-gray-600">
             Video tutorial lengkap tentang menggunakan platform Hadona, best practices, dan case
             studies.
           </p>
@@ -253,9 +253,9 @@ export default function Page() {
           </a>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-white p-5 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-5">
           <h3 className="mb-2 font-semibold">Meta Blueprint Courses</h3>
-          <p className="mb-3 text-sm text-gray-600 dark:text-gray-400">
+          <p className="mb-3 text-sm text-gray-600">
             Kursus online gratis dari Meta, termasuk sertifikasi untuk Facebook Certified Marketing
             Science Professional.
           </p>
@@ -269,9 +269,9 @@ export default function Page() {
           </a>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-white p-5 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-5">
           <h3 className="mb-2 font-semibold">Webinar Series</h3>
-          <p className="mb-3 text-sm text-gray-600 dark:text-gray-400">
+          <p className="mb-3 text-sm text-gray-600">
             Webinar bulanan dari Hadona tentang topik-topik terkini dalam digital advertising.
             Recording tersedia untuk yang tidak bisa hadir live.
           </p>
@@ -288,9 +288,9 @@ export default function Page() {
       <p>Artikel dan blog posts tentang tips, strategi, dan insights digital marketing:</p>
 
       <div className="my-6 space-y-4">
-        <div className="rounded-lg border border-gray-200 bg-white p-5 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-5">
           <h3 className="mb-2 font-semibold">Hadona Blog</h3>
-          <p className="mb-3 text-sm text-gray-600 dark:text-gray-400">
+          <p className="mb-3 text-sm text-gray-600">
             Blog resmi Hadona dengan artikel tentang best practices, case studies, dan industry
             insights.
           </p>
@@ -302,9 +302,9 @@ export default function Page() {
           </a>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-white p-5 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-5">
           <h3 className="mb-2 font-semibold">Meta Business Blog</h3>
-          <p className="mb-3 text-sm text-gray-600 dark:text-gray-400">
+          <p className="mb-3 text-sm text-gray-600">
             Blog resmi Meta Business dengan updates, tips, dan success stories dari advertisers.
           </p>
           <a
@@ -322,9 +322,9 @@ export default function Page() {
       <p>Bergabung dengan komunitas untuk belajar dan berbagi pengalaman:</p>
 
       <div className="my-6 grid gap-4 md:grid-cols-2">
-        <div className="rounded-lg border border-gray-200 bg-white p-5 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-5">
           <h3 className="mb-2 font-semibold">Hadona Community Forum</h3>
-          <p className="mb-3 text-sm text-gray-600 dark:text-gray-400">
+          <p className="mb-3 text-sm text-gray-600">
             Forum komunitas untuk bertanya, berbagi tips, dan berdiskusi dengan advertisers lain.
           </p>
           <a
@@ -335,9 +335,9 @@ export default function Page() {
           </a>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-white p-5 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-5">
           <h3 className="mb-2 font-semibold">Facebook Groups</h3>
-          <p className="mb-3 text-sm text-gray-600 dark:text-gray-400">
+          <p className="mb-3 text-sm text-gray-600">
             Bergabung dengan Facebook Groups untuk digital marketers dan Meta advertisers.
           </p>
           <a
@@ -353,23 +353,23 @@ export default function Page() {
       <p>Buku dan resources tambahan untuk memperdalam pengetahuan:</p>
 
       <div className="my-6 space-y-3">
-        <div className="rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-4">
           <h4 className="mb-1 font-semibold">"Jab, Jab, Jab, Right Hook" by Gary Vaynerchuk</h4>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-gray-600">
             Panduan tentang social media marketing dan content strategy.
           </p>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-4">
           <h4 className="mb-1 font-semibold">"The Art of Social Media" by Guy Kawasaki</h4>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-gray-600">
             Tips dan strategi untuk mengoptimalkan social media presence.
           </p>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-4">
           <h4 className="mb-1 font-semibold">"Digital Marketing for Dummies"</h4>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-gray-600">
             Panduan komprehensif untuk pemula dalam digital marketing.
           </p>
         </div>

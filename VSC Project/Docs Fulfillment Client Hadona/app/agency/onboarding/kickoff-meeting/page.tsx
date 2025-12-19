@@ -13,7 +13,7 @@ export default function KickoffMeetingPage() {
       prevTitle="Persiapan"
     >
       <div className="mb-8">
-        <p className="text-xl text-gray-700 dark:text-gray-300">
+        <p className="text-xl text-gray-700">
           Kickoff meeting adalah langkah penting dalam proses onboarding Hadona. Meeting ini
           dirancang untuk memperkenalkan platform, menyelaraskan ekspektasi, dan memulai proses
           setup dengan pemahaman yang jelas. Panduan ini akan membantu Anda mempersiapkan dan
@@ -28,51 +28,51 @@ export default function KickoffMeetingPage() {
       </p>
 
       <div className="my-6 grid gap-4 md:grid-cols-2">
-        <div className="rounded-lg border border-gray-200 bg-white p-5 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-5">
           <div className="mb-3 flex items-center gap-3">
             <div className="rounded-lg bg-hadona-primary/10 p-2">
               <Users className="h-5 w-5 text-hadona-primary" />
             </div>
             <h3 className="font-semibold">Perkenalan Tim</h3>
           </div>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-gray-600">
             Mengenal tim Hadona yang akan mendampingi Anda dan memahami struktur support yang
             tersedia.
           </p>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-white p-5 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-5">
           <div className="mb-3 flex items-center gap-3">
             <div className="rounded-lg bg-hadona-primary/10 p-2">
               <Video className="h-5 w-5 text-hadona-primary" />
             </div>
             <h3 className="font-semibold">Platform Overview</h3>
           </div>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-gray-600">
             Demo platform dan penjelasan fitur-fitur utama yang akan Anda gunakan sehari-hari.
           </p>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-white p-5 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-5">
           <div className="mb-3 flex items-center gap-3">
             <div className="rounded-lg bg-hadona-primary/10 p-2">
               <FileText className="h-5 w-5 text-hadona-primary" />
             </div>
             <h3 className="font-semibold">Rencana Setup</h3>
           </div>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-gray-600">
             Menyusun timeline dan rencana setup yang disesuaikan dengan kebutuhan dan situasi Anda.
           </p>
         </div>
 
-        <div className="rounded-lg border border-gray-200 bg-white p-5 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-5">
           <div className="mb-3 flex items-center gap-3">
             <div className="rounded-lg bg-hadona-primary/10 p-2">
               <MessageSquare className="h-5 w-5 text-hadona-primary" />
             </div>
             <h3 className="font-semibold">Q&A Session</h3>
           </div>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-gray-600">
             Kesempatan untuk bertanya dan mengklarifikasi hal-hal yang belum jelas atau menjadi
             concern Anda.
           </p>
@@ -128,7 +128,7 @@ export default function KickoffMeetingPage() {
                   Tuliskan pertanyaan atau concern yang ingin Anda diskusikan. Ini akan membantu
                   memastikan semua hal penting terbahas.
                 </p>
-                <p className="text-sm text-gray-600 dark:text-gray-400">
+                <p className="text-sm text-gray-600">
                   <strong>Contoh pertanyaan:</strong>
                 </p>
                 <ul className="ml-4 list-disc space-y-1 text-sm">
@@ -148,7 +148,7 @@ export default function KickoffMeetingPage() {
                   Pastikan koneksi internet stabil, kamera dan mikrofon berfungsi, serta aplikasi
                   video call sudah terinstall dan siap digunakan.
                 </p>
-                <p className="text-sm text-gray-600 dark:text-gray-400">
+                <p className="text-sm text-gray-600">
                   <strong>Tips:</strong> Test koneksi 15 menit sebelum meeting dimulai.
                 </p>
               </div>
@@ -163,7 +163,7 @@ export default function KickoffMeetingPage() {
                   Biasanya termasuk decision maker, admin, dan person yang akan mengoperasikan
                   platform sehari-hari.
                 </p>
-                <p className="text-sm text-gray-600 dark:text-gray-400">
+                <p className="text-sm text-gray-600">
                   <strong>Rekomendasi:</strong> Maksimal 3-4 orang untuk menjaga efektivitas
                   meeting.
                 </p>
@@ -180,42 +180,42 @@ export default function KickoffMeetingPage() {
       </p>
 
       <div className="my-6 space-y-4">
-        <div className="rounded-lg border-l-4 border-hadona-primary bg-gray-50 p-5 dark:bg-gray-900">
+        <div className="rounded-lg border-l-4 border-hadona-primary bg-gray-50 p-5">
           <div className="mb-2 flex items-center gap-2">
             <div className="flex h-8 w-8 items-center justify-center rounded-full bg-hadona-primary text-sm font-semibold text-white">
               1
             </div>
             <h3 className="text-lg font-semibold">Pembukaan & Perkenalan (5 menit)</h3>
           </div>
-          <ul className="ml-10 space-y-1 text-sm text-gray-600 dark:text-gray-400">
+          <ul className="ml-10 space-y-1 text-sm text-gray-600">
             <li>Perkenalan tim Hadona</li>
             <li>Perkenalan tim Client</li>
             <li>Overview tujuan meeting</li>
           </ul>
         </div>
 
-        <div className="rounded-lg border-l-4 border-hadona-primary bg-gray-50 p-5 dark:bg-gray-900">
+        <div className="rounded-lg border-l-4 border-hadona-primary bg-gray-50 p-5">
           <div className="mb-2 flex items-center gap-2">
             <div className="flex h-8 w-8 items-center justify-center rounded-full bg-hadona-primary text-sm font-semibold text-white">
               2
             </div>
             <h3 className="text-lg font-semibold">Platform Overview & Demo (15 menit)</h3>
           </div>
-          <ul className="ml-10 space-y-1 text-sm text-gray-600 dark:text-gray-400">
+          <ul className="ml-10 space-y-1 text-sm text-gray-600">
             <li>Demo dashboard dan fitur utama</li>
             <li>Penjelasan workflow umum</li>
             <li>Highlight fitur unggulan</li>
           </ul>
         </div>
 
-        <div className="rounded-lg border-l-4 border-hadona-primary bg-gray-50 p-5 dark:bg-gray-900">
+        <div className="rounded-lg border-l-4 border-hadona-primary bg-gray-50 p-5">
           <div className="mb-2 flex items-center gap-2">
             <div className="flex h-8 w-8 items-center justify-center rounded-full bg-hadona-primary text-sm font-semibold text-white">
               3
             </div>
             <h3 className="text-lg font-semibold">Review Kebutuhan & Setup Plan (15 menit)</h3>
           </div>
-          <ul className="ml-10 space-y-1 text-sm text-gray-600 dark:text-gray-400">
+          <ul className="ml-10 space-y-1 text-sm text-gray-600">
             <li>Review dokumen dan akses yang sudah disiapkan</li>
             <li>Diskusi kebutuhan spesifik</li>
             <li>Penyusunan timeline dan milestone</li>
@@ -223,28 +223,28 @@ export default function KickoffMeetingPage() {
           </ul>
         </div>
 
-        <div className="rounded-lg border-l-4 border-hadona-primary bg-gray-50 p-5 dark:bg-gray-900">
+        <div className="rounded-lg border-l-4 border-hadona-primary bg-gray-50 p-5">
           <div className="mb-2 flex items-center gap-2">
             <div className="flex h-8 w-8 items-center justify-center rounded-full bg-hadona-primary text-sm font-semibold text-white">
               4
             </div>
             <h3 className="text-lg font-semibold">Q&A Session (10 menit)</h3>
           </div>
-          <ul className="ml-10 space-y-1 text-sm text-gray-600 dark:text-gray-400">
+          <ul className="ml-10 space-y-1 text-sm text-gray-600">
             <li>Jawaban pertanyaan dari Client</li>
             <li>Diskusi concern atau hal spesifik</li>
             <li>Klarifikasi proses dan timeline</li>
           </ul>
         </div>
 
-        <div className="rounded-lg border-l-4 border-hadona-primary bg-gray-50 p-5 dark:bg-gray-900">
+        <div className="rounded-lg border-l-4 border-hadona-primary bg-gray-50 p-5">
           <div className="mb-2 flex items-center gap-2">
             <div className="flex h-8 w-8 items-center justify-center rounded-full bg-hadona-primary text-sm font-semibold text-white">
               5
             </div>
             <h3 className="text-lg font-semibold">Penutup & Next Steps (5 menit)</h3>
           </div>
-          <ul className="ml-10 space-y-1 text-sm text-gray-600 dark:text-gray-400">
+          <ul className="ml-10 space-y-1 text-sm text-gray-600">
             <li>Rangkuman action items</li>
             <li>Konfirmasi timeline</li>
             <li>Kontak untuk follow-up</li>
@@ -258,56 +258,56 @@ export default function KickoffMeetingPage() {
       </p>
 
       <div className="my-6 space-y-3">
-        <div className="flex items-start gap-3 rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
+        <div className="flex items-start gap-3 rounded-lg border border-gray-200 bg-white p-4">
           <CheckCircle2 className="mt-1 h-5 w-5 flex-shrink-0 text-hadona-primary" />
           <div>
             <div className="font-semibold">Struktur Akun dan Organisasi</div>
-            <div className="text-sm text-gray-600 dark:text-gray-400">
+            <div className="text-sm text-gray-600">
               Bagaimana mengorganisir Business Manager, Ad Account, dan aset digital Anda
             </div>
           </div>
         </div>
-        <div className="flex items-start gap-3 rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
+        <div className="flex items-start gap-3 rounded-lg border border-gray-200 bg-white p-4">
           <CheckCircle2 className="mt-1 h-5 w-5 flex-shrink-0 text-hadona-primary" />
           <div>
             <div className="font-semibold">User Management dan Permission</div>
-            <div className="text-sm text-gray-600 dark:text-gray-400">
+            <div className="text-sm text-gray-600">
               Strategi memberikan akses ke tim dan best practices untuk keamanan
             </div>
           </div>
         </div>
-        <div className="flex items-start gap-3 rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
+        <div className="flex items-start gap-3 rounded-lg border border-gray-200 bg-white p-4">
           <CheckCircle2 className="mt-1 h-5 w-5 flex-shrink-0 text-hadona-primary" />
           <div>
             <div className="font-semibold">Proses Verifikasi</div>
-            <div className="text-sm text-gray-600 dark:text-gray-400">
+            <div className="text-sm text-gray-600">
               Langkah-langkah verifikasi Business Manager dan dokumen yang diperlukan
             </div>
           </div>
         </div>
-        <div className="flex items-start gap-3 rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
+        <div className="flex items-start gap-3 rounded-lg border border-gray-200 bg-white p-4">
           <CheckCircle2 className="mt-1 h-5 w-5 flex-shrink-0 text-hadona-primary" />
           <div>
             <div className="font-semibold">Timeline dan Milestone</div>
-            <div className="text-sm text-gray-600 dark:text-gray-400">
+            <div className="text-sm text-gray-600">
               Rencana waktu untuk setiap tahap setup dan kapan Anda bisa mulai beriklan
             </div>
           </div>
         </div>
-        <div className="flex items-start gap-3 rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
+        <div className="flex items-start gap-3 rounded-lg border border-gray-200 bg-white p-4">
           <CheckCircle2 className="mt-1 h-5 w-5 flex-shrink-0 text-hadona-primary" />
           <div>
             <div className="font-semibold">Support dan Komunikasi</div>
-            <div className="text-sm text-gray-600 dark:text-gray-400">
+            <div className="text-sm text-gray-600">
               Cara menghubungi support, channel komunikasi, dan SLA response time
             </div>
           </div>
         </div>
-        <div className="flex items-start gap-3 rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
+        <div className="flex items-start gap-3 rounded-lg border border-gray-200 bg-white p-4">
           <CheckCircle2 className="mt-1 h-5 w-5 flex-shrink-0 text-hadona-primary" />
           <div>
             <div className="font-semibold">Best Practices</div>
-            <div className="text-sm text-gray-600 dark:text-gray-400">
+            <div className="text-sm text-gray-600">
               Tips dan trik untuk memaksimalkan penggunaan platform dan hasil kampanye
             </div>
           </div>
@@ -383,30 +383,30 @@ export default function KickoffMeetingPage() {
 
       <h2>Pertanyaan yang Sering Diajukan</h2>
       <div className="my-6 space-y-4">
-        <div className="rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-4">
           <h3 className="mb-2 font-semibold">Apakah meeting bisa direkam?</h3>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-gray-600">
             Ya, Anda bisa meminta rekaman meeting. Tim Hadona juga biasanya akan mengirimkan
             summary tertulis setelah meeting.
           </p>
         </div>
-        <div className="rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-4">
           <h3 className="mb-2 font-semibold">Bagaimana jika saya tidak bisa hadir?</h3>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-gray-600">
             Beri tahu tim Hadona sesegera mungkin untuk reschedule. Pastikan ada minimal 1 orang
             dari tim Anda yang hadir yang memiliki authority untuk membuat keputusan.
           </p>
         </div>
-        <div className="rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-4">
           <h3 className="mb-2 font-semibold">Apakah saya perlu menyiapkan presentasi?</h3>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-gray-600">
             Tidak perlu. Tim Hadona yang akan mempresentasikan platform. Anda cukup menyiapkan
             dokumen dan pertanyaan seperti yang disebutkan di atas.
           </p>
         </div>
-        <div className="rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
+        <div className="rounded-lg border border-gray-200 bg-white p-4">
           <h3 className="mb-2 font-semibold">Kapan setup akan dimulai setelah meeting?</h3>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-gray-600">
             Biasanya setup dimulai dalam 1-2 hari kerja setelah semua action items dari meeting
             selesai. Timeline spesifik akan dibahas di meeting.
           </p>
@@ -426,12 +426,12 @@ export default function KickoffMeetingPage() {
           <Calendar className="h-5 w-5" />
           Siap untuk Kickoff Meeting?
         </h3>
-        <p className="mb-4 text-sm text-gray-700 dark:text-gray-300">
+        <p className="mb-4 text-sm text-gray-700">
           Jika Anda sudah menyelesaikan semua persiapan dan siap untuk kickoff meeting, silakan
           konfirmasi jadwal dengan tim Hadona. Kami akan memastikan meeting berjalan produktif dan
           semua pertanyaan Anda terjawab.
         </p>
-        <p className="text-sm font-medium text-gray-900 dark:text-gray-100">
+        <p className="text-sm font-medium text-gray-900">
           Selamat memulai perjalanan digital marketing Anda bersama Hadona! 🚀
         </p>
       </div>
