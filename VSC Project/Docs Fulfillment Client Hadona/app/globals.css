@@ -25,7 +25,7 @@
   h4,
   h5,
   h6 {
-    @apply font-semibold text-gray-900 dark:text-gray-100;
+    @apply font-semibold text-gray-900;
     letter-spacing: -0.025em;
   }
 
@@ -54,7 +54,7 @@
   }
 
   a {
-    @apply text-hadona-primary transition-colors hover:text-hadona-dark dark:text-hadona-light dark:hover:text-hadona-primary;
+    @apply text-hadona-primary transition-colors hover:text-hadona-dark;
     text-decoration: none;
   }
 
@@ -63,7 +63,7 @@
   }
 
   code {
-    @apply rounded bg-gray-100 px-1.5 py-0.5 text-sm font-mono text-gray-800 dark:bg-gray-800 dark:text-gray-200;
+    @apply rounded bg-gray-100 px-1.5 py-0.5 text-sm font-mono text-gray-800;
     font-size: 0.875em;
   }
 
@@ -88,7 +88,7 @@
   }
 
   .prose p {
-    @apply mb-6 leading-7 text-gray-700 dark:text-gray-300;
+    @apply mb-6 leading-7 text-gray-700;
     font-size: 1rem;
   }
 
@@ -106,7 +106,7 @@
   }
 
   .prose li {
-    @apply text-gray-700 dark:text-gray-300 leading-7;
+    @apply text-gray-700 leading-7;
   }
 
   .prose li > p {
@@ -115,11 +115,11 @@
   }
 
   .prose strong {
-    @apply font-semibold text-gray-900 dark:text-gray-100;
+    @apply font-semibold text-gray-900;
   }
 
   .prose blockquote {
-    @apply my-6 border-l-4 border-hadona-primary bg-gray-50 py-3 pl-5 italic dark:bg-gray-900;
+    @apply my-6 border-l-4 border-hadona-primary bg-gray-50 py-3 pl-5 italic;
     margin-left: 0;
     margin-right: 0;
   }
@@ -133,11 +133,11 @@
   }
 
   .prose th {
-    @apply border border-gray-200 bg-gray-50 px-4 py-3 text-left text-sm font-semibold text-gray-900 dark:border-gray-700 dark:bg-gray-800 dark:text-gray-100;
+    @apply border border-gray-200 bg-gray-50 px-4 py-3 text-left text-sm font-semibold text-gray-900;
   }
 
   .prose td {
-    @apply border border-gray-200 px-4 py-3 text-sm dark:border-gray-700;
+    @apply border border-gray-200 px-4 py-3 text-sm;
   }
 
   .prose img {
