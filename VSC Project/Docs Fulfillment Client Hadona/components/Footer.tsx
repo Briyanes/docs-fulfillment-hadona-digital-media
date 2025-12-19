@@ -11,17 +11,6 @@ export default function Footer() {
             <p className="text-sm text-gray-600 dark:text-gray-400">
               © {currentYear} <span className="font-semibold text-gray-900 dark:text-gray-100">Hadona Digital Media</span>. All rights reserved.
             </p>
-            <p className="mt-1 text-xs text-gray-500 dark:text-gray-500">
-              Powered by{' '}
-              <a
-                href="https://hadona.id"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="font-medium text-hadona-primary hover:text-hadona-dark dark:hover:text-hadona-light transition-colors"
-              >
-                PT. Selaras Kreatif Inovasi
-              </a>
-            </p>
           </div>
           <div className="flex items-center gap-6">
             <a
