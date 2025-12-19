@@ -134,7 +134,7 @@ export default function SearchBox() {
     <div ref={searchRef} className="relative w-full">
       {/* Search Input */}
       <div className="relative">
-        <Search className="absolute left-4 top-1/2 h-5 w-5 -translate-y-1/2 text-gray-400 dark:text-gray-500" />
+        <Search className="absolute left-4 top-1/2 h-5 w-5 -translate-y-1/2 text-gray-400" />
         <input
           ref={inputRef}
           type="text"
@@ -152,15 +152,15 @@ export default function SearchBox() {
               setIsOpen(false)
               inputRef.current?.focus()
             }}
-            className="absolute right-4 top-1/2 -translate-y-1/2 rounded p-1 text-gray-400 hover:bg-gray-100 hover:text-gray-600 dark:hover:bg-gray-700 dark:hover:text-gray-300"
+            className="absolute right-4 top-1/2 -translate-y-1/2 rounded p-1 text-gray-400 hover:bg-gray-100 hover:text-gray-600"
           >
             <X className="h-4 w-4" />
           </button>
         ) : (
           /* Keyboard shortcut hint */
           <div className="absolute right-4 top-1/2 hidden -translate-y-1/2 items-center gap-1 rounded border border-gray-200 bg-gray-50 px-2 py-1 text-xs text-gray-500 md:flex" style={{ backgroundColor: '#f9fafb' }}>
-            <kbd className="rounded bg-white px-1.5 py-0.5 font-mono text-xs shadow dark:bg-gray-700">⌘</kbd>
-            <kbd className="rounded bg-white px-1.5 py-0.5 font-mono text-xs shadow dark:bg-gray-700">K</kbd>
+            <kbd className="rounded bg-white px-1.5 py-0.5 font-mono text-xs shadow">⌘</kbd>
+            <kbd className="rounded bg-white px-1.5 py-0.5 font-mono text-xs shadow">K</kbd>
           </div>
         )}
       </div>
@@ -169,7 +169,7 @@ export default function SearchBox() {
       {isOpen && (query.length >= 2 || results.length > 0) && (
         <div className="absolute top-full z-50 mt-2 w-full overflow-hidden rounded-lg border border-gray-200 bg-white shadow-xl" style={{ backgroundColor: '#ffffff' }}>
           {isLoading ? (
-            <div className="px-4 py-8 text-center text-sm text-gray-500 dark:text-gray-400">
+            <div className="px-4 py-8 text-center text-sm text-gray-500">
               Searching...
             </div>
           ) : results.length > 0 ? (
@@ -187,21 +187,21 @@ export default function SearchBox() {
                       key={result.id}
                       href={href}
                       onClick={() => handleResultClick(result)}
-                      className={`block border-b border-gray-100 px-4 py-3 transition-colors last:border-b-0 dark:border-gray-700 ${
+                      className={`block border-b border-gray-100 px-4 py-3 transition-colors last:border-b-0 ${
                         isSelected
                           ? 'bg-hadona-primary/10 text-hadona-primary'
                           : 'hover:bg-gray-50'
                       }`}
                     >
                       <div className="flex items-start gap-3">
-                        <FileText className="mt-0.5 h-4 w-4 flex-shrink-0 text-gray-400 dark:text-gray-500" />
+                        <FileText className="mt-0.5 h-4 w-4 flex-shrink-0 text-gray-400" />
                         <div className="flex-1 min-w-0">
                           <div className="flex items-center gap-2">
                             <span className="text-sm font-medium text-gray-900">
                               {result.title}
                             </span>
                             {result.type && (
-                              <span className="rounded-full bg-gray-100 px-2 py-0.5 text-xs text-gray-600 dark:bg-gray-700 dark:text-gray-400">
+                              <span className="rounded-full bg-gray-100 px-2 py-0.5 text-xs text-gray-600">
                                 {result.type === 'agency' ? 'Agency' : 'Whitelist'}
                               </span>
                             )}
@@ -228,7 +228,7 @@ export default function SearchBox() {
               </div>
             </>
           ) : query.length >= 2 ? (
-            <div className="px-4 py-8 text-center text-sm text-gray-500 dark:text-gray-400">
+            <div className="px-4 py-8 text-center text-sm text-gray-500">
               No results found for &quot;{query}&quot;
             </div>
           ) : null}
