@@ -48,7 +48,7 @@ export default function Sidebar({ items, title }: SidebarProps) {
               className={`flex w-full items-center justify-between rounded-md px-3 py-2 text-sm font-medium transition-colors ${
                 active
                   ? 'bg-hadona-primary/10 text-hadona-primary'
-                  : 'text-gray-700 hover:bg-gray-100 dark:text-gray-300 dark:hover:bg-gray-800'
+                  : 'text-gray-700 hover:bg-gray-100'
               }`}
             >
               <span className="flex items-center gap-2">
@@ -60,7 +60,7 @@ export default function Sidebar({ items, title }: SidebarProps) {
               />
             </button>
             {isOpen && (
-              <ul className={`mt-1 space-y-1 ${level > 0 ? 'ml-4 border-l border-gray-200 pl-4 dark:border-gray-700' : ''}`}>
+              <ul className={`mt-1 space-y-1 ${level > 0 ? 'ml-4 border-l border-gray-200 pl-4' : ''}`}>
                 {item.children?.map((child) => renderItem(child, level + 1))}
               </ul>
             )}
@@ -83,9 +83,9 @@ export default function Sidebar({ items, title }: SidebarProps) {
   }
 
   return (
-    <aside className="sticky top-20 h-[calc(100vh-5rem)] overflow-y-auto border-r border-gray-200 bg-white px-4 py-6 dark:border-hadona-primary/20 dark:bg-hadona-bg-dark">
+    <aside className="sticky top-20 h-[calc(100vh-5rem)] overflow-y-auto border-r border-gray-200 bg-white px-4 py-6" style={{ backgroundColor: '#ffffff' }}>
       {title && (
-        <h2 className="mb-4 text-lg font-semibold text-gray-900 dark:text-gray-100">
+        <h2 className="mb-4 text-lg font-semibold text-gray-900">
           {title}
         </h2>
       )}
