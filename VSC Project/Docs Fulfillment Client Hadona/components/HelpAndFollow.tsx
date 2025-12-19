@@ -154,6 +154,7 @@ export default function HelpAndFollow() {
                 <p className="text-xs text-gray-600">@hadona.id</p>
               </div>
             </a>
+            </div>
           </div>
         </div>
       </div>
