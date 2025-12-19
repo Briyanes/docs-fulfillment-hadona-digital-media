@@ -75,7 +75,10 @@ export default function ShareButtons({ title }: ShareButtonsProps) {
     <div className="flex items-center gap-3 mb-8 pt-4 border-t border-gray-200">
       <button
         onClick={copyLink}
-        className="flex items-center gap-2 px-4 py-2.5 rounded-lg bg-yellow-400 text-gray-900 hover:bg-yellow-500 transition-all shadow-sm hover:shadow"
+        className="flex items-center gap-2 px-4 py-2.5 rounded-lg text-gray-900 transition-all shadow-sm hover:shadow"
+        style={{ backgroundColor: '#EDD947' }}
+        onMouseEnter={(e) => (e.currentTarget.style.backgroundColor = '#E5D03D')}
+        onMouseLeave={(e) => (e.currentTarget.style.backgroundColor = '#EDD947')}
         aria-label="Copy link"
       >
         {copied ? (
