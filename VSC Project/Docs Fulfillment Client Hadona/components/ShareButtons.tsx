@@ -8,7 +8,7 @@ interface ShareButtonsProps {
   title?: string
 }
 
-export default function ShareButtons({ title }: ShareButtonsProps = {}) {
+export default function ShareButtons({ title }: ShareButtonsProps) {
   const pathname = usePathname()
   const [copied, setCopied] = useState(false)
   const [pageTitle, setPageTitle] = useState('')
