@@ -36,11 +36,8 @@ export default function DocLayout({
   const next = nextLink || (nextHref && nextTitle ? { href: nextHref, title: nextTitle } : undefined)
 
   return (
-    <div className="mx-auto flex max-w-7xl pt-16 pb-12 min-h-screen bg-white" style={{ backgroundColor: '#ffffff' }}>
-      <div className="hidden w-64 flex-shrink-0 lg:block"></div>
-      <div className="flex-1 px-4 sm:px-6 py-6 sm:py-8 lg:px-8">
-        <article className="w-full">
-          <div className="bg-white" style={{ backgroundColor: '#ffffff' }}>
+    <article className="w-full">
+      <div className="bg-white" style={{ backgroundColor: '#ffffff' }}>
           {/* Breadcrumb */}
           {categoryHref && categoryName && (
             <nav className="text-sm text-gray-500 mb-6">
@@ -102,10 +99,8 @@ export default function DocLayout({
               </div>
             </div>
           )}
-          </div>
-        </article>
-      </div>
-    </div>
+        </div>
+    </article>
   )
 }
 
