@@ -1,1 +1,3 @@
-# Force new deployment - Fri Dec 19 12:00:46 WIB 2025
+# Hadona Documentation Site
+
+Dokumentasi lengkap untuk Client Agency dan Client Whitelist Hadona Digital Media.
