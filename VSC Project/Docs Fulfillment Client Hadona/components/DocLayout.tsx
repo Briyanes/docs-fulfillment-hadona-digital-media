@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import { ChevronLeft, ChevronRight } from 'lucide-react'
+import ShareButtons from './ShareButtons'
 
 interface DocLayoutProps {
   children: React.ReactNode
@@ -59,6 +60,9 @@ export default function DocLayout({
               {description}
             </p>
           )}
+
+          {/* Share Buttons */}
+          <ShareButtons />
 
           {/* Content */}
           <div className="prose prose-lg max-w-none">
