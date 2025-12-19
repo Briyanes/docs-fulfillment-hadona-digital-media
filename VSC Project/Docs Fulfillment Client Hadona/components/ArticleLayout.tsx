@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import { ChevronLeft, ChevronRight } from 'lucide-react'
 import ShareButtons from './ShareButtons'
+import HelpAndFollow from './HelpAndFollow'
 
 interface ArticleLayoutProps {
   title: string
@@ -63,6 +64,11 @@ export default function ArticleLayout({
           )}
         </div>
       )}
+
+      {/* Help & Follow Section */}
+      <div className="mt-16 pt-8 border-t border-gray-200">
+        <HelpAndFollow />
+      </div>
     </article>
   )
 }

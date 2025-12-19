@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import { ChevronLeft, ChevronRight } from 'lucide-react'
 import ShareButtons from './ShareButtons'
+import HelpAndFollow from './HelpAndFollow'
 
 interface DocLayoutProps {
   children: React.ReactNode
@@ -77,7 +78,7 @@ export default function DocLayout({
                     href={prev.href}
                     className="group flex items-center space-x-2 px-4 py-2.5 rounded-md hover:bg-gray-50 transition-colors"
                   >
-                      <ChevronLeft className="w-4 h-4 text-gray-400 group-hover:text-hadona-primary" />
+                    <ChevronLeft className="w-4 h-4 text-gray-400 group-hover:text-hadona-primary" />
                     <div>
                       <div className="text-xs text-gray-500 group-hover:text-hadona-primary">Previous</div>
                       <div className="text-sm font-medium text-gray-900 group-hover:text-hadona-primary">{prev.title}</div>
@@ -99,6 +100,11 @@ export default function DocLayout({
               </div>
             </div>
           )}
+
+          {/* Help & Follow Section */}
+          <div className="mt-16 pt-8 border-t border-gray-200">
+            <HelpAndFollow />
+          </div>
         </div>
     </article>
   )
