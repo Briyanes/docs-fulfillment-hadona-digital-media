@@ -13,7 +13,7 @@ export default function Footer() {
     >
       {/* Copyright Section */}
       <div 
-        className="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8 border-t border-gray-200" 
+        className="w-full py-6 border-t border-gray-200 px-4 sm:px-6 lg:px-[48px]" 
         style={{ 
           backgroundColor: '#ffffff',
           background: '#ffffff'

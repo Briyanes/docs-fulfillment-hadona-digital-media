@@ -173,4 +173,26 @@ export const whitelistSidebarItems = [
   },
 ]
 
+export const homeSidebarItems = [
+  {
+    title: 'Onboarding',
+    href: '/agency/onboarding',
+  },
+  {
+    title: 'Setup',
+    href: '/agency/business-manager',
+  },
+  {
+    title: 'Management',
+    href: '/agency/user-management',
+  },
+  {
+    title: 'Monitoring',
+    href: '/whitelist/monitoring',
+  },
+]
+
+
+
+
 

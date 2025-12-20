@@ -40,7 +40,7 @@ export default function Page() {
         <li>Test events dari website</li>
         <li>Verify events terkirim dengan benar</li>
         <li>Debug event parameters</li>
-      </ol>
+      </ul>
 
       <h3>3. Data Sources Tab</h3>
       <p>Manage data sources (Pixels, Conversions API):</p>

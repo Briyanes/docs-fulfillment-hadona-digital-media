@@ -30,26 +30,26 @@
   }
 
   h1 {
-    @apply text-4xl font-bold leading-tight;
+    @apply text-3xl font-bold leading-tight;
     margin-top: 0;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.25rem;
   }
 
   h2 {
-    @apply text-3xl leading-tight;
-    margin-top: 2.5rem;
-    margin-bottom: 1rem;
+    @apply text-2xl leading-tight;
+    margin-top: 2rem;
+    margin-bottom: 0.875rem;
   }
 
   h3 {
-    @apply text-2xl leading-snug;
-    margin-top: 2rem;
-    margin-bottom: 0.75rem;
+    @apply text-xl leading-snug;
+    margin-top: 1.5rem;
+    margin-bottom: 0.625rem;
   }
 
   h4 {
-    @apply text-xl leading-snug;
-    margin-top: 1.5rem;
+    @apply text-lg leading-snug;
+    margin-top: 1.25rem;
     margin-bottom: 0.5rem;
   }
 
@@ -59,7 +59,7 @@
   }
 
   a:hover {
-    text-decoration: underline;
+    text-decoration: none;
   }
 
   code {
@@ -94,7 +94,10 @@
 
   .prose ul,
   .prose ol {
-    @apply mb-6 ml-6 space-y-2;
+    @apply mb-6 space-y-2;
+    margin-left: 1.25rem;
+    padding-left: 0;
+    list-style-position: outside;
   }
 
   .prose ul {
@@ -107,6 +110,8 @@
 
   .prose li {
     @apply text-gray-700 leading-7;
+    padding-left: 0;
+    margin-left: 0;
   }
 
   .prose li > p {
@@ -151,8 +156,11 @@
 
   .prose a {
     @apply text-hadona-primary font-medium hover:text-hadona-dark;
-    text-decoration: underline;
-    text-underline-offset: 2px;
+    text-decoration: none;
+  }
+  
+  .prose a:hover {
+    text-decoration: none;
   }
 
   .prose h2 {
@@ -235,6 +243,32 @@
 @layer utilities {
   .text-balance {
     text-wrap: balance;
+  }
+
+  /* Header navigation wrapper - padding responsive (desktop only) */
+  .header-nav-wrapper {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  @media (min-width: 1024px) {
+    .header-nav-wrapper {
+      padding-left: calc(48px + 256px + 32px);
+      padding-right: 48px;
+    }
+  }
+
+  /* Search box wrapper - padding responsive (desktop only) */
+  .search-box-wrapper {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  @media (min-width: 1024px) {
+    .search-box-wrapper {
+      padding-left: calc(48px + 256px + 32px);
+      padding-right: 48px;
+    }
   }
 }
 

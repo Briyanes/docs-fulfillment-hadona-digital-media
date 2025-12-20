@@ -109,3 +109,6 @@ CREATE TRIGGER update_articles_updated_at BEFORE UPDATE ON articles
 CREATE TRIGGER update_search_index_updated_at BEFORE UPDATE ON search_index
   FOR EACH ROW EXECUTE FUNCTION update_updated_at_column();
 
+
+
+

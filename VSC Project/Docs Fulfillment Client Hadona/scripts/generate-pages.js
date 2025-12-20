@@ -198,3 +198,6 @@ categories.forEach((category) => {
 console.log('All pages generated!')
 
 
+
+
+

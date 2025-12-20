@@ -38,43 +38,55 @@ export default function Sidebar({ items, title }: SidebarProps) {
     const hasChildren = item.children && item.children.length > 0
     const isOpen = openSections.has(item.href)
     const active = isActive(item.href)
+    const isCategory = level === 0 && hasChildren
 
     return (
-      <li key={item.href} className="mb-1">
+      <li key={item.href} className={level === 0 ? 'mb-6' : 'mb-0.5'}>
         {hasChildren ? (
           <>
             <button
               onClick={() => toggleSection(item.href)}
-              className={`flex w-full items-center justify-between rounded-md px-3 py-2 text-sm font-medium transition-colors ${
-                active
-                  ? 'bg-hadona-primary/10 text-hadona-primary'
-                  : 'text-gray-700 hover:bg-gray-100'
+              className={`flex w-full items-center justify-between py-2 text-sm transition-colors ${
+                isCategory 
+                  ? 'font-bold text-gray-900' 
+                  : 'font-medium text-gray-700 hover:text-hadona-primary'
               }`}
             >
-              <span className="flex items-center gap-2">
-                <FileText className="h-4 w-4" />
-                {item.title}
-              </span>
+              <span>{item.title}</span>
               <ChevronRight
-                className={`h-4 w-4 transition-transform ${isOpen ? 'rotate-90' : ''}`}
+                className={`h-4 w-4 transition-transform flex-shrink-0 ml-2 ${
+                  isOpen ? 'rotate-90' : ''
+                } ${isCategory ? 'text-gray-400' : 'text-gray-400'}`}
               />
             </button>
             {isOpen && (
-              <ul className={`mt-1 space-y-1 ${level > 0 ? 'ml-4 border-l border-gray-200 pl-4' : ''}`}>
-                {item.children?.map((child) => renderItem(child, level + 1))}
+              <ul className="mt-2 space-y-0.5 ml-0">
+                {item.children?.map((child) => (
+                  <li key={child.href}>
+                    <Link
+                      href={child.href}
+                      className={`block py-1.5 text-sm transition-colors ${
+                        isActive(child.href)
+                          ? 'text-hadona-primary font-medium'
+                          : 'text-gray-600 hover:text-hadona-primary'
+                      }`}
+                    >
+                      {child.title}
+                    </Link>
+                  </li>
+                ))}
               </ul>
             )}
           </>
         ) : (
           <Link
             href={item.href}
-            className={`flex items-center gap-2 rounded-md px-3 py-2 text-sm font-medium transition-colors ${
+            className={`block py-2 text-sm transition-colors ${
               active
-                ? 'bg-hadona-primary/10 text-hadona-primary'
-                : 'text-gray-700 hover:bg-gray-100'
-            }`}
+                ? 'text-hadona-primary font-medium'
+                : 'text-gray-700 hover:text-hadona-primary'
+            } ${isCategory ? 'font-bold' : ''}`}
           >
-            <FileText className="h-4 w-4" />
             {item.title}
           </Link>
         )}
@@ -83,14 +95,14 @@ export default function Sidebar({ items, title }: SidebarProps) {
   }
 
   return (
-    <aside className="sticky top-20 h-[calc(100vh-5rem)] overflow-y-auto border-r border-gray-200 bg-white px-4 py-6" style={{ backgroundColor: '#ffffff' }}>
+    <aside className="sticky top-32 h-[calc(100vh-8rem)] overflow-y-auto border-r border-gray-200 bg-white pl-6 pr-4 py-6" style={{ backgroundColor: '#ffffff' }}>
       {title && (
-        <h2 className="mb-4 text-lg font-semibold text-gray-900">
+        <h2 className="mb-6 text-base font-bold text-gray-900">
           {title}
         </h2>
       )}
       <nav>
-        <ul className="space-y-1">{items.map((item) => renderItem(item))}</ul>
+        <ul className="space-y-0">{items.map((item) => renderItem(item))}</ul>
       </nav>
     </aside>
   )

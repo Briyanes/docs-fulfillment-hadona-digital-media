@@ -7,7 +7,7 @@ export default function WhitelistLayout({
   children: React.ReactNode
 }) {
   return (
-    <div className="mx-auto flex max-w-7xl">
+    <div className="flex w-full lg:px-[48px]">
       <div className="hidden w-64 flex-shrink-0 lg:block">
         <Sidebar items={whitelistSidebarItems} title="Client Whitelist" />
       </div>
